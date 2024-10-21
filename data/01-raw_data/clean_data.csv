@@ -1,0 +1,561 @@
+pollster,display_name,pollster_rating_id,numeric_grade,pollscore,transparency_score,state,start_date,end_date,sample_size,election_date,party,answer,candidate_name,pct
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/7/24,10/10/24,857,11/5/24,DEM,Harris,Kamala Harris,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/7/24,10/10/24,857,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/7/24,10/10/24,857,11/5/24,DEM,Harris,Kamala Harris,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/7/24,10/10/24,857,11/5/24,REP,Trump,Donald Trump,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/7/24,10/10/24,857,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/7/24,10/10/24,857,11/5/24,LIB,Oliver,Chase Oliver,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/7/24,10/10/24,857,11/5/24,DEM,Harris,Kamala Harris,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/7/24,10/10/24,857,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/7/24,10/10/24,857,11/5/24,DEM,Harris,Kamala Harris,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/7/24,10/10/24,857,11/5/24,REP,Trump,Donald Trump,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/7/24,10/10/24,857,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/7/24,10/10/24,857,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/7/24,10/10/24,808,11/5/24,DEM,Harris,Kamala Harris,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/7/24,10/10/24,808,11/5/24,REP,Trump,Donald Trump,51
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/7/24,10/10/24,808,11/5/24,DEM,Harris,Kamala Harris,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/7/24,10/10/24,808,11/5/24,REP,Trump,Donald Trump,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/7/24,10/10/24,808,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/7/24,10/10/24,808,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/7/24,10/10/24,808,11/5/24,DEM,Harris,Kamala Harris,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/7/24,10/10/24,808,11/5/24,REP,Trump,Donald Trump,51
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/7/24,10/10/24,808,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/7/24,10/10/24,808,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/7/24,10/10/24,808,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/7/24,10/10/24,808,11/5/24,LIB,Oliver,Chase Oliver,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Montana,10/5/24,10/8/24,656,11/5/24,DEM,Harris,Kamala Harris,39
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Montana,10/5/24,10/8/24,656,11/5/24,REP,Trump,Donald Trump,57
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Montana,10/5/24,10/8/24,656,11/5/24,DEM,Harris,Kamala Harris,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Montana,10/5/24,10/8/24,656,11/5/24,REP,Trump,Donald Trump,56
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Montana,10/5/24,10/8/24,656,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Montana,10/5/24,10/8/24,656,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Montana,10/5/24,10/8/24,656,11/5/24,DEM,Harris,Kamala Harris,40
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Montana,10/5/24,10/8/24,656,11/5/24,REP,Trump,Donald Trump,57
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Montana,10/5/24,10/8/24,656,11/5/24,DEM,Harris,Kamala Harris,39
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Montana,10/5/24,10/8/24,656,11/5/24,REP,Trump,Donald Trump,56
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Montana,10/5/24,10/8/24,656,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Montana,10/5/24,10/8/24,656,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Florida,9/29/24,10/6/24,622,11/5/24,DEM,Harris,Kamala Harris,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Florida,9/29/24,10/6/24,622,11/5/24,REP,Trump,Donald Trump,55
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Florida,9/29/24,10/6/24,622,11/5/24,DEM,Harris,Kamala Harris,40
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Florida,9/29/24,10/6/24,622,11/5/24,REP,Trump,Donald Trump,53
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Florida,9/29/24,10/6/24,622,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Florida,9/29/24,10/6/24,622,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Florida,9/29/24,10/6/24,622,11/5/24,DEM,Harris,Kamala Harris,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Florida,9/29/24,10/6/24,622,11/5/24,REP,Trump,Donald Trump,54
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Florida,9/29/24,10/6/24,622,11/5/24,DEM,Harris,Kamala Harris,40
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Florida,9/29/24,10/6/24,622,11/5/24,REP,Trump,Donald Trump,53
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Florida,9/29/24,10/6/24,622,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Florida,9/29/24,10/6/24,622,11/5/24,LIB,Oliver,Chase Oliver,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Texas,9/29/24,10/4/24,617,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Texas,9/29/24,10/4/24,617,11/5/24,REP,Trump,Donald Trump,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Texas,9/29/24,10/4/24,617,11/5/24,DEM,Harris,Kamala Harris,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Texas,9/29/24,10/4/24,617,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Texas,9/29/24,10/4/24,617,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Texas,9/29/24,10/4/24,617,11/5/24,LIB,Oliver,Chase Oliver,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Texas,9/29/24,10/4/24,617,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Texas,9/29/24,10/4/24,617,11/5/24,REP,Trump,Donald Trump,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Texas,9/29/24,10/4/24,617,11/5/24,DEM,Harris,Kamala Harris,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Texas,9/29/24,10/4/24,617,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Texas,9/29/24,10/4/24,617,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Texas,9/29/24,10/4/24,617,11/5/24,LIB,Oliver,Chase Oliver,3
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nebraska CD-2,9/24/24,9/26/24,680,11/5/24,DEM,Harris,Kamala Harris,51
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nebraska CD-2,9/24/24,9/26/24,680,11/5/24,REP,Trump,Donald Trump,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nebraska CD-2,9/24/24,9/26/24,680,11/5/24,DEM,Harris,Kamala Harris,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nebraska CD-2,9/24/24,9/26/24,680,11/5/24,REP,Trump,Donald Trump,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nebraska CD-2,9/24/24,9/26/24,680,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nebraska CD-2,9/24/24,9/26/24,680,11/5/24,LIB,Oliver,Chase Oliver,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nebraska CD-2,9/24/24,9/26/24,680,11/5/24,DEM,Harris,Kamala Harris,52
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nebraska CD-2,9/24/24,9/26/24,680,11/5/24,REP,Trump,Donald Trump,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nebraska CD-2,9/24/24,9/26/24,680,11/5/24,DEM,Harris,Kamala Harris,51
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nebraska CD-2,9/24/24,9/26/24,680,11/5/24,REP,Trump,Donald Trump,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nebraska CD-2,9/24/24,9/26/24,680,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nebraska CD-2,9/24/24,9/26/24,680,11/5/24,LIB,Oliver,Chase Oliver,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,9/21/24,9/26/24,688,11/5/24,DEM,Harris,Kamala Harris,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,9/21/24,9/26/24,688,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,9/21/24,9/26/24,688,11/5/24,DEM,Harris,Kamala Harris,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,9/21/24,9/26/24,688,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,9/21/24,9/26/24,688,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,9/21/24,9/26/24,688,11/5/24,LIB,Oliver,Chase Oliver,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,9/21/24,9/26/24,688,11/5/24,DEM,Harris,Kamala Harris,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,9/21/24,9/26/24,688,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,9/21/24,9/26/24,688,11/5/24,DEM,Harris,Kamala Harris,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,9/21/24,9/26/24,688,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,9/21/24,9/26/24,688,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,9/21/24,9/26/24,688,11/5/24,LIB,Oliver,Chase Oliver,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Ohio,9/21/24,9/26/24,687,11/5/24,DEM,Harris,Kamala Harris,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Ohio,9/21/24,9/26/24,687,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Ohio,9/21/24,9/26/24,687,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Ohio,9/21/24,9/26/24,687,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Ohio,9/21/24,9/26/24,687,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Ohio,9/21/24,9/26/24,687,11/5/24,LIB,Oliver,Chase Oliver,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Ohio,9/21/24,9/26/24,687,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Ohio,9/21/24,9/26/24,687,11/5/24,REP,Trump,Donald Trump,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Ohio,9/21/24,9/26/24,687,11/5/24,DEM,Harris,Kamala Harris,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Ohio,9/21/24,9/26/24,687,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Ohio,9/21/24,9/26/24,687,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Ohio,9/21/24,9/26/24,687,11/5/24,LIB,Oliver,Chase Oliver,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,9/21/24,9/26/24,680,11/5/24,DEM,Harris,Kamala Harris,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,9/21/24,9/26/24,680,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,9/21/24,9/26/24,680,11/5/24,DEM,Harris,Kamala Harris,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,9/21/24,9/26/24,680,11/5/24,REP,Trump,Donald Trump,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,9/21/24,9/26/24,680,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,9/21/24,9/26/24,680,11/5/24,LIB,Oliver,Chase Oliver,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,9/21/24,9/26/24,680,11/5/24,DEM,Harris,Kamala Harris,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,9/21/24,9/26/24,680,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,9/21/24,9/26/24,680,11/5/24,DEM,Harris,Kamala Harris,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,9/21/24,9/26/24,680,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,9/21/24,9/26/24,680,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,9/21/24,9/26/24,680,11/5/24,LIB,Oliver,Chase Oliver,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,9/17/24,9/21/24,713,11/5/24,DEM,Harris,Kamala Harris,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,9/17/24,9/21/24,713,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,9/17/24,9/21/24,713,11/5/24,DEM,Harris,Kamala Harris,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,9/17/24,9/21/24,713,11/5/24,REP,Trump,Donald Trump,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,9/17/24,9/21/24,713,11/5/24,DEM,Harris,Kamala Harris,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,9/17/24,9/21/24,713,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,9/17/24,9/21/24,713,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,9/17/24,9/21/24,713,11/5/24,LIB,Oliver,Chase Oliver,3
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,9/17/24,9/21/24,713,11/5/24,DEM,Harris,Kamala Harris,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,9/17/24,9/21/24,713,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,9/17/24,9/21/24,713,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,9/17/24,9/21/24,713,11/5/24,LIB,Oliver,Chase Oliver,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,9/17/24,9/21/24,682,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,9/17/24,9/21/24,682,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,9/17/24,9/21/24,682,11/5/24,DEM,Harris,Kamala Harris,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,9/17/24,9/21/24,682,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,9/17/24,9/21/24,682,11/5/24,DEM,Harris,Kamala Harris,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,9/17/24,9/21/24,682,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,9/17/24,9/21/24,682,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,9/17/24,9/21/24,682,11/5/24,LIB,Oliver,Chase Oliver,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,9/17/24,9/21/24,682,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,9/17/24,9/21/24,682,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,9/17/24,9/21/24,682,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,9/17/24,9/21/24,682,11/5/24,LIB,Oliver,Chase Oliver,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,9/17/24,9/21/24,682,11/5/24,DEM,Harris,Kamala Harris,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,9/17/24,9/21/24,682,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,9/17/24,9/21/24,682,11/5/24,DEM,Harris,Kamala Harris,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,9/17/24,9/21/24,682,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,9/17/24,9/21/24,682,11/5/24,DEM,Harris,Kamala Harris,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,9/17/24,9/21/24,682,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,9/17/24,9/21/24,682,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,9/17/24,9/21/24,682,11/5/24,LIB,Oliver,Chase Oliver,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,9/17/24,9/21/24,682,11/5/24,DEM,Harris,Kamala Harris,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,9/17/24,9/21/24,682,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,9/17/24,9/21/24,682,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,9/17/24,9/21/24,682,11/5/24,LIB,Oliver,Chase Oliver,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,9/11/24,9/16/24,1082,11/5/24,DEM,Harris,Kamala Harris,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,9/11/24,9/16/24,1082,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,9/11/24,9/16/24,1082,11/5/24,DEM,Harris,Kamala Harris,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,9/11/24,9/16/24,1082,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,9/11/24,9/16/24,1082,11/5/24,DEM,Harris,Kamala Harris,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,9/11/24,9/16/24,1082,11/5/24,REP,Trump,Donald Trump,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,9/11/24,9/16/24,1082,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,9/11/24,9/16/24,1082,11/5/24,LIB,Oliver,Chase Oliver,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,9/11/24,9/16/24,1082,11/5/24,DEM,Harris,Kamala Harris,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,9/11/24,9/16/24,1082,11/5/24,REP,Trump,Donald Trump,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,9/11/24,9/16/24,1082,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,9/11/24,9/16/24,1082,11/5/24,LIB,Oliver,Chase Oliver,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,DEM,Harris,Kamala Harris,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,DEM,Harris,Kamala Harris,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,DEM,Harris,Kamala Harris,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,REP,Trump,Donald Trump,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,IND,Kennedy,Robert F. Kennedy,6
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,IND,Kennedy,Robert F. Kennedy,4
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,8/12/24,8/15/24,677,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,DEM,Harris,Kamala Harris,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,REP,Trump,Donald Trump,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,DEM,Harris,Kamala Harris,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,REP,Trump,Donald Trump,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,DEM,Harris,Kamala Harris,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,REP,Trump,Donald Trump,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,IND,Kennedy,Robert F. Kennedy,6
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,LIB,Oliver,Chase Oliver,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,DEM,Harris,Kamala Harris,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,REP,Trump,Donald Trump,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,IND,Kennedy,Robert F. Kennedy,5
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,8/8/24,8/15/24,677,11/5/24,LIB,Oliver,Chase Oliver,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,DEM,Harris,Kamala Harris,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,DEM,Harris,Kamala Harris,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,DEM,Harris,Kamala Harris,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,REP,Trump,Donald Trump,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,IND,Kennedy,Robert F. Kennedy,5
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,LIB,Oliver,Chase Oliver,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,DEM,Harris,Kamala Harris,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,REP,Trump,Donald Trump,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,IND,Kennedy,Robert F. Kennedy,4
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,North Carolina,8/9/24,8/14/24,655,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,REP,Trump,Donald Trump,51
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,DEM,Harris,Kamala Harris,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,REP,Trump,Donald Trump,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,DEM,Harris,Kamala Harris,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,IND,Kennedy,Robert F. Kennedy,5
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,LIB,Oliver,Chase Oliver,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,IND,Kennedy,Robert F. Kennedy,4
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,8/9/24,8/14/24,661,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,DEM,Harris,Kamala Harris,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,DEM,Harris,Kamala Harris,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,DEM,Harris,Kamala Harris,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,REP,Trump,Donald Trump,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,IND,Kennedy,Robert F. Kennedy,5
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,LIB,Oliver,Chase Oliver,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,DEM,Harris,Kamala Harris,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,REP,Trump,Donald Trump,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,IND,Kennedy,Robert F. Kennedy,4
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,8/6/24,8/9/24,693,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,DEM,Harris,Kamala Harris,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,DEM,Harris,Kamala Harris,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,REP,Trump,Donald Trump,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,IND,Kennedy,Robert F. Kennedy,5
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,DEM,Harris,Kamala Harris,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,REP,Trump,Donald Trump,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,IND,Kennedy,Robert F. Kennedy,4
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,8/5/24,8/8/24,619,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,DEM,Harris,Kamala Harris,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,DEM,Harris,Kamala Harris,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,DEM,Harris,Kamala Harris,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,REP,Trump,Donald Trump,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,IND,Kennedy,Robert F. Kennedy,6
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,DEM,Harris,Kamala Harris,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,REP,Trump,Donald Trump,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,IND,Kennedy,Robert F. Kennedy,5
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,8/5/24,8/8/24,661,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,DEM,Biden,Joe Biden,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,REP,Trump,Donald Trump,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,DEM,Biden,Joe Biden,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,REP,Trump,Donald Trump,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,DEM,Biden,Joe Biden,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,REP,Trump,Donald Trump,36
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,IND,Kennedy,Robert F. Kennedy,9
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,DEM,Biden,Joe Biden,40
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,REP,Trump,Donald Trump,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,IND,Kennedy,Robert F. Kennedy,7
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,DEM,Harris,Kamala Harris,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,REP,Trump,Donald Trump,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,DEM,Harris,Kamala Harris,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,REP,Trump,Donald Trump,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,DEM,Harris,Kamala Harris,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,REP,Trump,Donald Trump,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,IND,Kennedy,Robert F. Kennedy,9
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,DEM,Harris,Kamala Harris,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,REP,Trump,Donald Trump,39
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,IND,Kennedy,Robert F. Kennedy,7
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Virginia,7/9/24,7/12/24,661,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,DEM,Biden,Joe Biden,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,DEM,Biden,Joe Biden,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,DEM,Biden,Joe Biden,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,REP,Trump,Donald Trump,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,IND,Kennedy,Robert F. Kennedy,8
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,DEM,Biden,Joe Biden,40
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,REP,Trump,Donald Trump,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,IND,Kennedy,Robert F. Kennedy,7
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,DEM,Harris,Kamala Harris,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,DEM,Harris,Kamala Harris,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,DEM,Harris,Kamala Harris,40
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,REP,Trump,Donald Trump,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,IND,Kennedy,Robert F. Kennedy,7
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,GRE,Stein,Jill Stein,3
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,DEM,Harris,Kamala Harris,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,REP,Trump,Donald Trump,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,IND,Kennedy,Robert F. Kennedy,6
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,7/9/24,7/11/24,872,11/5/24,LIB,Oliver,Chase Oliver,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,DEM,Biden,Joe Biden,33
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,REP,Trump,Donald Trump,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,IND,Kennedy,Robert F. Kennedy,10
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,LIB,Mapstead,Lars Mapstead,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,DEM,Biden,Joe Biden,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,DEM,Biden,Joe Biden,35
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,REP,Trump,Donald Trump,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,IND,Kennedy,Robert F. Kennedy,8
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,LIB,Mapstead,Lars Mapstead,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,DEM,Biden,Joe Biden,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,4/28/24,5/9/24,626,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,DEM,Biden,Joe Biden,31
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,REP,Trump,Donald Trump,39
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,IND,Kennedy,Robert F. Kennedy,9
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,LIB,Mapstead,Lars Mapstead,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,DEM,Biden,Joe Biden,39
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,DEM,Biden,Joe Biden,34
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,REP,Trump,Donald Trump,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,IND,Kennedy,Robert F. Kennedy,8
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,LIB,Mapstead,Lars Mapstead,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,DEM,Biden,Joe Biden,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,4/28/24,5/9/24,604,11/5/24,REP,Trump,Donald Trump,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,DEM,Biden,Joe Biden,36
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,REP,Trump,Donald Trump,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,IND,Kennedy,Robert F. Kennedy,9
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,LIB,Mapstead,Lars Mapstead,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,DEM,Biden,Joe Biden,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,DEM,Biden,Joe Biden,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,REP,Trump,Donald Trump,39
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,IND,Kennedy,Robert F. Kennedy,7
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,LIB,Mapstead,Lars Mapstead,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,DEM,Biden,Joe Biden,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,4/28/24,5/9/24,616,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,DEM,Biden,Joe Biden,27
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,REP,Trump,Donald Trump,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,IND,Kennedy,Robert F. Kennedy,12
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,GRE,Stein,Jill Stein,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,LIB,Mapstead,Lars Mapstead,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,DEM,Biden,Joe Biden,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,REP,Trump,Donald Trump,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,DEM,Biden,Joe Biden,30
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,REP,Trump,Donald Trump,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,IND,Kennedy,Robert F. Kennedy,11
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,LIB,Mapstead,Lars Mapstead,2
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,DEM,Biden,Joe Biden,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,4/28/24,5/9/24,614,11/5/24,REP,Trump,Donald Trump,51
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,DEM,Biden,Joe Biden,36
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,REP,Trump,Donald Trump,40
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,IND,Kennedy,Robert F. Kennedy,10
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,LIB,Mapstead,Lars Mapstead,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,DEM,Biden,Joe Biden,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,DEM,Biden,Joe Biden,37
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,REP,Trump,Donald Trump,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,IND,Kennedy,Robert F. Kennedy,9
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,LIB,Mapstead,Lars Mapstead,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,DEM,Biden,Joe Biden,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,4/28/24,5/9/24,1023,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,DEM,Biden,Joe Biden,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,REP,Trump,Donald Trump,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,IND,Kennedy,Robert F. Kennedy,9
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,GRE,Stein,Jill Stein,1
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,LIB,Mapstead,Lars Mapstead,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,DEM,Biden,Joe Biden,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,REP,Trump,Donald Trump,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,DEM,Biden,Joe Biden,39
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,REP,Trump,Donald Trump,40
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,IND,Kennedy,Robert F. Kennedy,8
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,GRE,Stein,Jill Stein,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,IND,West,Cornel West,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,LIB,Mapstead,Lars Mapstead,0
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,DEM,Biden,Joe Biden,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,4/28/24,5/9/24,614,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,DEM,Harris,Kamala Harris,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,DEM,Harris,Kamala Harris,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,REP,DeSantis,Ron DeSantis,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,REP,DeSantis,Ron DeSantis,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,REP,Haley,Nikki Haley,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,37
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,REP,Haley,Nikki Haley,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,33
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,REP,Trump,Donald Trump,33
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,IND,Kennedy,Robert F. Kennedy,26
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,34
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,REP,Trump,Donald Trump,34
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Arizona,10/22/23,11/3/23,603,11/5/24,IND,Kennedy,Robert F. Kennedy,24
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,DEM,Biden,Joe Biden,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,DEM,Biden,Joe Biden,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,REP,Trump,Donald Trump,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,DEM,Biden,Joe Biden,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,REP,DeSantis,Ron DeSantis,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,DEM,Biden,Joe Biden,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,REP,DeSantis,Ron DeSantis,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,DEM,Biden,Joe Biden,40
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,REP,Haley,Nikki Haley,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,DEM,Biden,Joe Biden,40
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,REP,Haley,Nikki Haley,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,DEM,Biden,Joe Biden,29
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,REP,Trump,Donald Trump,36
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,IND,Kennedy,Robert F. Kennedy,24
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,DEM,Biden,Joe Biden,31
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,REP,Trump,Donald Trump,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Georgia,10/22/23,11/3/23,629,11/5/24,IND,Kennedy,Robert F. Kennedy,23
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,DEM,Biden,Joe Biden,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,DEM,Biden,Joe Biden,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,DEM,Harris,Kamala Harris,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,DEM,Harris,Kamala Harris,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,REP,Trump,Donald Trump,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,DEM,Biden,Joe Biden,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,REP,DeSantis,Ron DeSantis,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,DEM,Biden,Joe Biden,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,REP,DeSantis,Ron DeSantis,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,DEM,Biden,Joe Biden,35
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,REP,Haley,Nikki Haley,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,DEM,Biden,Joe Biden,36
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,REP,Haley,Nikki Haley,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,DEM,Biden,Joe Biden,31
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,REP,Trump,Donald Trump,34
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,IND,Kennedy,Robert F. Kennedy,26
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,DEM,Biden,Joe Biden,34
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,REP,Trump,Donald Trump,34
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Michigan,10/22/23,11/3/23,616,11/5/24,IND,Kennedy,Robert F. Kennedy,25
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,DEM,Biden,Joe Biden,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,REP,Trump,Donald Trump,52
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,DEM,Biden,Joe Biden,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,REP,Trump,Donald Trump,52
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,DEM,Harris,Kamala Harris,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,DEM,Harris,Kamala Harris,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,REP,Trump,Donald Trump,50
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,DEM,Biden,Joe Biden,42
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,REP,DeSantis,Ron DeSantis,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,DEM,Biden,Joe Biden,41
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,REP,DeSantis,Ron DeSantis,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,DEM,Biden,Joe Biden,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,REP,Haley,Nikki Haley,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,DEM,Biden,Joe Biden,37
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,REP,Haley,Nikki Haley,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,DEM,Biden,Joe Biden,31
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,REP,Trump,Donald Trump,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,IND,Kennedy,Robert F. Kennedy,23
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,DEM,Biden,Joe Biden,34
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,REP,Trump,Donald Trump,40
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Nevada,10/22/23,11/3/23,611,11/5/24,IND,Kennedy,Robert F. Kennedy,19
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,DEM,Biden,Joe Biden,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,DEM,Biden,Joe Biden,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,REP,Trump,Donald Trump,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,DEM,Harris,Kamala Harris,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,DEM,Biden,Joe Biden,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,REP,DeSantis,Ron DeSantis,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,DEM,Biden,Joe Biden,43
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,REP,DeSantis,Ron DeSantis,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,DEM,Biden,Joe Biden,38
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,REP,Haley,Nikki Haley,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,DEM,Biden,Joe Biden,39
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,REP,Haley,Nikki Haley,49
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,DEM,Biden,Joe Biden,35
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,REP,Trump,Donald Trump,35
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,IND,Kennedy,Robert F. Kennedy,23
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,DEM,Biden,Joe Biden,36
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,REP,Trump,Donald Trump,36
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Pennsylvania,10/22/23,11/3/23,600,11/5/24,IND,Kennedy,Robert F. Kennedy,21
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,REP,Trump,Donald Trump,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,REP,Trump,Donald Trump,45
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,DEM,Harris,Kamala Harris,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,REP,Trump,Donald Trump,47
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,DEM,Harris,Kamala Harris,46
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,REP,Trump,Donald Trump,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,REP,DeSantis,Ron DeSantis,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,44
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,REP,DeSantis,Ron DeSantis,48
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,39
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,REP,Haley,Nikki Haley,52
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,39
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,REP,Haley,Nikki Haley,53
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,37
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,REP,Trump,Donald Trump,35
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,IND,Kennedy,Robert F. Kennedy,22
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,DEM,Biden,Joe Biden,37
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,REP,Trump,Donald Trump,35
+Siena/NYT,The New York Times/Siena College,448,3,-1.5,9,Wisconsin,10/22/23,11/3/23,603,11/5/24,IND,Kennedy,Robert F. Kennedy,21
