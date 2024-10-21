@@ -1,152 +1,2001 @@
-division,state,party
-Division 1,Victoria,Liberal
-Division 2,New South Wales,Liberal
-Division 3,Tasmania,Liberal
-Division 4,New South Wales,Liberal
-Division 5,Queensland,Liberal
-Division 6,New South Wales,Labor
-Division 7,Victoria,Liberal
-Division 8,Western Australia,Labor
-Division 9,Western Australia,Greens
-Division 10,Queensland,Labor
-Division 11,Queensland,Labor
-Division 12,Northern Territory,Liberal
-Division 13,New South Wales,Labor
-Division 14,Western Australia,Labor
-Division 15,Western Australia,National
-Division 16,Victoria,Liberal
-Division 17,South Australia,Liberal
-Division 18,Victoria,Liberal
-Division 19,Western Australia,Labor
-Division 20,South Australia,Labor
-Division 21,New South Wales,Liberal
-Division 22,Queensland,Greens
-Division 23,New South Wales,Liberal
-Division 24,New South Wales,Liberal
-Division 25,Queensland,Labor
-Division 26,Victoria,National
-Division 27,New South Wales,Liberal
-Division 28,Queensland,Liberal
-Division 29,Tasmania,Liberal
-Division 30,South Australia,Liberal
-Division 31,New South Wales,Liberal
-Division 32,Victoria,Labor
-Division 33,Tasmania,Liberal
-Division 34,New South Wales,Liberal
-Division 35,Western Australia,Labor
-Division 36,New South Wales,Liberal
-Division 37,Tasmania,Greens
-Division 38,Tasmania,Labor
-Division 39,Victoria,Greens
-Division 40,South Australia,Labor
-Division 41,New South Wales,Other
-Division 42,New South Wales,Other
-Division 43,Tasmania,Labor
-Division 44,Tasmania,National
-Division 45,Queensland,Liberal
-Division 46,Australian Capital Territory,Other
-Division 47,Queensland,Labor
-Division 48,Queensland,Other
-Division 49,South Australia,Liberal
-Division 50,Victoria,National
-Division 51,South Australia,Liberal
-Division 52,Victoria,Labor
-Division 53,South Australia,National
-Division 54,Queensland,Liberal
-Division 55,Queensland,Labor
-Division 56,South Australia,Liberal
-Division 57,New South Wales,Other
-Division 58,Northern Territory,Liberal
-Division 59,New South Wales,Labor
-Division 60,Western Australia,Labor
-Division 61,New South Wales,Liberal
-Division 62,South Australia,Liberal
-Division 63,Queensland,Labor
-Division 64,Tasmania,Labor
-Division 65,South Australia,Labor
-Division 66,Victoria,Labor
-Division 67,Queensland,Liberal
-Division 68,Queensland,Liberal
-Division 69,Tasmania,Labor
-Division 70,South Australia,National
-Division 71,Australian Capital Territory,Labor
-Division 72,Western Australia,Labor
-Division 73,Queensland,National
-Division 74,Victoria,Labor
-Division 75,Western Australia,Labor
-Division 76,Tasmania,Labor
-Division 77,Queensland,Liberal
-Division 78,Western Australia,Liberal
-Division 79,Queensland,Labor
-Division 80,Queensland,Liberal
-Division 81,Victoria,Labor
-Division 82,New South Wales,Liberal
-Division 83,Victoria,Liberal
-Division 84,Queensland,National
-Division 85,Western Australia,Liberal
-Division 86,New South Wales,Labor
-Division 87,Queensland,Liberal
-Division 88,New South Wales,Liberal
-Division 89,Tasmania,Liberal
-Division 90,South Australia,Labor
-Division 91,Victoria,Liberal
-Division 92,New South Wales,Labor
-Division 93,Tasmania,Labor
-Division 94,South Australia,Labor
-Division 95,Victoria,Liberal
-Division 96,Victoria,Labor
-Division 97,Western Australia,Liberal
-Division 98,Queensland,Liberal
-Division 99,South Australia,Liberal
-Division 100,New South Wales,Labor
-Division 101,South Australia,Labor
-Division 102,New South Wales,Labor
-Division 103,Victoria,Labor
-Division 104,Victoria,Labor
-Division 105,South Australia,Other
-Division 106,Western Australia,Labor
-Division 107,Tasmania,Liberal
-Division 108,Victoria,Labor
-Division 109,Queensland,Liberal
-Division 110,Victoria,Labor
-Division 111,Australian Capital Territory,Labor
-Division 112,Victoria,Liberal
-Division 113,Victoria,Liberal
-Division 114,Victoria,Liberal
-Division 115,Tasmania,Labor
-Division 116,Victoria,Labor
-Division 117,New South Wales,Labor
-Division 118,Victoria,Labor
-Division 119,Victoria,Greens
-Division 120,Northern Territory,Labor
-Division 121,South Australia,Liberal
-Division 122,New South Wales,Liberal
-Division 123,New South Wales,Labor
-Division 124,New South Wales,Liberal
-Division 125,New South Wales,National
-Division 126,New South Wales,Labor
-Division 127,Queensland,Labor
-Division 128,New South Wales,Other
-Division 129,Queensland,Labor
-Division 130,Australian Capital Territory,Liberal
-Division 131,Tasmania,Greens
-Division 132,New South Wales,National
-Division 133,New South Wales,Labor
-Division 134,Northern Territory,Labor
-Division 135,South Australia,National
-Division 136,Victoria,Labor
-Division 137,Tasmania,National
-Division 138,South Australia,Liberal
-Division 139,New South Wales,Labor
-Division 140,Victoria,Other
-Division 141,Queensland,Greens
-Division 142,Victoria,National
-Division 143,Western Australia,Labor
-Division 144,Victoria,Labor
-Division 145,Queensland,Liberal
-Division 146,Tasmania,Liberal
-Division 147,South Australia,Liberal
-Division 148,Victoria,Labor
-Division 149,New South Wales,National
-Division 150,New South Wales,Labor
-Division 151,Victoria,Liberal
+Poll_ID,Pollster,PollScore,Sample_Size,Party,PCT,Answer
+291,Beacon/Shaw,-1,7343,DEM,45,Harris
+64904,Cherry Communications,0.3,25061,DEM,42,Stein
+78920,Slingshot Strategies,0.1,16972,PSL,51,Scott
+34649,Suffolk,0,20890,OTH,43,Trump
+28220,Hoffman Research,1.7,1434,DEM,45,Trump
+70951,U. North Florida,-0.6,3506,OTH,52,Trump
+63969,Washington Post/George Mason University,0.1,24495,CON,65,Trump
+66907,Dan Jones,1.6,6534,LIB,40,Harris
+33341,Keating Research,-0.5,9451,IND,61,Kennedy
+73285,Siena,1.6,3887,OTH,39,De la Cruz
+21520,U. New Hampshire,0.4,24000,GRE,64,Biden
+73808,Florida Atlantic University/Mainstreet Research,0.3,3591,UNK,47,Biden
+55807,Wick,-1.1,6974,OTH,47,Trump
+7212,Florida Atlantic University/Mainstreet Research,-1.5,14463,PSL,59,Trump
+86189,Abacus Data,-1,21365,GRE,44,Kennedy
+843,Fleming & Associates,-0.6,10106,OTH,55,DeSantis
+11829,Tarrance,NA,11619,GRE,47,Trump
+16349,Harris Poll,-0.9,14777,OTH,54,Haley
+18548,YouGov/Center for Working Class Politics,-0.6,23591,GRE,46,Trump
+12434,NewsNation/Decision Desk HQ,-0.1,3367,DEM,53,West
+48515,Data Orbital,-0.5,23709,OTH,49,Biden
+60678,NORC,-1.3,5,DEM,44,Trump
+60572,Premise,0.7,9475,UNK,50,Biden
+62349,Echelon Insights,1.7,8278,UNK,50,Stein
+72042,U. North Florida,-0.7,3689,OTH,56,Harris
+74648,Ohio Northern University Institute for Civics and Public Policy,-1,24492,IND,56,Trump
+39635,PRRI,-0.8,12685,IND,59,Kennedy
+42181,Victory Insights,-1.2,21009,GRE,40,Oliver
+43280,Emerson,-0.7,11246,PSL,43,Harris
+40937,Texas Lyceum,-1,18035,UNK,49,Trump
+35846,Murphy Nasica & Associates,-0.5,20348,CON,46,Trump
+8991,PEM Management Corporation,0.7,2118,PSL,62,Trump
+13418,Cor Strategies,-0.4,6107,CON,43,Stein
+75911,Trafalgar Group,-1.5,11514,DEM,43,Biden
+29110,CWS Research,-1.2,25489,OTH,44,Trump
+26645,UpOne Insights/BSG,-0.9,20772,REP,64,Newsom
+86373,Arc Insights,-1,15677,PSL,38,Biden
+51251,Embold Research,NA,13689,PSL,43,Biden
+45058,Meredith College,0.3,20313,CON,57,Trump
+76595,St. Pete Polls,0.1,13159,OTH,59,Trump
+50911,Patriot Polling,-0.4,11858,OTH,55,Oliver
+85334,HarrisX/Harris Poll,-1.2,12859,IND,45,Trump
+22258,New Bridge Strategy/Aspect Strategic,-0.9,14927,DEM,69,Biden
+3950,Beacon/Shaw,-1.2,7164,UNK,51,Biden
+54148,SurveyUSA/High Point University,-0.8,24213,LIB,46,Biden
+71075,Global Strategy Group,-1,25246,PSL,42,Trump
+78819,U. New Hampshire,-0.7,21745,LIB,43,Biden
+22635,Big Data Poll,0.2,1814,GRE,46,Biden
+30890,Yale Youth Poll,-1.3,14545,GRE,45,Harris
+26794,National Public Affairs,0.1,11972,LIB,66,Kennedy
+71982,Roanoke College,0,6512,DEM,51,Harris
+21642,Targoz Market Research,-0.6,15120,REP,55,Trump
+49077,OH Predictive Insights / MBQF,0.4,16615,CON,54,Biden
+50950,Echelon Insights/GBAO,0.4,19467,GRE,48,West
+436,Zogby,0.7,24458,PSL,46,Harris
+22478,Hunt Research,-0.1,21518,IND,37,Trump
+87598,Gateway Political Strategies,-0.4,15183,OTH,41,Biden
+85455,Public Opinion Strategies,-0.9,15629,DEM,40,Biden
+38360,Let's Preserve the American Dream,-0.3,3641,LIB,68,Trump
+10079,Public Opinion Strategies,0.3,2215,DEM,38,Ayyadurai
+17941,Franklin and Marshall College,-0.6,9922,LIB,50,Stein
+42248,Gravis Marketing (post 2020),-1.2,7878,PSL,40,Biden
+42809,Alaska Survey Research,NA,14487,LIB,40,DeSantis
+13580,Tarrance,-1.3,20988,GRE,61,Trump
+40344,The Tyson Group,-0.4,3465,PSL,44,Trump
+84811,Split Ticket,-0.5,17710,REP,57,Harris
+28736,Mitchell,-1.3,16581,IND,41,Harris
+32366,SurveyUSA,-0.9,6233,DEM,45,Trump
+12203,OnMessage Inc.,0.1,6377,OTH,42,Trump
+25674,P2 Insights,0.2,16829,DEM,43,Trump
+84728,Praecones Analytica,-0.9,4457,LIB,48,Kennedy
+26571,University of Houston/Texas Southern University,-1.2,19874,LIB,58,Trump
+55178,Zogby,-0.8,7279,UNK,49,Kennedy
+7765,Target Insyght,0.4,8082,LIB,52,Kennedy
+13747,HarrisX,-1.1,21514,PSL,59,Kennedy
+58498,Marquette Law School,-0.7,11414,CON,49,Trump
+81485,Kaiser Family Foundation,-1,21761,IND,43,Oliver
+38288,TIPP,-0.9,14151,OTH,39,West
+41323,Bullfinch,0,16258,IND,38,Biden
+52031,ARW Strategies,-0.9,12880,OTH,44,Harris
+21839,Victory Insights,0.3,22529,LIB,47,Biden
+60613,co/efficient,0.2,17143,LIB,53,Harris
+88309,Fabrizio/McLaughlin,0.1,13107,OTH,45,Kennedy
+20430,Data Orbital,-0.5,23903,GRE,56,Harris
+50606,SurveyUSA/High Point University,-1.5,24383,REP,57,Harris
+45541,Spry Strategies,0.3,4826,UNK,48,West
+1096,St. Anselm,-0.4,26033,LIB,45,Biden
+38004,Iron Light,-1,11680,LIB,50,Biden
+80876,Victory Insights,-0.9,16853,IND,54,Harris
+8657,Winthrop U.,-0.8,19883,LIB,61,Biden
+75896,Dan Jones,-0.1,15525,GRE,50,Biden
+18244,Research Co.,0.2,24995,PSL,57,Trump
+27076,Fabrizio/Impact,-0.4,5699,IND,54,Biden
+61535,UMass Amherst/YouGov,NA,23419,PSL,53,Harris
+31454,John Zogby Strategies,0.3,3394,REP,52,Biden
+56260,Tulchin Research,-0.5,12668,CON,44,Harris
+6642,PPP,0,21088,IND,58,Trump
+81402,Florida Atlantic University/Mainstreet Research,-1,15148,CON,56,Harris
+12762,SurveyMonkey,-0.2,17923,GRE,46,Trump
+72609,J.L. Partners,1.6,17188,GRE,62,Kennedy
+77144,ABC/Washington Post,-0.4,13482,CON,58,Trump
+2041,Slingshot Strategies,-1.5,5393,GRE,49,Biden
+81398,Civiqs,-1,4821,IND,50,Trump
+23090,Quantus Polls and News,-0.5,16646,REP,53,Biden
+30743,Hoffman Research,-0.9,23039,UNK,46,Terry
+19523,YouGov/Center for Working Class Politics,-1.1,4902,PSL,35,West
+69996,Hendrix College,NA,24772,UNK,60,Trump
+73204,Mitchell,-1.2,552,REP,60,Stein
+17652,Harris Poll,NA,7380,REP,65,Harris
+82756,GS Strategy Group,0.2,11906,IND,47,Harris
+15294,Fabrizio,-0.8,14650,CON,55,Trump
+80152,UpOne Insights/BSG,0.2,9148,REP,45,Biden
+13195,Yale Youth Poll,-0.5,22385,DEM,54,Harris
+47346,Cygnal/Aspect Strategic,0.2,22850,GRE,53,Kennedy
+6901,SurveyUSA/High Point University,-1.5,5866,UNK,47,Biden
+31652,The Washington Post,0.3,5150,UNK,50,Trump
+78767,CWS Research,-0.1,18278,DEM,65,DeSantis
+78133,Big Data Poll,0,12119,UNK,52,Stein
+17251,Hunt Research,-1.1,21913,UNK,51,Stein
+61256,U. Rhode Island,0.6,17661,REP,57,Trump
+40224,PPIC,0.6,2438,GRE,49,Biden
+47695,Ipsos,-0.7,10015,OTH,44,Oliver
+11981,Franklin and Marshall College,-0.3,12621,PSL,56,Kennedy
+14590,New Bridge Strategy/Aspect Strategic,-0.2,6034,IND,57,Biden
+65125,Fabrizio/David Binder Research,-0.6,20428,LIB,53,Stein
+37159,Torchlight Strategies,-1.5,11059,REP,60,Stein
+62673,Public Opinion Strategies,-1.3,12143,PSL,52,Biden
+2916,Cygnal,1.6,8531,CON,52,Trump
+57833,Hart/POS,0.6,13434,OTH,57,Trump
+87141,SoonerPoll.com,0.7,18393,PSL,52,Trump
+69590,Capitol Weekly,-0.1,13628,LIB,56,Harris
+28508,Opinion Diagnostics,-0.7,16415,GRE,63,Biden
+58777,Fairleigh Dickinson,0.7,12011,OTH,58,Biden
+74119,Target Insyght,0,15311,PSL,54,Biden
+66793,Hart Research Associates,-0.3,3877,CON,59,West
+12399,Remington,-0.8,5745,IND,56,Trump
+28304,The Political Matrix/The Listener Group,-0.3,9808,OTH,48,Sanders
+5332,University of Delaware,-1.3,6695,GRE,65,Trump
+22226,Data Orbital,-0.2,1901,LIB,57,West
+70020,ABC/Washington Post,-0.6,11229,LIB,48,Biden
+60263,Pew,0.2,3778,PSL,50,DeSantis
+14655,PPP,-0.7,13636,DEM,57,Trump
+2962,U. North Florida,-1.5,20292,REP,45,Haley
+76006,AtlasIntel,-0.1,1253,UNK,41,Trump
+32296,Cherry Communications,-1.1,7666,DEM,50,Stein
+17542,Cor Strategies,-0.6,7546,LIB,52,Biden
+22453,OnMessage Inc.,-1.5,19237,DEM,42,Trump
+19673,Data for Progress,-1,402,IND,44,Trump
+1393,U. Houston,0.2,3238,REP,53,Biden
+47961,Fairleigh Dickinson,-0.4,16,GRE,41,Manchin
+40184,PEM Management Corporation,-1.2,1600,CON,60,Trump
+62274,Benenson,0.2,22156,PSL,49,Mapstead
+31799,Digital Research,-0.5,22770,PSL,50,Biden
+20939,Big Data Poll,-0.5,5486,GRE,50,Trump
+33569,Virginia Commonwealth U.,0.6,15260,UNK,43,Stein
+38156,Fabrizio/McLaughlin,-0.7,71,OTH,54,Biden
+35336,The Washington Post,-0.3,15530,LIB,53,Biden
+87895,P2 Insights,-0.5,10249,PSL,62,Biden
+77506,Beacon/Shaw,-0.3,23751,CON,46,Biden
+2937,YouGov Blue,0,23357,UNK,47,Harris
+18183,Data Viewpoint,-0.8,7664,CON,50,Trump
+65872,Research & Polling,-0.4,3508,OTH,59,Trump
+30766,Cygnal,-1.1,12668,CON,45,Trump
+50540,Pew,-0.9,22029,OTH,49,Kennedy
+21162,Praecones Analytica,-0.3,2528,LIB,47,DeSantis
+51314,Let's Preserve the American Dream,-0.7,16,GRE,44,Kennedy
+33773,TIPP,1.6,4255,GRE,44,Trump
+67624,Remington,-0.2,18592,OTH,41,Trump
+14226,Research America,0.7,10515,DEM,59,Kennedy
+15874,VoteTXT,-0.1,24766,PSL,51,Trump
+48383,Research Co.,-1.2,9651,OTH,56,Biden
+73544,Alaska Survey Research,-0.8,25296,UNK,43,Biden
+6630,American Pulse,-0.3,19719,OTH,44,Oliver
+87536,Research America,0.3,19540,DEM,46,Stein
+71940,Outward Intelligence,-1.3,17234,LIB,43,Biden
+32391,HarrisX/Harris Poll,-0.3,10164,DEM,50,Kennedy
+85906,Ohio Northern University Institute for Civics and Public Policy,-0.2,13170,GRE,50,Trump
+79919,ActiVote,-0.9,11530,UNK,44,West
+40877,Angus Reid,-0.3,23897,DEM,44,Trump
+68259,Pew,-1.2,7894,DEM,43,West
+16151,McLaughlin,0,26007,UNK,42,Biden
+10632,Florida Atlantic University,NA,3611,PSL,52,Stein
+52873,3W Insights,-0.9,23437,PSL,53,Stein
+40880,AtlasIntel,-1.3,18239,LIB,43,Oliver
+7414,SSRS,-1.2,26124,LIB,39,Trump
+78333,Beacon/Shaw,-0.9,4824,GRE,71,Trump
+51750,Fabrizio/GBAO,0.6,19761,REP,60,Biden
+81638,1892 Polling,-0.3,9106,DEM,45,Harris
+8078,Navigator,-0.5,10620,OTH,55,Trump
+10241,Prime Group,-0.5,22945,REP,51,Kennedy
+33034,Abacus Data,-0.5,20167,GRE,60,Harris
+14095,Research & Polling,-0.3,15730,IND,59,Biden
+38714,Bowling Green State University/YouGov,0.1,20875,IND,57,Trump
+10373,Noble Predictive Insights,-1.1,25565,LIB,55,Trump
+71369,John Zogby Strategies,-0.2,5850,DEM,65,Trump
+18128,Strategies 360,-1,17552,OTH,62,Oliver
+74734,Probolsky Research,-1.3,15639,UNK,46,Biden
+57040,Glengariff Group Inc.,-0.7,15900,UNK,50,Biden
+78353,Digital Research,-1.2,3213,DEM,50,Trump
+81083,VCreek/AMG,-0.2,15080,PSL,48,Trump
+12878,Innovative Research Group,0.1,180,OTH,61,Stein
+67159,Schoen Cooperman,0.1,7467,CON,48,Oliver
+69767,SoonerPoll.com,-0.5,2793,OTH,46,Trump
+36508,Muhlenberg,-1.3,15115,UNK,55,Biden
+50804,Chism Strategies,-1.2,21793,CON,58,Biden
+85029,Hunt Research,-0.3,5618,REP,46,Biden
+81927,Angus Reid,-0.4,6918,IND,50,Kennedy
+74323,Virginia Commonwealth U.,-1.1,10609,REP,47,Trump
+31598,Premise,-0.9,2251,UNK,37,Trump
+45906,Axis Research,-0.8,23969,REP,49,Trump
+60518,Roanoke College,1.6,18957,CON,52,Trump
+40684,Hunt Research,NA,19119,PSL,45,Trump
+637,Fabrizio/McLaughlin,0.4,21989,PSL,44,Trump
+36867,Impact Research,0.3,22837,REP,51,Biden
+76701,Texas Lyceum,1.7,1248,CON,53,Biden
+82490,Ipsos,-0.6,14302,OTH,60,Trump
+1140,Harris Poll,-1.3,21969,LIB,43,Trump
+22946,YouGov Blue,-0.5,26113,IND,48,Biden
+62280,RMG Research,NA,6522,DEM,59,Biden
+60548,Washington Post/George Mason University,-1.2,1490,OTH,62,Haley
+52147,SSRS,NA,1229,DEM,40,Biden
+14762,Glengariff Group Inc.,-0.4,23641,CON,48,Biden
+67908,Cygnal,0.6,18592,PSL,42,Trump
+8341,Embold Research,1.6,12874,GRE,45,Kennedy
+67337,PEM Management Corporation,-0.8,17203,GRE,46,Biden
+88161,YouGov/SNF Agora,-1.1,21713,REP,37,Kennedy
+428,Global Strategy Group/North Star Opinion Research,-0.9,23821,PSL,39,Trump
+70509,Franklin and Marshall College,-1,25693,REP,41,Trump
+75826,Texas Hispanic Policy Foundation,-0.5,19095,OTH,48,Harris
+20005,Gateway Political Strategies,-1.5,17443,LIB,44,Trump
+30738,Arc Insights,-1,21740,IND,61,Harris
+21524,U. New Hampshire,-0.7,24930,REP,49,Stein
+61271,NORC,0.1,7124,IND,42,Harris
+72085,RMG Research,-0.3,13965,CON,44,Biden
+54579,EPIC/MRA,-0.1,6536,OTH,44,Stein
+411,Split Ticket/Data for Progress,-1.2,14014,GRE,49,Stein
+13514,YouGov/SNF Agora,0.6,7982,DEM,41,Biden
+89,Ohio Northern University Institute for Civics and Public Policy,-1.2,20269,UNK,36,Biden
+67018,Axis Research,0.2,9843,UNK,46,Trump
+36295,Gateway Political Strategies,-0.4,23160,GRE,51,West
+3037,Zogby,1.7,23954,LIB,52,Biden
+8566,Hoffman Research,0.1,22217,PSL,54,West
+60642,Florida Atlantic University,-0.3,9476,OTH,52,Biden
+79481,Florida Atlantic University,0.2,3892,UNK,45,Oliver
+30232,Echelon Insights/GBAO,-1.2,21641,IND,48,Kennedy
+3942,BK Strategies,-1.5,24921,GRE,51,Trump
+85761,The Washington Post,0.4,7461,DEM,42,Kennedy
+62323,OnMessage Inc.,0.4,5710,CON,56,Harris
+21864,Suffolk,-0.1,12599,LIB,62,West
+27287,Gravis Marketing (post 2020),-1.5,16215,PSL,49,Kennedy
+81584,Digital Research,NA,4495,IND,51,Trump
+62114,McLaughlin,0.7,25009,GRE,35,Harris
+33702,Focaldata,-0.9,8622,OTH,42,Trump
+5852,Peak Insights,-0.3,14560,GRE,53,Trump
+7261,New Bridge Strategy/Aspect Strategic,0.4,11664,REP,50,Trump
+54064,Lake Research,NA,17420,DEM,52,Oliver
+40182,Data Viewpoint,-0.4,11184,REP,45,Kennedy
+36537,Split Ticket/Data for Progress,-0.7,11972,DEM,49,West
+75897,PEM Management Corporation,0,17741,CON,47,Stein
+86283,3W Insights,-1.5,7178,LIB,50,Harris
+18003,Innovative Research Group,-0.7,16047,REP,44,Stein
+21596,AtlasIntel,-1.1,21354,DEM,49,Harris
+87975,NewsNation/Decision Desk HQ,0.2,12509,GRE,60,Biden
+76392,Faucheux Strategies,-0.6,18624,LIB,35,Trump
+42807,VCreek/AMG,-1.2,17476,REP,44,Oliver
+44695,Clarity,-0.8,24872,REP,44,Biden
+57270,Gateway Political Strategies,NA,20516,GRE,53,DeSantis
+19982,Harris Poll,0.4,5916,CON,53,Kennedy
+83720,Trafalgar Group,-0.9,10169,PSL,35,Harris
+68392,Florida Atlantic University,1.6,14069,REP,42,DeSantis
+38068,Big Data Poll,-0.7,16275,DEM,53,Mapstead
+22178,New Bridge Strategy/Aspect Strategic,-0.9,6189,OTH,56,Trump
+38172,Split Ticket/Data for Progress,0.2,20383,REP,57,Biden
+75512,P2 Insights,-1.1,3756,IND,52,DeSantis
+27342,PPP,0.6,22460,IND,46,Kennedy
+9271,University of Texas at Tyler,1.7,17519,PSL,45,Trump
+85199,University of Texas at Tyler,-1.2,22185,LIB,55,Biden
+27900,Cor Strategies,0,5285,LIB,43,Harris
+42292,PPP,-0.5,9194,IND,44,Biden
+70140,TIPP,-0.8,24360,LIB,47,Harris
+50095,Gonzales Research & Media Services,0,10538,DEM,51,Harris
+41418,Yale Youth Poll,-0.5,17117,LIB,54,Harris
+35183,OH Predictive Insights / MBQF,0.1,17803,GRE,52,Biden
+14405,Florida Atlantic University,-1.1,24211,DEM,45,Stein
+54297,St. Pete Polls,0,20977,PSL,53,Oliver
+77523,AtlasIntel,-0.9,4427,LIB,50,Kennedy
+21696,Torchlight Strategies,0,7944,DEM,63,Trump
+42507,Chism Strategies,-0.2,718,DEM,57,Biden
+14991,YouGov/Center for Working Class Politics,-0.2,24646,CON,43,Biden
+66728,Marist,0.3,24524,LIB,52,Manchin
+4466,Lord Ashcroft Polls,-1,7062,CON,55,Stein
+81292,Florida Atlantic University,-0.2,12534,CON,50,Haley
+21049,Prime Group,1.7,12071,UNK,44,Trump
+64714,Wick,-1,10113,OTH,40,Trump
+2406,Kaiser Family Foundation,-0.9,4827,CON,52,Biden
+5445,Let's Preserve the American Dream,-0.1,6351,LIB,56,Harris
+17456,U. Rhode Island,0.6,7127,IND,60,Trump
+75846,Gateway Political Strategies,-1,9465,OTH,54,Biden
+40823,Global Strategy Group/North Star Opinion Research,-1.1,3511,LIB,42,Harris
+68517,SoCal Strategies,-0.8,16165,CON,53,Harris
+931,PEM Management Corporation,0.2,20331,GRE,52,Harris
+59762,Texas Lyceum,-1.2,18164,LIB,45,Trump
+83035,P2 Insights,NA,12051,CON,52,Kennedy
+77749,CWS Research,1.6,11414,REP,64,Biden
+56722,Trafalgar Group/InsiderAdvantage,-0.9,7763,OTH,46,Kennedy
+55027,NewsNation/Decision Desk HQ,0.2,7500,OTH,55,Biden
+67993,John Zogby Strategies,1.6,13760,IND,43,Stein
+85316,GS Strategy Group,0,20743,OTH,50,Harris
+52380,RMG Research,NA,11082,LIB,55,Mapstead
+77805,Kaplan Strategies,1.6,22669,DEM,49,Trump
+11348,Outward Intelligence,-1.5,12617,UNK,42,Harris
+80000,Praecones Analytica,NA,396,GRE,52,Trump
+66628,Quantus Insights,NA,24955,CON,62,Trump
+10115,Angus Reid,-0.7,19771,UNK,53,Vance
+58412,Hart/POS,1.6,19978,GRE,46,Trump
+6975,University of Texas at Tyler,-0.2,11087,GRE,38,Trump
+47292,NORC,0.2,19334,UNK,47,DeSantis
+30016,John Zogby Strategies,1.6,21348,CON,71,Biden
+81871,Digital Research,-0.1,16078,UNK,56,Trump
+56422,Echelon Insights,-1.2,25821,OTH,42,Biden
+19710,DHM Research,NA,6080,LIB,54,West
+57689,Chism Strategies,-0.4,11385,CON,56,Trump
+63333,Pan Atlantic Research,-0.4,15417,PSL,67,Trump
+81629,Florida Atlantic University,-0.4,22593,LIB,56,Trump
+66154,Morning Consult,0.2,9226,IND,49,Trump
+28942,Keating Research,0.6,7883,DEM,41,Trump
+60056,OnMessage Inc.,-0.8,4774,OTH,56,Biden
+9610,SoCal Strategies,NA,22733,REP,57,Harris
+6764,Meredith College,0.1,12381,DEM,63,Biden
+41169,HarrisX/Harris Poll,-0.8,25714,OTH,49,West
+12906,Angus Reid,-0.2,9725,CON,49,Biden
+87654,Split Ticket,0.7,20620,CON,52,Kennedy
+81045,WPAi,-0.7,23907,PSL,42,Biden
+56925,Research & Polling,-0.2,1084,IND,56,Trump
+25210,Morning Consult,-1,14895,CON,48,West
+26019,Innovative Research Group,0.2,1850,OTH,42,Kennedy
+85778,U. New Hampshire,1.7,5547,IND,44,Harris
+29103,East Carolina University,-1.1,21090,OTH,39,Kennedy
+32611,NewsNation/Decision Desk HQ,-0.5,791,LIB,53,Harris
+40935,East Carolina University,-1.1,11248,LIB,56,DeSantis
+86960,Lord Ashcroft Polls,-0.4,1977,DEM,48,Stein
+6775,Capitol Weekly,-1.5,17252,GRE,42,Stein
+39323,TIPP,-0.6,14060,DEM,57,Trump
+8077,1983 Labs,-0.5,10308,IND,47,Harris
+75568,Marist,-0.2,13505,IND,37,Trump
+85710,Faucheux Strategies,-0.1,15657,LIB,57,Biden
+13464,Marquette Law School,0.4,4871,UNK,53,Trump
+18423,SSRS,0.1,19321,GRE,48,Trump
+61739,Z to A Research,-0.5,24612,REP,45,Harris
+24624,ActiVote,1.7,25253,REP,53,Biden
+35819,P2 Insights,0.7,11858,LIB,46,Harris
+5809,University of Massachusetts Lowell/YouGov,-0.6,17718,IND,61,Biden
+40933,NORC,-0.8,17197,UNK,56,Oliver
+13992,RMG Research,0.4,14014,GRE,50,Trump
+66439,Quinnipiac,1.7,22083,PSL,49,Biden
+83699,Split Ticket/Data for Progress,0.7,22997,LIB,46,Kennedy
+74765,Navigator,1.7,4109,UNK,42,West
+74032,The Citadel,-0.4,6197,CON,51,Trump
+80827,Pew,-1,10404,PSL,56,Trump
+29022,Tarrance,0.2,3898,PSL,55,Trump
+82290,Siena,-0.5,21405,IND,60,Trump
+47429,SurveyUSA/High Point University,0.7,7715,PSL,47,Trump
+20883,NewsNation/Decision Desk HQ,-0.1,25441,GRE,49,Trump
+10870,Global Strategy Group/North Star Opinion Research,0.3,24464,IND,50,Biden
+73370,Suffolk,0.1,20251,DEM,64,Biden
+51512,NORC,-1.1,8541,GRE,46,Trump
+43272,CWS Research,0.1,10720,OTH,45,Mapstead
+30096,Washington Post/George Mason University,-0.5,21346,DEM,53,Trump
+80531,Echelon Insights/GBAO,-0.5,4110,GRE,47,Trump
+10688,Ipsos,0.2,17884,PSL,51,Trump
+23886,Praecones Analytica,-1.5,21492,OTH,58,Stein
+32591,ABC/Washington Post,-0.4,20567,PSL,54,Biden
+70717,InsiderAdvantage,-0.9,11978,IND,45,Harris
+66072,The Political Matrix/The Listener Group,-1,12952,PSL,57,DeSantis
+20483,YouGov/SNF Agora,-0.4,18837,GRE,51,West
+16466,The Citadel,-0.9,18174,UNK,46,Trump
+70613,HarrisX,-1,14684,DEM,57,West
+17158,Gonzales Research & Media Services,-0.5,13196,DEM,39,Stein
+87076,HighGround,-0.5,22949,UNK,57,Biden
+13761,University of Massachusetts Lowell/YouGov,-1.2,5557,GRE,53,Harris
+34279,Benenson Strategy Group/GS Strategy Group,-0.9,14154,IND,44,Oliver
+27106,Cor Strategies,-1,3050,OTH,57,Biden
+65678,Data Viewpoint,-1.2,7685,REP,50,Trump
+17621,Texas Lyceum,0.2,13715,PSL,51,Ramaswamy
+5560,RMG Research,-0.1,1120,IND,53,Terry
+47568,High Point University,-1.1,2171,DEM,56,Trump
+8047,Innovative Research Group,0.1,10902,DEM,65,DeSantis
+83871,Quantus Insights,NA,25295,PSL,48,Stein
+30921,National Research,-1.5,23284,LIB,44,Trump
+39527,YouGov/SNF Agora,0.2,24647,LIB,51,Trump
+62384,U. New Hampshire,0.2,16929,UNK,47,Stein
+21251,Yale Youth Poll,-0.7,12965,PSL,42,Trump
+68575,VCreek/AMG,-1,14428,LIB,54,Harris
+3619,Florida Atlantic University/Mainstreet Research,0.4,13247,UNK,61,Trump
+57809,Fairleigh Dickinson,-0.6,3622,UNK,44,Mapstead
+77359,Kaiser Family Foundation,-0.4,1388,UNK,47,Biden
+23637,Fabrizio Ward,-0.8,5195,OTH,53,DeSantis
+21512,Yale Youth Poll,0.1,18354,PSL,39,DeSantis
+31351,Elway,0.1,12948,CON,61,Biden
+43246,Research & Polling,-1.2,17606,PSL,50,Ramaswamy
+55658,Florida Atlantic University/Mainstreet Research,-1.3,19881,UNK,42,Trump
+22200,Beacon/Shaw,0.2,11931,DEM,64,Biden
+30486,CNN/SSRS,0.4,25190,GRE,47,Trump
+75239,St. Anselm,-1,19172,GRE,67,Kennedy
+55004,Benenson Strategy Group/GS Strategy Group,-1.1,4990,PSL,56,Trump
+49831,Elway,0.7,5227,OTH,37,Trump
+81052,North Star Opinion Research,-0.5,9729,REP,54,Biden
+85134,YouGov/Center for Working Class Politics,-0.8,9391,GRE,48,Trump
+63321,Probolsky Research,-1.1,9014,LIB,50,Biden
+58862,Ipsos,-0.6,2704,OTH,54,Stein
+72158,CWS Research,-0.2,12164,REP,57,West
+49247,Leger,-1.3,24258,CON,57,Harris
+45680,Christopher Newport U.,NA,692,DEM,53,Trump
+47059,Franklin and Marshall College,-1.1,14624,OTH,46,Trump
+36472,Siena/NYT,0.4,14608,OTH,49,Harris
+80373,TIPP,0.6,4719,UNK,45,Biden
+68054,Florida Atlantic University/Mainstreet Research,-0.9,15672,GRE,48,Trump
+912,University of Maryland/Washington Post,-0.1,12150,LIB,55,Trump
+45085,The Citadel,1.6,8050,PSL,59,Trump
+4916,Pan Atlantic Research,1.7,10564,CON,41,Trump
+86980,The Washington Post,-0.7,10934,DEM,51,Trump
+57521,Ohio Northern University Institute for Civics and Public Policy,1.7,1972,IND,46,Biden
+16217,Manhattan Institute,1.6,22903,IND,47,West
+10422,Patriot Polling,-0.4,16276,CON,51,Kennedy
+71050,Digital Research,1.7,21545,PSL,55,Trump
+18072,Embold Research,-0.9,13583,CON,66,Trump
+61155,Fabrizio,-1.5,15694,UNK,58,West
+83109,Trafalgar Group,-0.6,4952,OTH,56,Harris
+27889,CNN/SSRS,-1.5,18094,REP,49,Kennedy
+78719,Benenson Strategy Group/GS Strategy Group,0.3,22765,DEM,63,Kennedy
+38565,Quantus Polls and News,-1.1,20468,REP,40,Trump
+75613,Rasmussen,-0.1,19666,REP,62,Biden
+51629,Cygnal/Aspect Strategic,-0.6,25016,IND,51,Trump
+61129,Rasmussen,0.7,21748,UNK,42,Biden
+16730,Leger,0.1,24352,UNK,44,Trump
+22426,USC Dornsife/CSU Long Beach/Cal Poly Pomona,-0.1,17143,UNK,46,Biden
+18482,Cherry Communications,-0.2,4475,REP,54,Harris
+38789,Fabrizio/Impact,-0.1,3010,PSL,42,West
+38437,Florida Atlantic University,-0.6,23322,IND,59,Biden
+47439,Change Research,-0.2,11091,GRE,55,Biden
+82680,J.L. Partners,-0.7,5646,CON,54,Trump
+17377,SurveyUSA,0.6,5263,UNK,39,West
+25355,New Bridge Strategy/Aspect Strategic,-0.1,21189,CON,42,Biden
+76108,Project Home Fire,-1,11951,DEM,51,Harris
+14319,InsiderAdvantage,NA,6503,CON,41,Trump
+77483,Quinnipiac,-0.2,1709,IND,46,Biden
+12382,Marist,-1.1,18928,UNK,60,Newsom
+51252,Texas Lyceum,1.7,20374,OTH,52,Stein
+68738,Fabrizio Ward,-1.2,17533,DEM,69,Biden
+28663,Target Insyght,-1.2,25334,CON,64,Oliver
+29801,Meeting Street Insights,-1.3,990,PSL,54,Biden
+80022,Virginia Commonwealth U.,NA,11074,DEM,50,Biden
+7897,Innovative Research Group,-0.9,19611,LIB,49,Biden
+70818,Franklin and Marshall College,-0.7,14884,CON,45,Oliver
+35455,Wick,0.7,19192,GRE,55,Trump
+61059,U. North Florida,-1,16501,REP,56,Biden
+78413,Yale Youth Poll,-1.1,24534,PSL,40,Stein
+1862,Mitchell,-1.5,24975,LIB,46,Harris
+80383,Research Co.,NA,17937,CON,55,Trump
+78820,ARW Strategies,0.6,22065,REP,47,West
+35573,Hart Research Associates,1.7,21857,PSL,51,West
+72832,Schoen Cooperman,-1.2,7306,DEM,56,Stein
+33327,ActiVote,0.1,686,LIB,55,Biden
+11942,Opinion Diagnostics,NA,7627,DEM,38,Kennedy
+41030,co/efficient,-0.3,8911,UNK,59,Harris
+65475,Fairleigh Dickinson,-0.9,7407,CON,48,Mapstead
+54050,North Star Opinion Research,0.2,1869,DEM,41,Harris
+38380,Research America,-1,15781,DEM,57,Trump
+27989,Fabrizio Ward,-1,1023,LIB,40,Trump
+85770,SoonerPoll.com,0.6,25200,GRE,50,Biden
+31119,Roanoke College,1.7,349,LIB,48,Trump
+9377,Global Strategy Group,1.7,1135,CON,51,Trump
+11668,Research Co.,0.7,13010,UNK,40,Kennedy
+27538,Lake Research,-0.4,10405,LIB,37,Stein
+67728,NewsNation/Decision Desk HQ,1.6,19105,REP,63,Harris
+25424,Split Ticket/Data for Progress,0.1,16957,REP,43,Biden
+20068,Metropolitan Research,-1.3,14483,GRE,43,Trump
+17219,The Citadel,-0.4,18707,REP,58,Harris
+40460,Gravis Marketing (post 2020),-1.3,11351,GRE,49,West
+81561,Differentiators,0.4,948,OTH,54,Trump
+42684,Blueprint Polling,-0.2,12310,LIB,52,Trump
+53875,Impact Research,NA,26089,CON,48,Trump
+76320,Blueprint Polling,0.3,17715,REP,58,Kennedy
+76726,Rasmussen,-1,12498,DEM,48,Oliver
+9795,Pan Atlantic Research,-1,26155,CON,51,Trump
+83849,Outward Intelligence,-1.5,23788,REP,52,Harris
+84282,Keating Research,0.3,7029,CON,52,West
+52843,HarrisX,-0.2,23927,CON,64,Biden
+19788,Siena,1.6,20663,UNK,53,Biden
+71168,Torchlight Strategies,NA,6711,IND,55,Biden
+6078,North Star Opinion Research,-0.3,13786,CON,48,Oliver
+61738,The Washington Post,-1.2,26023,GRE,55,Trump
+84844,University of Texas at Tyler,-0.1,7560,OTH,56,Biden
+61584,OnMessage Inc.,-1.3,8756,DEM,41,Harris
+4144,Praecones Analytica,-1.2,21891,LIB,54,Trump
+84045,Victory Insights,-1.3,17590,LIB,52,Trump
+70445,Quantus Polls and News,-0.1,22386,IND,56,Trump
+61246,Embold Research,-0.5,18722,GRE,49,Biden
+27293,Franklin and Marshall College,0.4,18643,LIB,46,Harris
+48146,HarrisX,0.6,10464,PSL,49,Harris
+69602,Big Village,-0.8,17608,CON,59,Trump
+73791,Benenson,1.7,19955,PSL,64,Biden
+61265,RMG Research,-1.3,24950,UNK,39,Biden
+40039,Tulchin Research,-0.9,5766,PSL,44,Harris
+84995,AtlasIntel,-1,4142,CON,54,Newsom
+65792,U. Houston,0.7,7933,UNK,52,Stein
+40491,Public Opinion Strategies,0,16398,REP,51,Trump
+67253,U. Houston,0,16423,LIB,42,Trump
+9089,University of Massachusetts Lowell/YouGov,0.1,24873,OTH,56,Kennedy
+34397,Praecones Analytica,-0.1,14452,DEM,71,Harris
+6258,Peak Insights,-0.9,3988,REP,57,Trump
+22730,Roanoke College,1.6,14734,CON,48,Trump
+30857,Project Home Fire,-0.1,8057,GRE,42,Biden
+5881,Focaldata,1.6,17889,IND,44,Whitmer
+71634,Mitchell,-1.1,12274,UNK,41,Kennedy
+65531,Cygnal/Aspect Strategic,-0.4,3300,OTH,63,Stein
+28346,Manhattan Institute,0.1,5696,IND,47,Biden
+29386,Kaiser Family Foundation,0.6,925,IND,53,Biden
+9576,Outward Intelligence,-1.1,25999,OTH,54,Haley
+25730,Leger,0.7,3657,REP,53,Trump
+76545,YouGov Blue,-0.3,3007,UNK,40,West
+36888,PureSpectrum,-1.2,10190,IND,52,Trump
+83175,Split Ticket,1.6,20963,OTH,59,Oliver
+43917,Trafalgar Group,-0.1,25914,LIB,53,Biden
+7017,Research & Polling,-0.8,19058,REP,37,Harris
+29681,Virginia Commonwealth U.,-0.8,739,CON,45,Trump
+6371,PPIC,-1.3,12880,GRE,56,West
+81037,Civiqs,0.1,16912,PSL,55,Trump
+32336,Hoffman Research,-0.4,13067,UNK,36,Harris
+12325,1892 Polling,NA,19509,IND,48,Biden
+85477,East Carolina University,0.7,18586,LIB,53,Stein
+8637,Faucheux Strategies,0.3,23890,GRE,51,Biden
+37362,The Political Matrix/The Listener Group,0.4,8503,UNK,54,Biden
+54887,Cygnal,-0.2,13224,GRE,48,Stein
+73319,Lake Research,-0.8,17420,PSL,60,Stein
+18834,USC Dornsife/CSU Long Beach/Cal Poly Pomona,-1.3,12434,OTH,40,Trump
+57976,Morning Consult,-0.1,19935,DEM,41,Biden
+42882,Global Strategy Group,-1.1,23102,PSL,60,Trump
+81810,UMBC,-0.3,10248,IND,48,Oliver
+88672,Opinion Diagnostics,-1.2,25385,PSL,48,Harris
+12224,Florida Atlantic University,NA,22087,UNK,46,Haley
+33286,Innovative Research Group,0.1,22774,IND,45,Trump
+53896,Arc Insights,-1.3,22476,LIB,49,Trump
+55235,Outward Intelligence,-1.5,429,UNK,49,Biden
+55673,Manhattan Institute,0.4,12346,CON,51,Trump
+65885,PPP,-0.1,6389,REP,48,Trump
+81630,Fabrizio,-0.6,14036,GRE,55,Biden
+50276,University of Delaware,0.6,6393,IND,56,Trump
+14101,Tarrance,-0.3,5001,REP,50,Trump
+27640,Muhlenberg,-0.3,9104,CON,44,Biden
+50870,Bowling Green State University/YouGov,1.7,10442,CON,45,Trump
+6981,Data Viewpoint,-1.5,8339,UNK,54,Trump
+6904,KAConsulting LLC,1.6,5981,REP,49,Biden
+11687,Muhlenberg,0.6,5174,OTH,54,Biden
+36364,Big Village,-0.4,23465,REP,46,Biden
+80892,Opinion Diagnostics,-0.9,16464,DEM,53,Kennedy
+37478,Split Ticket/Data for Progress,-1,16614,GRE,61,Trump
+3683,Muhlenberg,0.4,8044,IND,48,Trump
+18725,Outward Intelligence,-1,14871,CON,48,Biden
+11245,Quantus Insights,0.4,12258,OTH,56,Biden
+11069,The Washington Post,0.1,20065,OTH,59,Biden
+18180,Global Strategy Group,0.4,19973,UNK,55,Christie
+56073,PPP,1.7,22952,DEM,53,Stein
+87605,Navigator,-0.1,20894,CON,45,Biden
+32959,Hart Research Associates,-1.5,24144,DEM,37,Harris
+69615,St. Pete Polls,-0.8,6180,PSL,51,Trump
+4159,Peak Insights,-0.2,20517,OTH,57,Harris
+13386,Bendixen & Amandi International,-0.3,12660,IND,58,McConaughey
+15935,National Public Affairs,-1,7785,PSL,55,West
+9241,Cygnal,-0.1,11925,IND,49,Trump
+58537,AtlasIntel,0.7,16336,REP,42,Oliver
+2580,Opinion Diagnostics,-0.8,21921,LIB,46,Trump
+39003,Kaiser Family Foundation,1.6,24259,DEM,37,Harris
+67287,Trafalgar Group/InsiderAdvantage,0.4,5003,OTH,56,Trump
+4183,PPIC,0.7,7307,OTH,51,Kennedy
+86757,UpOne Insights/BSG,-0.7,11758,OTH,48,Stein
+50488,Christopher Newport U.,-0.9,13189,UNK,43,West
+69920,Change Research,1.7,8286,CON,36,Trump
+61394,Hunt Research,0.6,7666,REP,46,Biden
+57640,Probolsky Research,-0.7,944,PSL,42,Trump
+15017,Blueprint Polling,1.7,10897,GRE,42,Trump
+63266,ARW Strategies,0,4775,CON,43,Biden
+3377,North Star Opinion Research,-0.3,20490,GRE,44,Trump
+38108,Leger,-0.7,24601,IND,58,Trump
+58599,Clarity,-1.2,25590,OTH,54,Biden
+29740,Gateway Political Strategies,1.7,9096,UNK,49,West
+7169,Digital Research,0.7,12784,IND,45,Trump
+59355,1983 Labs,0,1741,PSL,49,Biden
+38252,U. Georgia SPIA,-0.4,6668,DEM,39,Stein
+25424,NORC,-0.7,22935,UNK,55,Kennedy
+59617,The Political Matrix/The Listener Group,-0.3,17744,CON,40,West
+87670,The Tyson Group,-1.5,11921,OTH,44,Trump
+33128,The Washington Post,-1,19900,REP,56,Trump
+40620,Z to A Research,-0.9,8896,UNK,51,Trump
+87549,Gonzales Research & Media Services,-0.7,4649,LIB,54,Trump
+88594,GS Strategy Group,-0.5,17972,IND,52,Oliver
+83174,NORC,0.2,12762,UNK,53,DeSantis
+34198,Embold Research,0,5487,REP,53,Trump
+21009,Bullfinch,0.3,10360,OTH,65,Harris
+82955,3W Insights,0,11636,DEM,46,Oliver
+32156,Quinnipiac,-0.4,20763,DEM,63,West
+60862,Mason-Dixon,1.7,25616,DEM,59,Trump
+22230,Capitol Weekly,-1.3,8869,PSL,44,Stein
+73886,Innovative Research Group,-1,13094,GRE,54,Harris
+53599,YouGov Blue,-0.8,14609,GRE,52,Biden
+8342,Siena/NYT,0.2,15664,REP,42,West
+56371,DHM Research,0.6,22176,GRE,57,Kennedy
+79369,Yale Youth Poll,-0.5,6152,CON,54,Trump
+35902,Mitchell,-1.3,9116,REP,44,West
+52269,Bowling Green State University/YouGov,-0.8,25670,REP,45,Biden
+81966,Hendrix College,-1.2,24553,IND,50,Trump
+4630,Patriot Polling,-1.2,22451,LIB,48,Haley
+17488,Z to A Research,-0.1,17068,LIB,56,Biden
+19040,University of Texas at Tyler,NA,20424,DEM,43,Oliver
+59527,Cherry Communications,NA,24168,PSL,50,Trump
+71333,Noble Predictive Insights,-0.8,6029,LIB,35,Harris
+15522,Lord Ashcroft Polls,-0.2,2889,IND,63,Biden
+15599,Morning Consult,-0.1,842,DEM,51,Kennedy
+87287,Big Data Poll,-0.2,22144,OTH,45,Trump
+18697,National Research,0.6,18129,IND,47,Trump
+41443,Cor Strategies,-0.6,18410,REP,44,Biden
+47887,Bowling Green State University/YouGov,-0.3,7598,IND,33,Trump
+58031,Arc Insights,-0.8,7189,DEM,51,Kennedy
+44584,SoCal Strategies,-0.6,12234,UNK,65,Harris
+30033,Rasmussen,-1.1,2507,UNK,54,Trump
+12265,Axis Research,-0.1,13706,PSL,43,Trump
+41516,Faucheux Strategies,-0.8,17520,CON,46,Kennedy
+38483,U. North Florida,-0.9,8643,DEM,47,Trump
+16301,HighGround,-0.9,12762,DEM,55,Trump
+49150,Mitchell,-1.3,6894,REP,54,Stein
+83352,Cherry Communications,-0.8,20956,UNK,60,Biden
+72292,Gonzales Research & Media Services,-1,5111,GRE,50,Stein
+74277,DHM Research,-1.1,11250,DEM,53,Mapstead
+83341,Big Village,-1.5,18239,GRE,37,Trump
+332,Muhlenberg,0.1,18840,IND,40,Trump
+44361,Ohio Northern University Institute for Civics and Public Policy,-0.1,1705,UNK,48,Biden
+26426,Metropolitan Research,-0.5,22291,PSL,47,Haley
+75207,National Research,-0.5,11551,CON,47,Harris
+24119,North Star Opinion Research,-0.7,10089,CON,36,Kennedy
+35337,Digital Research,-1.5,19083,OTH,57,Biden
+67763,Siena/NYT,0.2,5488,OTH,57,Biden
+62919,Meeting Street Insights,0.6,5931,REP,48,Trump
+26529,Zogby,-1.3,5183,UNK,52,Trump
+10982,Tulchin Research,-0.2,8844,IND,53,Kennedy
+55035,NewsNation/Decision Desk HQ,-0.1,1619,REP,46,Trump
+51437,Rasmussen,1.6,7856,IND,52,Oliver
+14089,Global Strategy Group,-0.3,18310,DEM,35,Trump
+24999,Faucheux Strategies,-0.5,12847,OTH,43,Trump
+83688,Big Village,0.2,8557,LIB,48,Stein
+53080,Fleming & Associates,-0.3,20692,GRE,59,Stein
+9214,McLaughlin,0.6,18402,LIB,52,Stein
+2101,GS Strategy Group,0.2,4137,UNK,62,Oliver
+75087,Research America,0.1,17304,CON,56,Kennedy
+55474,Research America,-0.7,6561,PSL,40,Kennedy
+64448,Fairleigh Dickinson,0.3,4039,OTH,40,Trump
+64440,EPIC/MRA,0.1,20219,REP,66,West
+21592,Opinion Diagnostics,-0.2,12128,REP,46,Stein
+65128,Spry Strategies,-0.3,25228,DEM,57,Trump
+40832,3W Insights,0.6,10720,PSL,53,Biden
+77130,VCreek/AMG,0.7,24235,CON,55,Oliver
+13858,Premise,-1,20521,CON,46,Trump
+13022,The Tyson Group,1.6,22999,OTH,59,Trump
+26993,YouGov,-0.6,15501,GRE,47,Stein
+4345,Dan Jones,-0.2,14439,UNK,49,Oliver
+64500,Ipsos,1.7,15397,REP,55,Trump
+7013,Project Home Fire,0.7,4936,UNK,48,Harris
+10268,Quantus Insights,1.7,17587,REP,57,Trump
+22744,McLaughlin,0.2,4913,LIB,46,Stein
+36634,GQR,-0.6,6187,CON,55,West
+57517,YouGov,0.1,20742,GRE,45,Oliver
+25202,Public Opinion Strategies,0.6,12243,LIB,39,Stein
+47828,Quantus Polls and News,-1,6365,UNK,38,Trump
+23952,Redfield & Wilton Strategies,-0.6,23445,IND,44,Trump
+74832,Winthrop U.,0.3,23270,REP,48,Biden
+49937,Leger,0.2,23456,IND,48,Biden
+59325,U. Houston,0.3,7535,PSL,50,Kennedy
+70644,Fabrizio/McLaughlin,0.3,23195,GRE,53,Biden
+62725,Marquette Law School,-1.1,19932,LIB,58,Biden
+24102,The Citadel,0.3,20649,PSL,46,Trump
+30459,Fabrizio/GBAO,1.7,9151,OTH,40,West
+21807,Project Home Fire,0.2,22010,UNK,56,Biden
+13734,Tulchin Research,-0.2,2009,LIB,48,Kennedy
+44808,Winthrop U.,-1.1,4649,LIB,55,Trump
+75954,HarrisX,-0.3,25416,UNK,46,Trump
+13536,BK Strategies,-0.2,20166,OTH,61,Biden
+372,Survey Center on American Life,-0.2,19179,PSL,58,Biden
+18137,Metropolitan Research,-0.9,24774,LIB,55,Kennedy
+84816,Benenson,-1.5,11902,OTH,53,Stein
+44329,Data for Progress,0.4,21436,PSL,52,Trump
+36736,McCourtney Institute/YouGov,1.7,6016,REP,44,Stein
+17667,VCreek/AMG,-0.6,23790,IND,47,Trump
+82892,Franklin and Marshall College,-1,7881,CON,40,Kennedy
+13348,National Public Affairs,-1.1,17187,REP,62,DeSantis
+85572,John Zogby Strategies,-0.6,4139,OTH,48,Biden
+69780,Marquette Law School,1.7,15310,UNK,58,Trump
+40946,Winthrop U.,-0.7,22073,PSL,61,Biden
+47515,U. Georgia SPIA,1.7,6097,OTH,53,Harris
+83582,Benenson Strategy Group/GS Strategy Group,-1.5,13978,GRE,44,Trump
+39837,"Cor Services, Inc.",-1.5,14679,PSL,43,Trump
+20186,University of Delaware,0.2,8045,PSL,64,West
+10393,Ohio Northern University Institute for Civics and Public Policy,1.6,25518,DEM,49,Trump
+81629,Victory Insights,-0.1,9545,LIB,56,Harris
+83341,Targoz Market Research,0.1,21965,LIB,60,Oliver
+68816,SoonerPoll.com,-0.7,2576,UNK,51,West
+62262,Tulchin Research,0.7,21926,PSL,44,Trump
+48590,Harris Poll,NA,20462,GRE,56,Trump
+17265,Capitol Weekly,0.3,10435,IND,56,De la Cruz
+78686,Schoen Cooperman,-0.2,7267,REP,49,Biden
+6719,Hoffman Research,1.7,14099,OTH,58,Kennedy
+61358,Tulchin Research,1.6,8591,IND,46,Trump
+24962,Slingshot Strategies,-0.1,18544,IND,53,Biden
+40265,Z to A Research,-0.5,20720,PSL,38,Trump
+79297,P2 Insights,0.1,22085,CON,52,Biden
+53699,Premise,-1.1,1761,GRE,41,Harris
+25454,Gonzales Research & Media Services,-1,822,GRE,45,Stein
+63816,Big Village,-0.3,15545,OTH,49,Trump
+37082,Marist,-0.4,7415,OTH,54,DeSantis
+21815,Suffolk,-0.2,21921,CON,54,Trump
+2188,Data for Progress,-0.6,5377,DEM,38,Stein
+52612,Cygnal,-0.9,7329,CON,58,Biden
+52898,UMBC,-1.2,4927,PSL,48,Biden
+76271,Quantus Insights,-1,17248,GRE,42,Biden
+75858,VCreek/AMG,-0.8,1100,DEM,51,Trump
+22166,Landmark Communications,1.7,23315,REP,56,Trump
+11915,Let's Preserve the American Dream,-0.8,9150,CON,40,Oliver
+1134,Hoffman Research,-0.5,8192,UNK,55,Biden
+80204,Hoffman Research,-1.2,19781,CON,48,DeSantis
+11427,Keating Research,NA,3252,UNK,55,Harris
+27131,RMG Research,-1.1,19826,IND,38,Stein
+85429,Trafalgar Group/InsiderAdvantage,NA,15405,GRE,45,Biden
+72790,Innovative Research Group,-1.5,10383,OTH,49,West
+51633,BK Strategies,-1.1,9369,DEM,61,Stein
+67694,UMass Amherst/YouGov,-0.5,25953,OTH,44,Trump
+70478,Research Co.,0.6,13199,GRE,38,Trump
+55275,Global Strategy Group/North Star Opinion Research,-1.2,18300,PSL,43,Biden
+15973,Beacon/Shaw,-0.2,23746,GRE,45,Trump
+11334,UMass Amherst/YouGov,0.7,6624,PSL,49,Trump
+60636,Trafalgar Group/InsiderAdvantage,0.2,6171,OTH,55,Trump
+32678,Impact Research,1.7,17303,LIB,54,West
+7831,Fairleigh Dickinson,0.6,25943,OTH,45,Harris
+66888,Redfield & Wilton Strategies,0.3,15478,IND,54,Trump
+32586,Fairleigh Dickinson,1.7,18780,REP,54,Kennedy
+54930,John Zogby Strategies,-0.3,4126,OTH,47,Biden
+17162,Abacus Data,-0.7,7979,GRE,52,Trump
+27735,Meeting Street Insights,0.7,18464,LIB,41,Trump
+37194,ARW Strategies,0.7,14501,OTH,49,Biden
+69251,U. Massachusetts - Lowell,-1.5,25718,UNK,51,Mapstead
+86896,Global Strategy Group,-0.2,10760,PSL,40,Trump
+66742,Clarity,-0.8,11356,UNK,47,Trump
+53819,PureSpectrum,-0.1,15146,CON,53,Trump
+787,University of Maryland/Washington Post,0.2,24277,OTH,67,DeSantis
+86961,Gonzales Research & Media Services,-1,18355,UNK,50,Kennedy
+60011,AtlasIntel,1.7,15433,GRE,43,Trump
+425,Echelon Insights/GBAO,-0.4,1247,GRE,47,Trump
+64410,Marquette Law School,-0.7,16282,IND,49,Stein
+85050,Research & Polling,-0.7,21034,GRE,39,Biden
+57424,Outward Intelligence,-0.3,18336,OTH,57,Biden
+46244,Pan Atlantic Research,0.2,1605,IND,52,Biden
+34544,Pan Atlantic Research,-0.7,21046,GRE,43,Kennedy
+15066,Lake Research,1.6,633,IND,45,Haley
+16819,Bowling Green State University/YouGov,-0.6,14554,CON,54,Biden
+55359,University of Maryland/Washington Post,-0.2,10721,GRE,46,De la Cruz
+73780,Change Research,-0.4,3824,GRE,53,Harris
+68536,Causeway Solutions,-1,13423,OTH,48,Trump
+40199,Chism Strategies,0.1,5327,OTH,49,Trump
+65888,Pew,0.4,15703,REP,51,Biden
+58835,Survey Center on American Life,-0.4,17728,UNK,52,Harris
+36576,Murphy Nasica & Associates,-1.5,14116,LIB,43,Biden
+74278,Fairleigh Dickinson,0.4,1928,LIB,55,Trump
+64552,SoonerPoll.com,-0.2,10727,GRE,45,Biden
+39336,Quantus Polls and News,-1,6287,IND,46,Stein
+35000,Let's Preserve the American Dream,0.2,26099,GRE,56,Trump
+54483,Pan Atlantic Research,-1.1,11080,IND,52,Biden
+48715,RMG Research,0.6,13663,UNK,52,Biden
+2340,Faucheux Strategies,-0.5,4256,CON,54,Stein
+49349,Hart/POS,-0.5,12952,LIB,49,Biden
+48073,Kaiser Family Foundation,-0.7,14536,PSL,44,Biden
+33180,Texas Lyceum,-1.3,9984,OTH,51,West
+16667,Gateway Political Strategies,-0.3,5881,CON,53,Stein
+6031,Let's Preserve the American Dream,-0.9,6573,UNK,35,Oliver
+80784,Kaplan Strategies,1.7,10373,REP,35,DeSantis
+83460,Global Strategy Group/North Star Opinion Research,0.4,23088,OTH,43,Kennedy
+84229,Selzer,0.4,5060,GRE,50,Trump
+56847,Landmark Communications,0.2,17123,GRE,47,Trump
+34747,Texas Lyceum,0,25866,GRE,49,Biden
+39187,Target Insyght,-1.2,12689,OTH,45,Trump
+14223,RMG Research,1.7,739,OTH,47,Biden
+18985,PPP,1.7,24451,DEM,35,Trump
+15232,Virginia Commonwealth U.,-0.1,12076,LIB,52,Harris
+49512,SoCal Strategies,-1,25067,LIB,51,Kennedy
+54758,PureSpectrum,-1.2,11592,UNK,47,Stein
+56158,Lake Research,-0.5,2500,GRE,59,Biden
+75685,Split Ticket,-0.2,15080,UNK,58,Kennedy
+41294,National Public Affairs,-0.8,14776,GRE,50,West
+47297,Benenson Strategy Group/GS Strategy Group,0.6,13774,CON,54,Trump
+82562,HarrisX,-0.9,21678,CON,59,West
+38297,Tulchin Research,1.7,11515,IND,42,DeSantis
+77690,Pan Atlantic Research,0.3,26160,UNK,65,Harris
+14445,SSRS,0.7,7546,LIB,49,Biden
+59760,Spry Strategies,-1.1,22017,IND,49,Kennedy
+59639,Focaldata,1.7,17766,IND,38,Biden
+14152,Fabrizio/Impact,-0.9,26098,UNK,50,Biden
+63523,Torchlight Strategies,-0.8,16925,DEM,50,Trump
+59668,Fabrizio/GBAO,-0.2,22093,CON,39,Biden
+67930,Gateway Political Strategies,0.1,146,GRE,51,Stein
+36564,SoCal Strategies,-0.6,23546,CON,50,Oliver
+10536,The Tyson Group,-0.4,8629,REP,49,Harris
+46725,Benenson Strategy Group/GS Strategy Group,-0.2,378,IND,50,Harris
+6238,Washington Post/George Mason University,-1.5,18790,UNK,51,West
+40791,Rasmussen,-1.5,19465,OTH,33,Trump
+78017,Florida Atlantic University/Mainstreet Research,0,21908,CON,53,Trump
+72955,PPIC,-0.2,15766,CON,52,Trump
+78241,Alaska Survey Research,0.3,25627,LIB,40,Oliver
+60225,U. Massachusetts - Lowell,-0.7,11561,UNK,57,Harris
+82447,SurveyMonkey,-0.7,2695,IND,50,Stein
+37183,Selzer,0.4,16254,CON,52,Stein
+30045,The Tyson Group,0.6,25398,DEM,57,Stein
+28630,SurveyUSA,-1.1,14503,CON,48,West
+16102,Hunt Research,NA,8645,DEM,49,Trump
+88084,North Star Opinion Research,0.3,12139,LIB,41,Biden
+40611,UC Berkeley,-1,18063,CON,47,Biden
+81637,Kaplan Strategies,-0.4,4871,GRE,44,Harris
+4537,The Tyson Group,0.1,11307,PSL,56,Kennedy
+11066,Wick,-0.2,6235,IND,49,Trump
+16424,GQR,-1.5,19368,REP,52,Biden
+13117,VoteTXT,-0.3,3049,GRE,66,Biden
+13242,CNN/SSRS,-1.3,12392,LIB,52,Kennedy
+62349,U. New Hampshire,1.7,15281,PSL,45,Trump
+35782,Christopher Newport U.,0.1,7877,GRE,47,Oliver
+57565,Differentiators,NA,22149,UNK,33,Biden
+17091,Gateway Political Strategies,-0.3,20939,CON,48,Kennedy
+6082,American Pulse,-0.6,23340,REP,41,Trump
+44027,NewsNation/Decision Desk HQ,0.6,1475,LIB,49,Trump
+30105,NORC,0.6,6138,UNK,45,Biden
+757,Change Research,-0.9,8770,IND,48,Biden
+29855,UC Berkeley,1.6,11615,OTH,55,Harris
+18516,Targoz Market Research,1.7,1155,GRE,57,Trump
+68136,Data Viewpoint,1.7,8650,UNK,58,Trump
+78916,3W Insights,0.1,10670,REP,54,Stein
+8681,NewsNation/Decision Desk HQ,0.6,7398,IND,50,Stein
+83698,Data Viewpoint,-1,21417,DEM,61,Biden
+72538,Manhattan Institute,-1.5,20741,DEM,55,Biden
+70508,Torchlight Strategies,0.2,25899,LIB,53,Harris
+88669,3W Insights,-0.3,17117,CON,45,Trump
+30814,Navigator,-1.5,25560,LIB,49,Trump
+35267,McLaughlin,1.6,22732,REP,50,Trump
+52760,Trafalgar Group,-1.3,5818,LIB,46,Ramaswamy
+85497,Elon U.,-0.6,23973,CON,58,West
+50014,EPIC/MRA,0.6,6716,REP,58,Biden
+60477,Benenson,-0.3,15919,REP,64,Oliver
+39079,Hart Research Associates,0,10913,DEM,51,Kennedy
+62134,Let's Preserve the American Dream,-0.7,15253,UNK,35,Kennedy
+18663,OnMessage Inc.,0.1,1510,PSL,43,Trump
+55671,Hart/POS,-0.2,18628,REP,31,Harris
+44881,Global Strategy Group,-0.6,11979,CON,47,Trump
+42348,East Carolina University,-0.6,25910,OTH,49,Trump
+7320,ActiVote,0,16177,REP,45,Biden
+56773,Victory Insights,-1.3,18939,PSL,53,Trump
+34602,Tarrance,-1.3,4372,LIB,50,Haley
+15701,Clarity,-1.1,17706,OTH,42,Harris
+29956,ARW Strategies,1.6,3457,OTH,49,Trump
+39695,Strategies 360,0,15695,REP,47,Kennedy
+88548,Big Data Poll,0.7,23847,IND,43,Trump
+47231,Redfield & Wilton Strategies,-0.1,8134,DEM,54,West
+54223,Roanoke College,-0.2,20642,UNK,57,Trump
+6598,Trafalgar Group,-0.7,7558,PSL,48,Ramaswamy
+45112,Causeway Solutions,-0.6,3658,LIB,47,Newsom
+55078,Beacon/Shaw,NA,13162,IND,53,Trump
+27990,ActiVote,-1.1,4879,PSL,56,Trump
+59574,Arc Insights,1.6,6907,PSL,54,Biden
+30218,UpOne Insights/BSG,-1.5,13530,CON,49,Trump
+33757,Meeting Street Insights,-1.5,12285,CON,48,Trump
+10950,Axis Research,-1.3,726,IND,50,Trump
+83079,UC Berkeley,-0.5,1204,IND,34,Harris
+2488,Marquette Law School,-1.5,21944,REP,55,West
+32739,HarrisX,0.3,14641,DEM,48,Trump
+70209,Praecones Analytica,-1.3,18393,PSL,43,Biden
+64345,University of Massachusetts Lowell/YouGov,0.1,1842,REP,63,Oliver
+32625,Texas Hispanic Policy Foundation,-0.9,1975,REP,54,Trump
+66688,Yale Youth Poll,-1.2,4432,DEM,40,Trump
+32330,American Pulse,0.1,9172,CON,42,Harris
+9928,co/efficient,-0.3,7368,LIB,49,Trump
+71252,Marquette Law School,NA,7075,REP,49,West
+43663,Hunt Research,-0.8,15521,GRE,65,Stein
+42978,Impact Research,0.6,24547,UNK,53,Kennedy
+61276,3W Insights,0.1,21408,REP,53,Trump
+32004,McCourtney Institute/YouGov,-1.5,13561,REP,46,Trump
+82191,Virginia Commonwealth U.,0.2,19149,REP,47,Oliver
+61241,YouGov Blue,-0.6,21954,LIB,54,Trump
+85883,McCourtney Institute/YouGov,-1,25104,IND,40,Biden
+3139,CNN/SSRS,-1.1,25153,REP,58,Mapstead
+15551,Murphy Nasica & Associates,-1.2,17480,GRE,54,Harris
+79680,Trafalgar Group,0.1,7327,OTH,55,Trump
+64830,The Citadel,-0.9,18884,LIB,45,Harris
+32175,Data for Progress,0.7,23590,DEM,49,Stein
+83736,McLaughlin,-1,9626,GRE,36,Kennedy
+55128,PEM Management Corporation,-0.1,491,LIB,44,Biden
+17152,Leger,0.3,21217,IND,43,Trump
+20,SurveyUSA,0.6,18653,CON,43,Trump
+80793,Meeting Street Insights,0.6,23775,UNK,42,Harris
+20132,Elon U.,-0.7,25339,LIB,46,Biden
+20725,VoteTXT,0.1,6650,REP,50,Trump
+25064,Pan Atlantic Research,-0.4,6517,UNK,58,Biden
+1902,SoonerPoll.com,0.7,15984,CON,54,Stein
+28373,MassINC Polling Group,0.2,3897,CON,49,Trump
+37821,Quinnipiac,-1.1,5328,LIB,58,Oliver
+36399,Bullfinch,0.1,19461,REP,46,Harris
+5336,St. Anselm,NA,24584,DEM,49,Biden
+32714,HighGround,-0.3,16165,IND,36,Oliver
+29930,Morning Consult,1.6,18432,UNK,54,Trump
+65592,Kaplan Strategies,0.7,11750,CON,48,Biden
+37081,SoCal Strategies,-1.3,23341,PSL,44,Kennedy
+36295,St. Pete Polls,-0.1,15925,UNK,47,Harris
+22442,Texas Hispanic Policy Foundation,0.2,15117,LIB,50,Trump
+80815,Change Research,NA,12550,CON,52,Biden
+11589,Research & Polling,-1.5,8799,GRE,49,Harris
+14186,Outward Intelligence,-1.2,8818,LIB,44,Trump
+28342,Peak Insights,0.1,14024,CON,44,Stein
+56222,Zogby,-0.1,3941,IND,52,Oliver
+47591,Fairleigh Dickinson,0.1,10635,CON,52,Stein
+17349,Big Village,-1.3,21260,LIB,43,Trump
+28751,Cygnal,0.7,15943,GRE,47,Trump
+83226,Florida Atlantic University/Mainstreet Research,-0.8,23895,OTH,32,Kennedy
+86432,East Carolina University,-0.8,24043,CON,54,Trump
+83481,Probolsky Research,-0.1,4476,PSL,53,Biden
+15909,Texas Lyceum,-0.8,3634,LIB,59,DeSantis
+47017,National Public Affairs,0.7,17931,IND,44,Trump
+20969,Muhlenberg,1.6,1895,CON,48,Biden
+25562,Redfield & Wilton Strategies,-0.7,24913,IND,60,Harris
+15301,Split Ticket,-1.1,9277,PSL,48,Biden
+43994,Probolsky Research,0,18875,UNK,43,Biden
+68320,ABC/Washington Post,-0.4,5412,PSL,43,Trump
+16527,Marist,-0.8,10971,PSL,54,Trump
+61370,MRG (Marketing Resource Group),0.2,6103,CON,49,Harris
+5977,Data for Progress,-1.1,3391,OTH,57,Stein
+80593,Wick,-0.1,1146,OTH,52,Stein
+16181,Lord Ashcroft Polls,0.3,12844,DEM,60,Stein
+53335,U. Rhode Island,-1,5660,GRE,52,Manchin
+86988,RABA Research,-1.2,7857,GRE,53,Shapiro
+56453,U. Massachusetts - Lowell,0.2,20489,UNK,47,Trump
+37859,American Pulse,0.1,6586,REP,51,Trump
+83349,Gravis Marketing (post 2020),0.4,26158,DEM,39,Biden
+78170,Gonzales Research & Media Services,-1,15035,REP,53,Biden
+29735,St. Anselm,0.4,24562,REP,55,Biden
+45493,Kaiser Family Foundation,-0.5,11079,OTH,52,Trump
+55943,SurveyUSA,0.3,3350,REP,50,Biden
+12816,Tulchin Research,-1,4347,OTH,48,Biden
+44053,Florida Atlantic University/Mainstreet Research,-0.1,18400,REP,60,Stein
+51216,Virginia Commonwealth U.,0.4,5053,DEM,53,Kennedy
+25391,Chism Strategies,-1.5,6682,CON,41,Harris
+1000,Trafalgar Group,0,17903,REP,55,Harris
+18638,Big Village,0.7,2512,CON,59,Trump
+14122,CNN/SSRS,0.6,84,UNK,57,Trump
+27891,GS Strategy Group,1.7,13831,LIB,47,Trump
+72177,Texas Lyceum,0.7,17731,DEM,46,Biden
+35570,Axis Research,-0.6,19477,UNK,41,Trump
+68422,Z to A Research,-0.4,20031,CON,39,DeSantis
+19944,TIPP,-1.2,7316,CON,55,West
+88276,Angus Reid,-0.4,18113,LIB,53,Trump
+2714,Benenson,-1.2,1895,PSL,44,Trump
+56503,Target Insyght,0.3,16336,REP,44,Trump
+72534,P2 Insights,1.7,1719,LIB,61,Kennedy
+80821,Strategies 360,-1.2,4873,CON,49,Trump
+69472,Bendixen & Amandi International,-0.6,1382,DEM,49,West
+83577,Winthrop U.,-1,25090,IND,49,Trump
+39576,The Washington Post,-0.9,9856,CON,52,Kennedy
+3031,Noble Predictive Insights,1.6,14321,UNK,62,Biden
+83946,Tarrance,-0.1,21126,CON,47,Kennedy
+50753,Global Strategy Group/North Star Opinion Research,0.7,11487,DEM,58,Kennedy
+11410,Echelon Insights/GBAO,-1.2,5170,UNK,41,Biden
+14272,National Public Affairs,0,9610,PSL,58,Oliver
+13271,University of Texas at Tyler,1.7,20353,GRE,47,Pence
+25314,Fleming & Associates,1.7,9915,OTH,45,West
+46886,Cor Strategies,-0.4,5844,IND,52,West
+45627,McLaughlin,-0.5,1401,REP,51,Trump
+85038,Cor Strategies,-0.5,12509,GRE,49,Trump
+44440,OH Predictive Insights / MBQF,-1,25032,OTH,42,Trump
+67796,The Washington Post,-0.3,3196,DEM,48,Trump
+43354,Harris Poll,-0.8,11022,PSL,52,Harris
+50113,USC Dornsife/CSU Long Beach/Cal Poly Pomona,0.1,2522,DEM,49,Trump
+16717,Survey Center on American Life,-1.1,866,DEM,54,Biden
+51297,TIPP,-1.2,10429,IND,49,DeSantis
+15692,Morning Consult,-1.1,3799,OTH,47,Haley
+69448,Project Home Fire,0.2,21723,GRE,55,Harris
+42035,KAConsulting LLC,-0.4,18694,IND,46,West
+9279,Chism Strategies,NA,293,CON,55,DeSantis
+9892,MassINC Polling Group,NA,22955,REP,53,Biden
+43433,OH Predictive Insights / MBQF,-0.6,3973,GRE,38,Trump
+54492,Glengariff Group Inc.,-0.1,4753,OTH,54,DeSantis
+30613,Lake Research,1.6,4890,CON,50,West
+25771,OH Predictive Insights / MBQF,-0.2,18866,LIB,56,West
+37315,Manhattan Institute,-0.6,16402,IND,53,Trump
+24564,Noble Predictive Insights,1.6,5444,LIB,46,Trump
+59990,East Carolina University,-0.3,1973,CON,47,Trump
+53241,Research & Polling,-1.3,17056,REP,55,Trump
+10122,Christopher Newport U.,-0.5,5211,CON,55,Stein
+4804,John Zogby Strategies,-1.1,22930,IND,57,DeSantis
+58935,Redfield & Wilton Strategies,-1.2,20865,IND,73,Biden
+28447,SurveyUSA/High Point University,1.7,7438,OTH,50,Trump
+22343,Causeway Solutions,-0.9,24345,IND,54,West
+19892,CNN/SSRS,-0.3,6712,UNK,45,Biden
+44619,P2 Insights,-0.9,18871,CON,37,Stein
+43425,Muhlenberg,0.1,24576,CON,57,Biden
+28049,SSRS,-0.7,17380,CON,48,Trump
+64249,Targoz Market Research,NA,17425,IND,49,Trump
+62407,Iron Light,-0.8,5455,CON,42,Biden
+23717,U. Houston,-1.3,20466,DEM,55,Haley
+47027,St. Anselm,0.6,23915,UNK,49,Kennedy
+24536,Fabrizio/McLaughlin,-1,10229,IND,45,Oliver
+87785,InsiderAdvantage,-1.5,23807,LIB,41,Trump
+2189,GQR,-0.1,7833,PSL,52,Stein
+41115,Iron Light,0,10927,CON,46,Kennedy
+63865,Mason-Dixon,-0.6,18349,UNK,45,Trump
+81308,University of Houston/Texas Southern University,0.7,15363,CON,51,Trump
+83802,YouGov/Center for Working Class Politics,-0.6,24025,GRE,48,Trump
+64432,Fleming & Associates,NA,11308,UNK,57,DeSantis
+9233,Hoffman Research,-0.6,23803,IND,45,Harris
+77078,SoCal Research,-1,20485,OTH,54,Harris
+27314,Keating Research,0.4,3550,OTH,43,West
+78412,American Pulse,NA,14906,UNK,44,Oliver
+61700,SoCal Research,0.7,8630,LIB,54,Manchin
+28744,Redfield & Wilton Strategies,-1,2566,CON,49,Trump
+74877,YouGov,-1.3,15877,DEM,41,Oliver
+42519,University of Maryland/Washington Post,1.6,4153,DEM,46,Trump
+22663,North Star Opinion Research,-0.7,631,CON,50,Harris
+85976,Fabrizio/GBAO,-1.5,25793,GRE,40,Biden
+87875,ARW Strategies,-0.8,21522,UNK,54,Kennedy
+20605,PureSpectrum,0.4,2202,PSL,46,Stein
+48166,Faucheux Strategies,0,19281,LIB,39,Biden
+48094,Yale Youth Poll,-0.3,8875,DEM,49,Pence
+44831,OH Predictive Insights / MBQF,-0.1,9259,UNK,51,Biden
+70470,SSRS,-0.8,3757,OTH,45,Kennedy
+28157,MRG (Marketing Resource Group),0,21791,PSL,56,Kennedy
+88772,Quantus Polls and News,1.6,12302,PSL,56,Trump
+69872,YouGov,-1.5,10332,CON,47,Trump
+22306,Z to A Research,1.7,12723,PSL,42,Trump
+56861,Remington,0.3,24888,OTH,63,Stein
+47178,OH Predictive Insights / MBQF,0.6,5878,GRE,59,Biden
+76932,Rasmussen,NA,18504,CON,47,Harris
+5650,Remington,-0.3,22079,GRE,60,Biden
+2618,SurveyUSA,-0.8,25317,CON,56,West
+34264,Chism Strategies,1.7,17479,CON,51,Biden
+64215,SurveyMonkey,-1.1,6533,IND,47,Trump
+3436,U. Houston,0,7147,GRE,49,Trump
+33287,Fabrizio/David Binder Research,1.6,5714,IND,54,Stein
+7882,University of Delaware,-1.1,7074,UNK,57,Kennedy
+69598,OH Predictive Insights / MBQF,-1.5,25321,DEM,44,Biden
+76532,Emerson,0.3,22239,LIB,42,Kennedy
+64039,Gravis Marketing (post 2020),-0.3,14212,UNK,49,Trump
+39856,OnMessage Inc.,-1.3,25783,LIB,46,Biden
+3064,Opinion Diagnostics,NA,22870,OTH,58,Biden
+59503,Kaiser Family Foundation,-0.1,20776,UNK,46,Trump
+63048,UpOne Insights/BSG,-0.5,3041,UNK,43,Biden
+70483,Public Opinion Strategies,-1.2,24593,GRE,58,Trump
+27231,U. North Florida,NA,23293,CON,53,Trump
+32134,Research Co.,0.7,10176,REP,50,Trump
+52315,CNN/SSRS,-0.4,2913,OTH,44,Trump
+38565,Emerson,-1,870,DEM,53,Biden
+39411,CWS Research,0.3,11909,PSL,41,Trump
+32621,SoCal Strategies,0.7,7328,DEM,41,Biden
+31013,Harris Poll,0.4,18109,PSL,50,Biden
+41641,Landmark Communications,-0.3,20738,IND,50,Harris
+22630,McCourtney Institute/YouGov,-0.7,7303,CON,46,Biden
+83061,OH Predictive Insights / MBQF,0,13725,PSL,49,Trump
+22448,St. Anselm,-1.3,17411,IND,40,Stein
+4423,SurveyUSA/High Point University,1.7,20750,OTH,52,Harris
+43321,Harris Poll,0.2,10172,LIB,54,Stein
+39650,UMass Amherst/YouGov,0,25317,DEM,54,Kennedy
+8018,MRG (Marketing Resource Group),NA,578,UNK,48,Harris
+54279,Murphy Nasica & Associates,-0.8,12886,IND,43,Stein
+64005,University of Massachusetts Lowell/YouGov,NA,16708,IND,60,De la Cruz
+77285,Noble Predictive Insights,1.7,864,DEM,50,DeSantis
+16285,Fabrizio/Impact,-0.1,17463,IND,45,Trump
+62442,GS Strategy Group,0,12021,CON,53,Biden
+80790,Slingshot Strategies,-0.8,15408,LIB,57,Biden
+70331,High Point University,0.1,4560,CON,49,Trump
+28092,SurveyUSA,0.7,2027,CON,53,DeSantis
+65615,Change Research,0.6,12150,GRE,63,DeSantis
+2095,Roanoke College,-1.3,26129,GRE,60,Trump
+76302,ActiVote,-1.5,170,IND,42,West
+56767,Fabrizio/GBAO,-1,1486,IND,42,Trump
+9218,Cygnal/Aspect Strategic,0.4,13597,OTH,56,Stein
+30783,VCreek/AMG,1.6,5169,UNK,57,Trump
+69548,1892 Polling,-1,13444,IND,45,West
+64140,Fabrizio/Impact,-0.1,12205,REP,48,Biden
+53164,University of Massachusetts Lowell/YouGov,-0.6,9875,PSL,52,Oliver
+22704,Florida Atlantic University/Mainstreet Research,0.4,26048,IND,54,Harris
+81165,University of Massachusetts Lowell/YouGov,-0.7,5165,PSL,54,Oliver
+69587,Wick,NA,21344,UNK,47,Biden
+77242,Noble Predictive Insights,-1.1,12122,UNK,60,Stein
+15176,Cygnal/Aspect Strategic,-0.6,9618,UNK,60,Biden
+42708,Innovative Research Group,-1.1,3423,GRE,58,Kennedy
+34869,Tarrance,0.7,21820,GRE,50,Biden
+72377,1983 Labs,-0.9,1213,IND,55,Stein
+76838,Cherry Communications,0.1,14125,IND,47,Biden
+57055,Echelon Insights,-1,20293,DEM,44,Trump
+85494,Angus Reid,-0.1,1586,IND,47,Harris
+47169,University of Texas at Tyler,NA,16031,IND,58,Trump
+15600,Washington Post/George Mason University,0.4,24352,LIB,63,Biden
+82719,Spry Strategies,0.7,1776,OTH,58,Harris
+76667,MRG (Marketing Resource Group),1.6,20923,UNK,46,West
+76549,Roanoke College,1.7,22768,OTH,50,Stein
+79665,VoteTXT,-0.1,15267,OTH,60,Biden
+48141,University of Texas at Tyler,NA,20245,IND,46,Biden
+65469,Beacon/Shaw,1.6,22800,GRE,56,Stein
+28117,Meeting Street Insights,-0.5,17834,LIB,64,Harris
+44872,Z to A Research,0.1,18836,DEM,43,Trump
+56032,PPIC,-0.9,22286,IND,51,Trump
+26121,Dan Jones,NA,23705,UNK,51,Trump
+4509,University of Texas at Tyler,0.3,13537,REP,57,Stein
+60524,U. Houston,0.7,23292,DEM,39,West
+25423,YouGov Blue,-1.1,19789,IND,55,Trump
+51818,Beacon/Shaw,-1.2,2083,UNK,52,Harris
+58960,Muhlenberg,1.6,23662,LIB,43,Biden
+43468,Axis Research,1.7,7532,UNK,44,Pence
+20218,YouGov/Center for Working Class Politics,-1,885,REP,47,Trump
+39202,YouGov/Center for Working Class Politics,1.7,3836,LIB,52,DeSantis
+24819,Yale Youth Poll,-0.2,18808,LIB,44,Trump
+72852,Echelon Insights,0.4,18485,OTH,47,Trump
+36368,Metropolitan Research,0.4,2157,LIB,47,DeSantis
+86336,Data Viewpoint,0,2852,DEM,54,Trump
+317,SSRS,-1.3,13118,IND,48,Stein
+47903,John Zogby Strategies,0.6,15763,OTH,43,Stein
+64701,Fabrizio/Impact,0.1,9702,PSL,54,Stein
+40122,Kaiser Family Foundation,0.4,24245,REP,59,Trump
+35766,Marquette Law School,-1.2,24822,REP,46,Biden
+76654,Texas Hispanic Policy Foundation,0.7,19468,CON,49,Biden
+69053,Virginia Commonwealth U.,1.7,12468,UNK,60,Harris
+72465,Bendixen & Amandi International,-0.7,4708,PSL,50,Biden
+19765,Bendixen & Amandi International,-1,19273,OTH,48,Oliver
+23520,Redfield & Wilton Strategies,-0.8,7628,GRE,42,Biden
+25890,Morning Consult,-0.3,17644,OTH,49,Trump
+6784,Noble Predictive Insights,-1.5,121,OTH,50,Trump
+52350,SoCal Research,-0.2,2941,PSL,53,Oliver
+3126,Hunt Research,-0.5,9985,REP,38,Harris
+13559,Alaska Survey Research,0.6,25218,OTH,47,Biden
+24342,Hart/POS,-1.1,22757,REP,52,Trump
+17788,Project Home Fire,-1.1,25714,OTH,42,Kennedy
+22640,Cherry Communications,-0.7,12107,LIB,48,Biden
+29221,Glengariff Group Inc.,0.3,21759,PSL,60,Trump
+78862,SoCal Research,NA,11418,REP,57,DeSantis
+86225,Echelon Insights,NA,25492,REP,46,Harris
+51244,McLaughlin,0.4,24234,LIB,43,Harris
+46336,Public Opinion Strategies,-0.3,1047,CON,62,Trump
+30160,Harris Poll,0.1,8018,REP,51,Harris
+79182,Christopher Newport U.,0.2,628,IND,52,Trump
+61345,Abacus Data,0.6,530,DEM,53,Stein
+4130,Gateway Political Strategies,0.3,23900,OTH,52,Trump
+43786,Chism Strategies,-0.7,8338,IND,65,Kennedy
+71518,Fleming & Associates,0.4,7637,REP,52,Biden
+23571,Hendrix College,0.1,2075,DEM,44,Oliver
+84345,PRRI,-0.6,5968,IND,46,Trump
+35040,Patriot Polling,-0.7,15025,UNK,52,Trump
+8137,Susquehanna,-1.3,12581,REP,44,Trump
+45863,U. New Hampshire,-0.4,10250,GRE,42,Haley
+72965,UMBC,-1.2,15464,GRE,53,Trump
+35145,NewsNation/Decision Desk HQ,-0.7,5761,REP,54,Trump
+28961,1892 Polling,-1.3,9268,DEM,56,Trump
+3212,KAConsulting LLC,-0.2,16866,IND,52,Harris
+54624,Trafalgar Group,0.2,12482,CON,54,Harris
+47216,U. Rhode Island,-0.3,14655,OTH,48,Oliver
+50803,U. New Hampshire,1.6,19006,UNK,49,DeSantis
+54204,University of Houston/Texas Southern University,0.1,14232,IND,49,West
+34351,Cygnal/Aspect Strategic,-0.7,16939,IND,41,Harris
+55223,YouGov/SNF Agora,-1.2,22619,GRE,45,Biden
+56323,SoonerPoll.com,-0.7,6321,PSL,59,Harris
+56013,Morning Consult,-0.5,8250,LIB,42,Biden
+36231,Innovative Research Group,-1.3,3811,PSL,55,Harris
+39278,EPIC/MRA,0.2,14026,CON,49,Trump
+63229,Navigator,0.6,1041,LIB,61,Biden
+72138,Bendixen & Amandi International,0.2,3830,CON,37,Kennedy
+80170,GQR,-0.7,23948,DEM,59,Trump
+71816,Beacon/Shaw,-0.6,6075,IND,41,DeSantis
+59046,EPIC/MRA,-0.1,9199,UNK,44,Biden
+75771,Fabrizio,-0.6,1064,REP,48,Harris
+30799,Kaplan Strategies,0.7,19880,REP,50,Trump
+51881,Hart/POS,-0.7,19355,CON,46,Biden
+19409,SurveyMonkey,-0.5,657,UNK,66,Trump
+25853,Navigator,0.3,19152,REP,48,Biden
+14003,Iron Light,0.1,16142,CON,47,Stein
+55604,ARW Strategies,1.7,14192,IND,49,Biden
+76039,"Cor Services, Inc.",0.4,2140,CON,46,Stein
+36926,Muhlenberg,-0.1,11326,DEM,56,Cheney
+53601,Target Insyght,-0.8,26139,CON,41,Pence
+5779,ActiVote,1.7,23287,GRE,44,Harris
+77347,Christopher Newport U.,-0.5,23770,PSL,50,Trump
+79263,Emerson,-0.9,7402,LIB,49,Trump
+83119,Cor Strategies,1.7,190,LIB,63,Kennedy
+39017,UMass Amherst/YouGov,-1.3,19350,IND,50,Kennedy
+88373,Gonzales Research & Media Services,-0.4,6756,PSL,50,Trump
+47638,Florida Atlantic University/Mainstreet Research,0.2,25554,LIB,55,West
+2120,McCourtney Institute/YouGov,-0.3,14446,UNK,55,Biden
+61114,Tulchin Research,1.6,2186,PSL,55,Oliver
+26884,SoCal Research,-0.1,22044,UNK,54,Kennedy
+36274,Morning Consult,0.4,16987,UNK,48,Trump
+27086,Emerson,-1.5,12102,DEM,44,Trump
+24551,Morning Consult,-0.4,16482,PSL,44,Harris
+5269,National Public Affairs,-0.3,8114,UNK,61,West
+87312,PPP,NA,4877,OTH,42,Trump
+50722,Susquehanna,0,11034,PSL,53,Trump
+33187,Glengariff Group Inc.,-0.2,16441,OTH,47,Biden
+23977,3W Insights,-1.1,18852,REP,44,Trump
+17526,Fabrizio/Impact,-0.7,3403,CON,51,Trump
+69733,Data Orbital,-0.4,8167,PSL,48,Biden
+83571,HighGround,-1.1,14332,OTH,52,Harris
+82743,University of Delaware,-0.2,10759,REP,57,Trump
+66043,ABC/Washington Post,-1.5,8338,PSL,42,Harris
+73486,PRRI,0.4,16175,GRE,57,Biden
+25064,U. Georgia SPIA,1.6,16578,UNK,42,Trump
+35578,YouGov/SNF Agora,NA,21968,CON,53,Biden
+21189,Siena,0.6,11246,GRE,54,Biden
+2441,Dan Jones,-1.1,7193,IND,49,Stein
+16055,Fabrizio/GBAO,-0.2,7363,CON,49,Harris
+20722,OH Predictive Insights / MBQF,-1.5,15068,UNK,50,Biden
+27120,Siena/NYT,-1.2,10583,OTH,49,Harris
+13452,Victory Insights,-0.1,6168,OTH,53,Stein
+75207,Data Viewpoint,0.6,20042,IND,58,Oliver
+84622,Faucheux Strategies,-0.1,8957,LIB,54,Stein
+11463,Harris Poll,-0.1,15099,PSL,38,Stein
+408,Split Ticket/Data for Progress,-0.2,19563,OTH,53,Trump
+81398,Fleming & Associates,0.3,579,PSL,60,Stein
+35039,ABC/Washington Post,-0.3,8305,IND,62,Trump
+11148,VCreek/AMG,0.7,12294,UNK,51,Biden
+43089,Trafalgar Group/InsiderAdvantage,-0.4,13764,UNK,52,Harris
+13817,Patriot Polling,-1.1,4826,LIB,63,Biden
+19887,Digital Research,-0.7,25160,PSL,44,Biden
+56028,Noble Predictive Insights,-0.6,26132,OTH,58,Biden
+52226,New Bridge Strategy/Aspect Strategic,0.1,22380,PSL,56,Harris
+5102,Rasmussen,-1,25713,REP,59,Trump
+13584,The Tyson Group,0.4,1521,DEM,69,Trump
+41234,Split Ticket/Data for Progress,-0.8,13689,OTH,49,Trump
+24081,P2 Insights,-0.4,13185,UNK,61,Trump
+22081,Susquehanna,-0.2,8788,CON,45,Stein
+57709,Wick,-1.3,5650,OTH,53,Harris
+33864,Digital Research,0.1,4510,PSL,51,Biden
+31034,1892 Polling,-0.8,25518,OTH,50,Biden
+18163,Siena/NYT,0.3,16470,GRE,51,Harris
+51091,USC Dornsife/CSU Long Beach/Cal Poly Pomona,NA,5799,IND,45,Biden
+10531,Benenson Strategy Group/GS Strategy Group,1.6,19404,DEM,51,Harris
+38782,HarrisX,-0.5,23810,IND,48,Shapiro
+13728,UMBC,-0.7,18310,OTH,56,Biden
+69072,Ohio Northern University Institute for Civics and Public Policy,-0.5,19072,DEM,52,Trump
+71380,Pan Atlantic Research,-1.3,17925,CON,42,Trump
+56972,ARW Strategies,-0.6,11956,REP,41,Trump
+42628,Bullfinch,-0.3,8219,UNK,39,Trump
+62890,Cygnal/Aspect Strategic,-1.2,18330,GRE,46,Biden
+88693,Yale Youth Poll,-0.7,19374,PSL,42,Trump
+56003,PRRI,-0.9,7023,OTH,52,Trump
+46313,GQR,0.4,4288,UNK,45,Trump
+35139,The Political Matrix/The Listener Group,-1.5,15080,DEM,47,Trump
+12126,"Cor Services, Inc.",-1.5,7802,DEM,58,Trump
+52361,MassINC Polling Group,NA,628,GRE,45,Harris
+53027,American Pulse,-0.5,10269,CON,53,Harris
+37895,WPAi,1.7,4480,UNK,55,Trump
+22501,Split Ticket/Data for Progress,-0.5,10647,IND,36,Biden
+74168,Winthrop U.,-0.2,11909,GRE,51,Trump
+64894,Change Research,0.3,1804,PSL,51,Christie
+9415,CWS Research,-0.8,5180,PSL,44,Harris
+45678,St. Anselm,0.6,12159,DEM,44,Trump
+76190,Hart Research Associates,-0.3,11284,UNK,36,Trump
+40428,Meeting Street Insights,-0.2,19031,DEM,53,Harris
+66468,Suffolk,-0.2,22593,GRE,50,Trump
+87981,Mitchell,-1.5,25788,OTH,50,Trump
+67488,Fabrizio,0.7,17181,LIB,43,Harris
+54804,St. Anselm,-0.9,6131,REP,57,Biden
+42650,Marist,0.2,22588,IND,51,West
+80895,Susquehanna,0.1,22330,REP,46,Youngkin
+69298,U. New Hampshire,-0.7,23100,REP,34,Biden
+57447,RABA Research,-1.2,9075,OTH,52,Trump
+56965,VoteTXT,-0.9,23269,LIB,52,Trump
+1567,Bowling Green State University/YouGov,0.3,19858,UNK,51,Trump
+29367,U. Houston,0.1,17272,PSL,53,Biden
+54651,Susquehanna,0,20877,PSL,51,Biden
+7996,Texas Hispanic Policy Foundation,-0.5,24075,PSL,48,Biden
+72114,Digital Research,1.6,3617,CON,57,Trump
+34225,TIPP,0,12977,REP,45,Kennedy
+85874,EPIC/MRA,-0.2,13660,OTH,59,Trump
+32342,U. North Florida,-0.5,18164,OTH,46,Biden
+55181,Cherry Communications,0.6,20588,IND,50,Trump
+21188,PureSpectrum,-0.4,13120,PSL,49,Trump
+80620,Chism Strategies,-0.1,25179,REP,47,Trump
+57790,East Carolina University,-0.7,13837,REP,54,Kennedy
+73946,Schoen Cooperman,0.2,3906,REP,51,Kennedy
+83220,SoCal Strategies,-0.6,11840,IND,36,Harris
+68309,Arc Insights,-0.9,14436,REP,45,Trump
+39151,GS Strategy Group,-1.3,5106,CON,50,Biden
+51293,Florida Atlantic University/Mainstreet Research,-0.2,20071,OTH,58,West
+20355,Winthrop U.,0.6,2612,IND,49,Trump
+77780,PRRI,-1.2,549,CON,59,Biden
+3138,Bullfinch,-1.1,21070,PSL,53,Kennedy
+67336,Abacus Data,1.6,13679,OTH,53,Trump
+57132,Fleming & Associates,1.6,21726,LIB,47,Oliver
+80746,Strategies 360,-1.3,14801,OTH,39,Trump
+14106,Praecones Analytica,0.2,8819,UNK,53,Biden
+76820,Gravis Marketing (post 2020),-0.4,19512,PSL,51,Biden
+21795,AtlasIntel,-1.2,16515,CON,58,Haley
+58649,OH Predictive Insights / MBQF,0,4256,CON,33,Oliver
+77972,BK Strategies,NA,21490,GRE,44,Kennedy
+81003,Cherry Communications,1.7,13612,CON,38,Harris
+46210,Fairleigh Dickinson,-1.3,22057,IND,44,Stein
+37185,National Research,-0.2,10865,OTH,39,Biden
+58999,The Washington Post,0.6,12419,IND,42,Trump
+33942,Hoffman Research,-0.7,9650,REP,65,Biden
+3785,Probolsky Research,1.6,14962,PSL,39,Biden
+9943,Data Orbital,-0.5,9537,DEM,42,Harris
+83078,North Star Opinion Research,-1.2,14726,OTH,55,Biden
+56697,Harris Poll,-0.4,18486,PSL,64,Trump
+48819,3W Insights,-1.3,21934,UNK,57,Biden
+13477,MassINC Polling Group,1.7,288,UNK,47,Biden
+4940,Iron Light,0.2,25357,LIB,44,Trump
+39323,Fabrizio/McLaughlin,-0.3,5057,LIB,55,Harris
+81606,GS Strategy Group,-0.6,11491,IND,50,Trump
+45707,Florida Atlantic University,0.6,9135,PSL,60,Stein
+51273,American Pulse,-1.1,20519,CON,49,Biden
+70777,NewsNation/Decision Desk HQ,0.2,24577,LIB,57,Trump
+4194,Lord Ashcroft Polls,-0.1,11341,IND,66,Biden
+12014,Research Co.,0.2,24799,CON,37,Newsom
+9353,Patriot Polling,0.7,20752,REP,59,Trump
+54530,McLaughlin,-1.3,5560,DEM,45,Biden
+60809,U. Massachusetts - Lowell,0.1,2753,DEM,59,Harris
+44112,Fabrizio/David Binder Research,-0.5,23859,PSL,62,West
+82876,MRG (Marketing Resource Group),-1.2,26125,PSL,50,Stein
+7778,HarrisX/Harris Poll,-0.6,9327,OTH,43,Kennedy
+67300,Gravis Marketing (post 2020),-0.7,12948,OTH,57,Biden
+88287,Christopher Newport U.,0.2,4291,DEM,55,Biden
+44908,Florida Atlantic University/Mainstreet Research,-0.3,14087,OTH,50,Trump
+11142,University of Massachusetts Lowell/YouGov,-1.2,18321,DEM,49,Harris
+87640,Christopher Newport U.,NA,16039,PSL,58,Kennedy
+67333,Survey Center on American Life,-1.1,26002,CON,48,Trump
+10908,OH Predictive Insights / MBQF,0,15969,DEM,61,Trump
+32785,Suffolk,0.1,13766,GRE,60,Trump
+31473,Noble Predictive Insights,0.3,19586,LIB,52,Biden
+11245,Benenson Strategy Group/GS Strategy Group,-1,21029,IND,45,Biden
+48154,GQR,0.1,15114,OTH,50,Harris
+53543,Suffolk,-0.6,6322,CON,58,Trump
+26904,Gonzales Research & Media Services,0.3,15719,LIB,36,Trump
+36612,Ipsos,-0.9,23241,UNK,34,Trump
+71398,Innovative Research Group,1.6,17380,IND,52,West
+5126,U. Massachusetts - Lowell,-0.6,2483,IND,38,Biden
+50276,HarrisX,-0.7,7227,OTH,51,Trump
+74444,Pew,0.1,4869,IND,50,Trump
+86326,SurveyMonkey,-0.7,22996,REP,55,Biden
+59518,Elway,-0.3,22489,REP,41,Trump
+61018,Benenson,1.7,269,UNK,42,Biden
+69097,Hunt Research,-0.9,3106,GRE,46,Stein
+16165,Texas Hispanic Policy Foundation,-0.1,15131,LIB,52,Kennedy
+14403,Cherry Communications,-0.5,4113,CON,50,West
+549,Chism Strategies,0.6,25889,LIB,39,Trump
+55083,YouGov/Center for Working Class Politics,-0.5,18705,UNK,50,Biden
+26218,Abacus Data,-1.3,10540,UNK,62,Biden
+39316,The Washington Post,-1.1,26156,GRE,53,Stein
+37347,PPIC,0,9294,PSL,59,Harris
+62503,Leger,0.6,3004,UNK,46,Mapstead
+9846,Lake Research,0.2,5680,UNK,50,West
+26834,Data Viewpoint,0.4,24398,OTH,37,Haley
+83226,Marquette Law School,0.2,17633,LIB,55,Trump
+51664,Metropolitan Research,0.1,11599,GRE,53,Harris
+87308,Dan Jones,0.1,12563,DEM,52,Stein
+64867,McLaughlin,1.6,5117,LIB,48,Trump
+79230,Fabrizio/McLaughlin,0,7456,GRE,40,Kennedy
+6131,Capitol Weekly,-1.5,16155,LIB,52,Trump
+43023,"Cor Services, Inc.",-0.1,6078,GRE,54,Trump
+51978,P2 Insights,1.6,17630,REP,41,Trump
+52340,ABC/Washington Post,NA,3963,REP,48,Biden
+63287,Roanoke College,-1.2,25175,GRE,49,Trump
+36631,Data for Progress,-0.4,9085,UNK,51,DeSantis
+47741,Fabrizio,-1,14856,LIB,59,Harris
+1579,Glengariff Group Inc.,0,18234,CON,61,Trump
+6461,Metropolitan Research,-0.5,19473,GRE,53,Oliver
+59939,Meeting Street Insights,1.6,22004,LIB,47,Stein
+79563,UC Berkeley,-1.5,792,DEM,60,Kennedy
+40265,Big Data Poll,-1,14948,REP,67,West
+71033,Research America,-1,12936,OTH,40,Trump
+40530,WPAi,-0.3,10647,GRE,49,West
+39727,Fabrizio/Impact,0.1,13461,OTH,67,Stein
+20907,University of Delaware,0.6,19367,DEM,48,Trump
+71434,3W Insights,-1.5,3950,DEM,50,Trump
+26310,Fabrizio/David Binder Research,-0.6,16609,LIB,54,DeSantis
+60880,The Washington Post,0.6,9466,DEM,57,Harris
+25741,Elway,-1,1105,LIB,51,Kennedy
+33024,Noble Predictive Insights,-0.3,9670,DEM,24,Trump
+26566,Prime Group,0.1,1413,UNK,50,Trump
+40573,InsiderAdvantage,-1.5,5929,REP,42,Biden
+45193,Marquette Law School,-1,13171,CON,44,Trump
+18614,Roanoke College,0.2,8804,IND,47,Harris
+80462,Public Opinion Strategies,-1.3,11857,DEM,41,Kennedy
+67015,U. Houston,-0.9,8941,UNK,48,Trump
+45247,High Point University,-0.1,8270,IND,49,Biden
+846,Fabrizio/McLaughlin,0.1,19021,OTH,38,Trump
+44883,Angus Reid,NA,25716,UNK,43,Kennedy
+68470,Praecones Analytica,-0.5,22541,UNK,66,Harris
+19983,New Bridge Strategy/Aspect Strategic,0.2,4670,REP,59,Biden
+5724,Innovative Research Group,NA,7165,OTH,51,Kennedy
+53622,SoCal Research,-1,18688,UNK,50,Trump
+61578,Targoz Market Research,0.4,15997,PSL,46,Oliver
+53183,Patriot Polling,0.7,3528,DEM,59,Stein
+83119,YouGov/Center for Working Class Politics,-0.6,11063,GRE,49,Kennedy
+43381,Cygnal,-1.5,13739,GRE,52,Biden
+83343,Victory Insights,1.7,24038,CON,51,Biden
+79638,Lake Research,-1.5,9416,OTH,46,DeSantis
+83339,HighGround,-1.3,18087,UNK,44,West
+49397,HarrisX,-0.1,21607,REP,37,Trump
+50,Fabrizio Ward,-1.5,14590,OTH,53,Trump
+27292,CWS Research,NA,5149,CON,44,Kennedy
+15694,U. North Florida,-0.4,18318,IND,46,Trump
+30865,Meeting Street Insights,0.3,9254,PSL,49,West
+61917,1892 Polling,NA,23155,LIB,56,Biden
+71003,Benenson,-1.2,13926,GRE,47,Trump
+58685,Mason-Dixon,-1.1,17133,REP,52,Kennedy
+23545,St. Pete Polls,0.6,8685,DEM,60,Trump
+20702,Kaplan Strategies,-0.8,10861,DEM,49,Kennedy
+64949,TIPP,-1,11976,OTH,50,Trump
+46948,Angus Reid,0.6,9212,GRE,48,Trump
+40444,Premise,1.7,17814,IND,49,Trump
+793,Benenson Strategy Group/GS Strategy Group,1.7,24465,OTH,55,Trump
+31232,Trafalgar Group/InsiderAdvantage,-0.1,17378,IND,60,Mapstead
+23584,Digital Research,-0.7,13214,CON,45,DeSantis
+52539,3W Insights,0.1,15509,GRE,47,Kennedy
+25662,SurveyUSA,0.6,11577,OTH,44,Trump
+6081,Premise,0.6,12124,OTH,53,Biden
+88331,HarrisX/Harris Poll,1.7,20504,IND,53,Stein
+10857,Z to A Research,-0.8,10604,LIB,46,Trump
+29520,Digital Research,-1.3,16326,UNK,41,Trump
+25258,NORC,-1.2,7649,CON,51,Trump
+16935,Trafalgar Group/InsiderAdvantage,-0.2,7646,LIB,54,Biden
+10741,Innovative Research Group,-1,21931,OTH,55,Harris
+35651,Fabrizio/Impact,-0.2,8514,LIB,49,Trump
+78521,OH Predictive Insights / MBQF,1.6,2716,OTH,51,Biden
+51710,Opinion Diagnostics,NA,12434,CON,57,Trump
+83281,Capitol Weekly,1.6,18080,DEM,71,Trump
+34103,Arc Insights,-0.7,1499,REP,52,Biden
+16581,The Political Matrix/The Listener Group,NA,4043,PSL,54,Biden
+68514,Quinnipiac,1.6,14148,IND,46,Biden
+39478,Beacon/Shaw,-1.2,8272,CON,47,Trump
+42238,HarrisX/Harris Poll,-1.5,3945,REP,57,Kennedy
+30993,Focaldata,-0.3,5334,PSL,48,Biden
+54497,NORC,0,3972,LIB,56,Kennedy
+75325,Research America,0.1,24910,IND,55,Biden
+14463,Big Data Poll,-0.7,9356,PSL,39,Trump
+4587,Fleming & Associates,-1,18666,REP,49,Stein
+79963,Probolsky Research,-0.7,24934,GRE,51,Trump
+52414,Focaldata,-0.9,9753,REP,52,Trump
+2846,PRRI,0.4,8756,PSL,49,Haley
+43422,Causeway Solutions,1.6,9510,CON,42,Biden
+86337,NORC,-1,8780,REP,49,Kennedy
+2721,Gonzales Research & Media Services,0.4,3785,DEM,51,Biden
+21986,High Point University,-0.3,24201,PSL,65,West
+14732,Yale Youth Poll,-0.2,9867,DEM,43,Biden
+80144,U. Rhode Island,-0.6,2918,LIB,57,Oliver
+38143,GQR,0.1,9684,OTH,51,Harris
+58714,Franklin and Marshall College,NA,12413,LIB,42,Harris
+10667,Ipsos,-0.1,25274,LIB,42,DeSantis
+42734,The Political Matrix/The Listener Group,-0.9,1208,CON,53,Trump
+76852,Manhattan Institute,-0.3,21257,REP,49,Trump
+46417,Arc Insights,-0.4,21674,GRE,61,Trump
+79837,Impact Research,-1.3,10957,UNK,42,Trump
+30509,Chism Strategies,-0.9,17439,IND,49,Trump
+81662,Targoz Market Research,-0.7,9005,LIB,41,Trump
+61496,Washington Post/George Mason University,-1.2,9361,DEM,49,West
+81576,Texas Lyceum,-0.8,8885,CON,55,Harris
+51541,Bendixen & Amandi International,0.7,277,OTH,48,Trump
+62684,Angus Reid,-1.5,10626,PSL,54,Stein
+17329,OH Predictive Insights / MBQF,0.7,4062,OTH,44,Biden
+35954,1892 Polling,-1.3,6492,OTH,57,Trump
+12844,Impact Research,1.6,2246,DEM,62,Oliver
+29815,Cherry Communications,-0.9,5290,OTH,53,Biden
+79839,Global Strategy Group,-0.1,19879,CON,60,Trump
+70111,AtlasIntel,-0.3,21681,REP,46,Ballay
+20259,Research Co.,-0.7,22374,CON,47,Biden
+21594,Florida Atlantic University/Mainstreet Research,0.1,22312,GRE,59,Trump
+21009,Morning Consult,-0.2,7594,IND,40,West
+21237,Data for Progress,-0.7,11146,IND,46,Trump
+79324,Targoz Market Research,-0.1,17966,PSL,63,Trump
+88088,Hart/POS,-1.3,11063,PSL,47,Trump
+48859,Causeway Solutions,1.6,5392,IND,45,Biden
+87704,Probolsky Research,1.7,15349,PSL,59,Trump
+59087,SSRS,0.7,18941,LIB,55,Trump
+66012,SSRS,-0.2,3575,IND,61,Biden
+57311,McCourtney Institute/YouGov,0,22137,UNK,56,Trump
+13472,Tarrance,-1.1,6563,REP,50,Trump
+57475,Let's Preserve the American Dream,1.6,1943,CON,64,Biden
+62509,Tulchin Research,-0.7,7747,CON,48,Trump
+72695,Split Ticket,0.6,21362,OTH,52,Biden
+39411,Christopher Newport U.,-1.3,3716,UNK,47,Trump
+64,Pan Atlantic Research,-1.3,6152,UNK,44,Harris
+1838,Meredith College,-0.6,20332,DEM,50,Stein
+4214,PEM Management Corporation,1.7,12997,GRE,40,Oliver
+88294,Praecones Analytica,-0.3,3710,REP,44,Biden
+802,Gonzales Research & Media Services,-1.1,9207,CON,60,Biden
+39850,SoCal Strategies,-1.5,8507,LIB,62,Kennedy
+52513,Capitol Weekly,-0.5,7317,UNK,38,Harris
+62932,Data Viewpoint,-0.3,14358,REP,46,Trump
+58449,Schoen Cooperman,0.7,20857,IND,44,Biden
+36410,SurveyMonkey,0,25642,PSL,58,Biden
+40267,PPP,-0.4,4643,IND,59,Biden
+6295,HarrisX/Harris Poll,-0.6,21497,CON,40,Biden
+33146,High Point University,NA,3750,IND,45,Biden
+85972,SoCal Strategies,-0.9,6641,UNK,51,Biden
+47332,Survey Center on American Life,1.7,21468,IND,43,Trump
+46544,Marquette Law School,0.4,8470,PSL,48,Biden
+50882,Bendixen & Amandi International,-1.5,23680,PSL,52,Harris
+22882,Split Ticket,-1.1,11603,DEM,51,West
+54506,Metropolitan Research,-0.8,12593,DEM,49,Trump
+54863,ABC/Washington Post,-0.6,19725,LIB,53,Harris
+71082,J.L. Partners,-0.5,6285,LIB,41,Harris
+68206,Blueprint Polling,-1.2,16857,DEM,51,Trump
+57170,Hart/POS,0.3,21496,UNK,42,Biden
+25009,University of Massachusetts Lowell/YouGov,0.7,23239,GRE,33,Stein
+61566,Target Insyght,-1.3,787,PSL,55,Biden
+46382,Kaiser Family Foundation,0.2,9655,REP,54,Trump
+79596,Kaplan Strategies,-0.7,17928,GRE,48,Biden
+59973,NORC,-1.5,14250,REP,54,Biden
+11265,Patriot Polling,NA,17624,GRE,56,Kennedy
+66283,U. Massachusetts - Lowell,-0.8,1055,IND,46,Trump
+20166,WPAi,1.7,25321,PSL,58,Biden
+53567,Murphy Nasica & Associates,-0.1,7020,UNK,53,Biden
+65214,OnMessage Inc.,-0.6,5269,DEM,51,Biden
+22375,Benenson Strategy Group/GS Strategy Group,0.6,16181,OTH,57,Stein
+73268,Bendixen & Amandi International,0,1248,DEM,57,Biden
+87618,The Tyson Group,NA,22164,UNK,47,Trump
+77229,Slingshot Strategies,-0.4,17729,DEM,54,Biden
+86042,Hart/POS,1.7,2375,UNK,49,Biden
+87180,Texas Hispanic Policy Foundation,0.1,6159,LIB,52,Biden
+28794,Ohio Northern University Institute for Civics and Public Policy,-0.9,5407,IND,56,DeSantis
+16734,Global Strategy Group,-0.1,8000,DEM,65,West
+75561,BK Strategies,-1.5,16651,PSL,58,Trump
+30380,Washington Post/George Mason University,-0.3,1116,PSL,48,Trump
+174,Global Strategy Group,0.1,13167,REP,54,Harris
+73609,Quantus Insights,0,8490,GRE,54,Trump
+79426,SoCal Research,NA,22527,DEM,50,Kennedy
+31351,Embold Research,-1.3,17665,PSL,47,Kennedy
+6530,Fabrizio/Impact,-0.3,930,LIB,54,Biden
+39907,Iron Light,0.6,18172,OTH,50,Biden
+32525,Fabrizio Ward,-1.1,19478,LIB,49,Trump
+3476,Texas Lyceum,-0.9,5082,UNK,44,Trump
+66058,SurveyUSA/High Point University,-0.9,5856,CON,42,Stein
+55353,UpOne Insights/BSG,0.1,24230,REP,42,Harris
+38133,Hendrix College,-0.7,13365,CON,47,Kennedy
+57518,Dan Jones,-0.8,10735,REP,47,Oliver
+54571,Marquette Law School,-1.3,4334,OTH,51,Trump
+24574,SoonerPoll.com,NA,25967,UNK,53,Biden
+30678,SurveyMonkey,0.4,12545,GRE,50,Kennedy
+71006,Torchlight Strategies,0.3,15998,GRE,51,Trump
+69051,Suffolk,-0.6,416,REP,68,Trump
+12856,Kaplan Strategies,0.4,20607,PSL,46,Harris
+56810,Torchlight Strategies,0.6,3345,UNK,63,West
+53308,SSRS,-0.2,20922,UNK,48,Trump
+51560,American Pulse,-1,14544,DEM,49,Trump
+87929,Bendixen & Amandi International,-0.8,21409,DEM,60,Stein
+50024,Leger,0.3,26042,GRE,53,Stein
+68008,NORC,-0.5,8285,UNK,66,Trump
+67799,North Star Opinion Research,-0.5,11046,GRE,41,Biden
+40888,Chism Strategies,0.6,15289,CON,56,Newsom
+88234,Texas Hispanic Policy Foundation,-1,18527,DEM,51,Harris
+64032,USC Dornsife/CSU Long Beach/Cal Poly Pomona,0.7,25826,GRE,55,Biden
+31996,RMG Research,0,16271,IND,45,Biden
+25551,Clarity,-1.3,11662,PSL,44,Harris
+47465,Ohio Northern University Institute for Civics and Public Policy,-1.2,10375,CON,53,Biden
+20821,SurveyMonkey,-0.3,18637,PSL,41,Biden
+27845,National Research,-1.2,1825,DEM,48,Trump
+10450,Leger,-0.7,17287,OTH,39,Trump
+85339,Angus Reid,-0.2,10742,DEM,54,Trump
+61249,PureSpectrum,0.1,6520,REP,50,Biden
+34251,PureSpectrum,0.6,17022,DEM,60,Stein
+70953,Muhlenberg,-1.2,19233,DEM,58,Trump
+2874,Bullfinch,-1.3,15892,CON,49,Trump
+26319,U. North Florida,0.2,19005,IND,48,Stein
+64777,Global Strategy Group/North Star Opinion Research,-1.3,7698,DEM,40,Trump
+69696,Fabrizio/Impact,-0.2,20777,DEM,58,Biden
+68006,University of Delaware,-0.9,16325,OTH,44,Kennedy
+17711,Trafalgar Group/InsiderAdvantage,-0.7,20237,GRE,51,Kennedy
+37699,1983 Labs,0,9112,REP,54,Oliver
+45200,Innovative Research Group,-0.2,23388,REP,47,Biden
+56174,National Research,-0.6,19721,REP,56,Oliver
+83403,Arc Insights,-0.7,14320,UNK,51,West
+22942,ARW Strategies,NA,16973,UNK,50,Stein
+72094,University of Houston/Texas Southern University,-0.7,26163,PSL,51,Manchin
+17301,Winthrop U.,0.1,18111,LIB,40,Stein
+25261,"Cor Services, Inc.",-1.5,15261,LIB,47,Trump
+5723,Change Research,-1.3,25141,REP,49,Harris
+29866,USC Dornsife/CSU Long Beach/Cal Poly Pomona,-0.3,8695,REP,45,Biden
+5115,Capitol Weekly,-0.6,12728,LIB,62,Harris
+25231,Impact Research,-0.2,7053,CON,54,West
+71191,Meeting Street Insights,-0.4,16564,GRE,49,Trump
+51122,TIPP,-1.5,6344,IND,53,West
+35068,HarrisX/Harris Poll,-1.5,3975,OTH,52,Biden
+15702,Emerson,-0.3,8470,DEM,48,Trump
+13310,Gateway Political Strategies,-0.5,26198,CON,57,DeSantis
+18804,National Public Affairs,1.6,20596,REP,48,Trump
+35261,Global Strategy Group,-1.1,20306,PSL,48,Harris
+88522,YouGov/Center for Working Class Politics,-0.2,1260,GRE,46,Kennedy
+64938,WPAi,0.2,6311,REP,47,Harris
+57576,Cor Strategies,-0.6,16410,REP,59,Trump
+12241,UMass Amherst/YouGov,-1.2,9768,DEM,42,Trump
+66241,Split Ticket,-0.7,5420,DEM,55,Trump
+16332,Z to A Research,0.6,2908,CON,62,Stein
+34645,KAConsulting LLC,-0.2,14991,PSL,53,Kennedy
+70775,Hoffman Research,0.3,16026,DEM,54,Biden
+8339,CNN/SSRS,-1.5,508,REP,43,West
+76129,DHM Research,1.7,15231,LIB,53,West
+30657,J.L. Partners,-0.7,12281,REP,51,West
+88371,University of Maryland/Washington Post,-0.7,24941,REP,56,DeSantis
+1819,Global Strategy Group,-1.1,13276,GRE,56,Trump
+32102,Wick,-0.8,12465,PSL,40,Biden
+3172,Ipsos,-1.5,16997,UNK,50,Harris
+47695,GQR,-1.5,17051,LIB,60,Stein
+49871,Global Strategy Group,0.6,20159,PSL,34,Harris
+66935,KAConsulting LLC,0.6,10473,LIB,42,Trump
+80992,SoonerPoll.com,-0.9,5603,LIB,58,Biden
+56336,USC Dornsife/CSU Long Beach/Cal Poly Pomona,0.1,21883,UNK,47,Harris
+79452,SurveyUSA/High Point University,-0.3,8203,DEM,43,Biden
+37240,Iron Light,-0.8,4203,PSL,48,Harris
+57326,National Research,-1.5,25832,CON,61,Trump
+45367,Washington Post/George Mason University,-0.7,2059,DEM,48,Trump
+8735,SurveyMonkey,-0.8,15636,LIB,51,Stein
+16196,PPIC,-1,11611,GRE,46,Stein
+12518,National Public Affairs,-0.1,2003,OTH,50,Biden
+21356,Tarrance,-0.9,845,LIB,38,Stein
+40909,Kaplan Strategies,-0.2,11785,IND,47,Trump
+29455,St. Anselm,-0.9,11455,GRE,56,Oliver
+9055,McCourtney Institute/YouGov,1.7,25028,PSL,42,Trump
+24003,Civiqs,-0.6,15738,OTH,50,Biden
+9931,New Bridge Strategy/Aspect Strategic,0.7,3698,GRE,42,Kennedy
+5401,Fabrizio Ward,-0.8,3529,OTH,35,Biden
+12826,3W Insights,-1.3,933,IND,52,Harris
+84122,Spry Strategies,-0.4,11142,DEM,49,Kennedy
+47751,WPAi,-1,438,CON,58,Biden
+74820,Innovative Research Group,0,4784,LIB,50,Stein
+8361,U. Houston,-0.4,7731,CON,61,Kennedy
+34559,PPP,-0.7,18987,CON,47,Biden
+35303,Keating Research,-1.5,3458,CON,46,Trump
+74425,Differentiators,-0.5,10177,PSL,53,Harris
+10071,Cygnal,-0.9,17323,OTH,54,Cruz
+2752,Cygnal/Aspect Strategic,-1.3,24955,CON,41,Biden
+71946,ActiVote,1.6,16311,GRE,48,Trump
+73328,East Carolina University,-1,6949,DEM,48,Biden
+49698,Trafalgar Group,0.4,17157,DEM,55,West
+84735,McLaughlin,-0.7,23544,OTH,50,Harris
+17777,Remington,0.3,137,LIB,48,Biden
+33461,Gateway Political Strategies,0.2,25740,IND,50,Manchin
+62761,High Point University,0.2,14938,UNK,42,Trump
+4508,Causeway Solutions,-1,24987,LIB,59,Biden
+82760,Data for Progress,-0.7,12191,GRE,56,Biden
+17516,PureSpectrum,0.4,19421,REP,63,Harris
+27107,Suffolk,-0.2,21211,GRE,53,Trump
+33571,Benenson Strategy Group/GS Strategy Group,0,16299,OTH,52,Trump
+71771,Trafalgar Group/InsiderAdvantage,0.2,20567,LIB,51,Harris
+64623,Praecones Analytica,-0.8,6667,PSL,40,Harris
+28167,Pan Atlantic Research,NA,21460,DEM,45,Biden
+80969,Research & Polling,0.6,1436,DEM,44,Kennedy
+53663,OnMessage Inc.,-0.5,11323,GRE,45,Trump
+85186,Civiqs,0.4,15625,DEM,55,Stein
+26411,3W Insights,-1.1,22356,IND,46,DeSantis
+57585,MassINC Polling Group,-0.5,9301,OTH,56,Trump
+84735,Research & Polling,-0.5,11930,PSL,37,West
+68881,Fabrizio/GBAO,-1.1,20117,REP,56,Trump
+76290,SoCal Strategies,0.3,12780,CON,49,West
+81963,SSRS,0.3,16055,GRE,51,Biden
+87875,New Bridge Strategy/Aspect Strategic,1.6,1086,OTH,58,Trump
+70998,Premise,-0.2,10904,OTH,56,Oliver
+53486,Impact Research,-0.5,12669,GRE,47,Trump
+48221,University of Maryland/Washington Post,0.2,897,IND,53,Harris
+3298,Patriot Polling,-1.1,2801,DEM,47,Trump
+10735,Research America,-0.8,5513,LIB,47,Trump
+80880,Pew,-0.7,17365,REP,53,Harris
+37145,Capitol Weekly,-0.7,2559,CON,60,Trump
+12312,Bullfinch,-0.2,13424,LIB,40,West
+51107,Data for Progress,0.6,17403,PSL,48,Kennedy
+5367,Hunt Research,1.7,24575,PSL,57,Biden
+65972,Emerson,-0.8,21665,DEM,57,Oliver
+22513,EPIC/MRA,NA,1238,UNK,41,Kennedy
+47257,VCreek/AMG,0.3,24467,GRE,45,Trump
+44854,Data Orbital,-1.5,15982,IND,46,Trump
+61969,Civiqs,0.1,24940,CON,51,West
+15392,Prime Group,0.4,4711,REP,59,Stein
+19396,The Washington Post,-1.5,25350,LIB,65,Biden
+6572,Cor Strategies,0.7,2117,OTH,35,Trump
+51956,P2 Insights,-0.3,12792,GRE,47,Trump
+34044,Trafalgar Group,0.4,356,IND,55,DeSantis
+86742,VCreek/AMG,0.6,12528,UNK,46,Biden
+80233,Selzer,-1.5,12935,OTH,47,Stein
+69943,University of Texas at Tyler,-1.1,10153,OTH,48,Harris
+15155,Survey Center on American Life,-0.7,7348,LIB,57,Trump
+37144,CNN/SSRS,-0.9,24369,PSL,47,Stein
+18803,Civiqs,-1.3,6254,LIB,55,Trump
+54272,National Public Affairs,1.7,16310,OTH,52,Biden
+60864,Cor Strategies,0.7,18695,IND,48,Biden
+42140,Echelon Insights/GBAO,0,13031,CON,52,Harris
+57803,Research & Polling,-0.9,16112,OTH,53,Trump
+6669,The Tyson Group,-1.1,10845,REP,60,Harris
+69682,Bullfinch,1.7,3286,REP,49,Biden
+77146,University of Texas at Tyler,0.4,13983,GRE,45,Stein
+27453,Public Opinion Strategies,-0.1,16113,GRE,35,Kennedy
+14765,Suffolk,0.2,3520,REP,56,Harris
+68054,CWS Research,1.7,10056,PSL,53,Harris
+66629,The Washington Post,0.1,1628,LIB,58,West
+25516,"Cor Services, Inc.",0.1,23350,REP,49,Biden
+58737,Civiqs,0.2,20090,UNK,41,Kennedy
+41607,McLaughlin,-0.1,23225,PSL,63,Stein
+37172,SoCal Strategies,-1.1,3376,PSL,56,Kennedy
+69474,Impact Research,0.2,5729,DEM,41,Trump
+14938,Keating Research,0.1,5123,REP,49,Kennedy
+81218,Abacus Data,-0.3,7944,DEM,53,Biden
+43043,Abacus Data,-0.5,5214,REP,48,Trump
+47518,Kaplan Strategies,-0.5,23501,IND,45,Oliver
+35572,1892 Polling,0.2,1502,LIB,51,DeSantis
+15771,Digital Research,-1.3,1418,CON,41,Biden
+85940,P2 Insights,-0.7,10516,DEM,47,Biden
+20998,WPAi,-0.7,11167,GRE,51,West
+39765,DHM Research,-0.5,6716,REP,59,Trump
+74489,Gateway Political Strategies,-0.6,13971,OTH,58,Trump
+64522,Data Orbital,NA,8606,UNK,47,Harris
+84275,Echelon Insights,-0.4,26060,LIB,49,Kennedy
+24512,The Washington Post,0.2,11837,LIB,45,Harris
+62555,University of Massachusetts Lowell/YouGov,-0.2,5222,GRE,52,Biden
+23376,East Carolina University,-0.2,12197,IND,66,Harris
+69528,co/efficient,0.1,12364,OTH,66,Trump
+52716,Navigator,-1.2,13309,REP,50,Harris
+15191,Praecones Analytica,-0.6,21629,PSL,65,Stein
+3932,Glengariff Group Inc.,-0.4,415,GRE,50,Oliver
+63690,Emerson,0.2,9399,OTH,39,Stein
+19775,Gateway Political Strategies,-0.9,13920,LIB,52,Stein
+86362,Spry Strategies,-1,838,LIB,47,West
+46958,Navigator,-1.1,21077,LIB,45,Biden
+57746,Meeting Street Insights,0.3,4571,DEM,60,West
+43629,East Carolina University,0.2,22513,PSL,39,Trump
+1912,Kaplan Strategies,0.4,8,UNK,42,Trump
+71778,Harris Poll,0.7,15656,LIB,47,Trump
+60650,Arc Insights,0.1,25775,UNK,58,Oliver
+74655,Research Co.,-1.5,20239,IND,46,Trump
+57200,U. Massachusetts - Lowell,-1.1,18118,CON,43,Haley
+53330,SurveyUSA/High Point University,-0.2,12201,LIB,55,Biden
+18581,ARW Strategies,0.1,9303,OTH,41,Kennedy
+21284,Probolsky Research,0.4,23230,GRE,60,DeSantis
+84288,VCreek/AMG,-1,25168,CON,45,DeSantis
+62103,Data Orbital,0.2,4263,CON,46,Harris
+25192,UMBC,-0.8,6302,DEM,51,Trump
+58596,Research Co.,-0.2,21792,IND,45,Hogan
+48446,HarrisX,-1.3,2305,CON,44,Trump
+76804,USC Dornsife/CSU Long Beach/Cal Poly Pomona,0.7,14976,DEM,37,Biden
+63714,Tulchin Research,-0.4,12509,DEM,48,Harris
+13304,Research & Polling,1.6,798,UNK,46,Oliver
+11674,Focaldata,-0.6,3623,IND,59,Oliver
+27840,YouGov,0.6,12264,IND,47,Stein
+60007,Project Home Fire,-1.2,772,OTH,40,Harris
+8288,Lord Ashcroft Polls,-0.1,14604,GRE,44,Biden
+49708,Impact Research,-0.7,10925,UNK,49,Trump
+51230,ARW Strategies,-0.1,6247,CON,52,Trump
+66570,Fabrizio/GBAO,-0.1,5043,UNK,52,Trump
+37285,SurveyUSA/High Point University,-0.8,2298,REP,52,Trump
+37799,AtlasIntel,-0.4,22127,DEM,38,Trump
+69544,Slingshot Strategies,NA,23110,UNK,54,Harris
+17541,Quinnipiac,-0.6,16095,PSL,58,Trump
+59213,NewsNation/Decision Desk HQ,-0.5,13148,DEM,71,Shapiro
+6415,Praecones Analytica,-0.8,3011,OTH,40,Harris
+41924,Lake Research,0.2,20463,DEM,47,Biden
+3630,Focaldata,-0.2,3485,LIB,43,DeSantis
+32588,Targoz Market Research,-1,10985,OTH,44,Harris
+16585,ARW Strategies,-1,7029,GRE,45,Biden
+22365,NORC,-1,9539,GRE,53,Trump
+82471,PRRI,0.2,9708,PSL,50,Stein
+44635,Hart/POS,-0.6,18186,LIB,46,Trump
+69683,Hart Research Associates,-1.1,19754,CON,50,Harris
+19934,Abacus Data,-0.6,17735,CON,52,Trump
+50482,1983 Labs,-0.4,1103,CON,60,Biden
+65554,American Pulse,-1.3,17238,IND,43,Trump
+66586,MassINC Polling Group,-0.9,7062,LIB,48,Trump
+63926,Differentiators,-1,5813,GRE,55,Harris
+55187,VCreek/AMG,-1.2,7986,PSL,53,Trump
+65783,PPP,-0.3,15558,DEM,56,Biden
+57754,Capitol Weekly,-0.4,16938,PSL,65,Oliver
+82799,P2 Insights,NA,21850,CON,47,Trump
+60028,Fabrizio,-1,20335,DEM,43,Trump
+60542,Data for Progress,-1.3,25899,PSL,45,Trump
+5253,Probolsky Research,-0.1,13871,REP,43,Trump
+44511,Meredith College,-0.4,12482,IND,61,Harris
+53573,Prime Group,0.3,24205,LIB,48,Biden
+55063,Data Viewpoint,0,18260,UNK,48,Trump
+56330,Elway,0.7,13278,UNK,57,Trump
+56892,Suffolk,-1.1,19526,CON,40,Oliver
+81312,YouGov,-1.2,14415,OTH,49,Biden
+33600,Alaska Survey Research,1.7,11733,REP,47,Harris
+43375,SSRS,0.3,15615,PSL,40,Trump
+9056,Echelon Insights/GBAO,-0.4,24171,REP,39,Kennedy
+13541,Trafalgar Group/InsiderAdvantage,-1.1,23398,GRE,53,Kennedy
+36526,Axis Research,-0.2,8736,PSL,45,Harris
+15323,Rasmussen,-0.8,2636,UNK,48,Kennedy
+71780,YouGov/Center for Working Class Politics,1.7,18483,CON,61,Stein
+39753,SoCal Research,0.4,11469,REP,45,Harris
+77752,Big Village,1.6,25273,PSL,40,Trump
+45322,NewsNation/Decision Desk HQ,1.6,1134,REP,57,Biden
+48489,Cor Strategies,-1.3,11639,UNK,45,Trump
+58144,Fabrizio/Impact,0.3,23425,IND,47,West
+5553,Arc Insights,0,1684,OTH,63,Biden
+42334,Gateway Political Strategies,-1.3,21562,LIB,50,Oliver
+46322,Bowling Green State University/YouGov,-1.3,16577,DEM,46,DeSantis
+38015,Pan Atlantic Research,-1,15614,DEM,48,Harris
+71584,RMG Research,-0.4,23149,IND,46,Biden
+21293,Innovative Research Group,1.7,2500,DEM,45,Trump
+17581,Landmark Communications,-0.9,481,PSL,56,Biden
+13544,Gateway Political Strategies,0.3,17819,PSL,53,Harris
+12895,Bendixen & Amandi International,-0.1,5419,CON,48,Biden
+82342,HarrisX/Harris Poll,-1.1,1441,CON,40,Trump
+54096,Targoz Market Research,-1,24559,IND,49,Biden
+11186,Redfield & Wilton Strategies,NA,4572,LIB,43,Trump
+83066,YouGov Blue,0.2,21198,DEM,49,Biden
+41650,U. New Hampshire,-0.4,11381,GRE,48,West
+23905,USC Dornsife/CSU Long Beach/Cal Poly Pomona,0.4,14868,LIB,52,Trump
+66224,The Washington Post,-0.6,12622,GRE,58,Trump
+85995,U. New Hampshire,-0.5,2058,CON,33,Biden
+84124,Differentiators,-1.2,23942,REP,56,Stein
+86216,Fabrizio/Impact,-0.9,5252,PSL,57,Harris
+55305,HarrisX/Harris Poll,0.7,2196,OTH,55,Trump
+64537,PRRI,0.1,24951,IND,50,Trump
+57788,Cygnal,-0.8,22376,REP,42,Kishore
+77183,National Research,0.1,19535,PSL,52,DeSantis
+33915,InsiderAdvantage,0.7,24967,LIB,43,Oliver
+46943,SoCal Strategies,1.7,23768,REP,39,Harris
+80072,Manhattan Institute,1.6,8671,GRE,50,Harris
+80488,Fabrizio Ward,-0.5,22595,OTH,53,Biden
+54641,SoCal Research,0.1,24710,GRE,42,West
+44495,The Political Matrix/The Listener Group,-0.2,22338,CON,38,Harris
+43971,Quinnipiac,0.6,14984,LIB,58,Biden
+7080,The Political Matrix/The Listener Group,0.7,6910,GRE,47,Trump
+26203,McCourtney Institute/YouGov,0.7,18695,PSL,38,Trump
+16518,Fleming & Associates,-1.3,5004,PSL,51,DeSantis
+87077,The Tyson Group,0.2,7579,DEM,42,Trump
+23350,National Public Affairs,0.1,21455,IND,55,Harris
+31729,Research & Polling,0.4,6788,PSL,49,Trump
+30399,McLaughlin,-0.3,15073,DEM,47,Biden
+8657,Winthrop U.,NA,24847,OTH,43,Stein
+23482,Quantus Insights,-1.5,12890,GRE,41,DeSantis
+6402,CNN/SSRS,NA,17955,GRE,46,Biden
+24635,PEM Management Corporation,-0.5,21611,REP,46,Trump
+83680,Mitchell,-0.4,3300,UNK,57,Kennedy
+55010,SoCal Research,-1.3,12236,REP,69,Harris
+43702,Patriot Polling,-0.6,25574,IND,53,Biden
+78754,Washington Post/George Mason University,1.6,17278,CON,53,Biden
+13626,Zogby,0.4,14867,OTH,52,Harris
+5264,Washington Post/George Mason University,-0.7,19692,UNK,51,Harris
+8296,MassINC Polling Group,0.7,11175,LIB,34,Harris
+8403,Focaldata,0.4,9889,IND,54,Biden
+39232,AtlasIntel,-0.2,16004,DEM,50,Trump
+56264,Wick,-1.1,6601,UNK,39,Oliver
+46746,National Public Affairs,-0.4,5560,IND,51,Trump
+60980,InsiderAdvantage,-0.6,10912,IND,33,Trump
+2941,Gonzales Research & Media Services,-1.1,3531,IND,52,Trump
+3444,U. Massachusetts - Lowell,-0.7,3697,REP,40,DeSantis
+71343,Split Ticket,0.1,11429,GRE,54,Biden
+3590,NewsNation/Decision Desk HQ,1.7,20113,CON,48,Trump
+41091,Impact Research,-0.4,19631,REP,44,Trump
+9051,Zogby,-0.2,17122,REP,53,Trump
+31330,Global Strategy Group/North Star Opinion Research,1.7,21212,PSL,40,Harris
+26163,Research America,0.4,6141,UNK,44,Trump
+71868,Cor Strategies,0.3,24690,OTH,49,Biden
+82346,PureSpectrum,0.6,7173,DEM,53,Kennedy
+37669,Noble Predictive Insights,1.7,16723,REP,71,Trump
+49386,YouGov Blue,-0.7,7694,DEM,68,Biden
+22536,Strategies 360,-1.5,11310,REP,40,West
+75548,Noble Predictive Insights,1.6,2822,GRE,42,West
+34274,Emerson,-1.2,21439,IND,59,Trump
+19260,Siena/NYT,-1.3,18511,UNK,48,Biden
+51099,SSRS,-1.5,23809,PSL,50,Trump
+24066,PPP,0.7,5039,IND,45,Trump
+22285,Blueprint Polling,-0.1,18019,CON,54,Biden
+61299,"Cor Services, Inc.",-0.7,5338,CON,37,Trump
+31174,Big Village,-0.6,7866,CON,50,Trump
+51705,Target Insyght,-1,2616,REP,41,Trump
+68006,Split Ticket,0.6,25348,REP,57,Biden
+62602,Pan Atlantic Research,-0.4,2069,DEM,45,Stein
+30446,Hoffman Research,-0.8,20883,LIB,49,Biden
+82165,Quinnipiac,0.3,3942,LIB,49,Harris
+225,Cherry Communications,-1,16862,PSL,52,Manchin
+37050,Differentiators,-0.8,15851,UNK,58,Biden
+44414,Florida Atlantic University,1.7,15051,CON,42,Stein
+34782,Kaiser Family Foundation,-0.3,6566,IND,57,Trump
+1666,CWS Research,-1.1,24950,CON,53,Biden
+26721,John Zogby Strategies,-1,9008,LIB,54,Trump
+40982,Wick,0.3,11237,IND,52,Stein
+26864,Faucheux Strategies,0.7,9077,CON,40,Kennedy
+50574,Bullfinch,0.1,4638,GRE,46,Trump
+13926,Digital Research,0.4,13819,LIB,56,Trump
+60042,UpOne Insights/BSG,NA,20846,REP,59,Trump
+2404,American Pulse,-1.5,12539,OTH,41,Trump
+44716,Elway,-0.7,15878,LIB,57,Trump
+29620,Cherry Communications,-0.2,22698,REP,48,Trump
+14075,Susquehanna,-0.9,22863,REP,49,Biden
+55429,Susquehanna,-0.3,15014,UNK,42,DeSantis
+26715,Elway,-1,20353,GRE,45,Trump
+77590,VoteTXT,-1.5,23718,GRE,41,Kennedy
+26948,Virginia Commonwealth U.,-0.1,4697,PSL,43,Harris
+24158,Florida Atlantic University/Mainstreet Research,-0.5,6168,DEM,41,Biden
+60142,Keating Research,-0.4,959,GRE,55,Biden
+48183,KAConsulting LLC,-0.8,21027,GRE,67,Oliver
+23710,RMG Research,0.2,13263,REP,41,Biden
+36858,University of Houston/Texas Southern University,-0.1,2640,DEM,52,Stein
+72002,U. New Hampshire,-1.1,6856,IND,53,Trump
+47915,Winthrop U.,-1.2,6712,OTH,50,DeSantis
+60573,Ohio Northern University Institute for Civics and Public Policy,-1.3,16484,LIB,47,Harris
+75670,DHM Research,-1.2,553,CON,52,Kennedy
+72274,Fabrizio/McLaughlin,0.3,10850,OTH,44,Biden
+44502,Redfield & Wilton Strategies,-1.5,19408,IND,42,Stein
+3977,Outward Intelligence,0.7,20289,DEM,55,Whitmer
+16556,U. New Hampshire,-0.3,16042,LIB,44,Trump
+21636,U. Rhode Island,-0.7,25062,LIB,39,West
+1666,University of Maryland/Washington Post,1.7,18525,REP,53,Trump
+77977,Global Strategy Group,-0.2,5938,IND,45,Trump
+26383,Digital Research,0.1,13426,LIB,52,Trump
+13902,Victory Insights,0.6,17092,OTH,47,Biden
+55282,Peak Insights,-0.2,8137,IND,47,Biden
+31022,Gonzales Research & Media Services,-0.1,9975,UNK,44,Trump
+63258,North Star Opinion Research,-0.8,22342,DEM,51,Whitmer
+41159,Blueprint Polling,-1.3,10590,UNK,44,Biden
+67354,University of Houston/Texas Southern University,0.7,9123,GRE,46,Biden
+70357,Bullfinch,-1.1,498,DEM,54,Trump
+1517,High Point University,0.6,18874,PSL,43,Trump
+63427,SurveyMonkey,0.4,21286,IND,42,Harris
+88462,The Tyson Group,-1.2,7662,REP,42,Haley
+67063,PPIC,-0.6,19735,DEM,56,West
+81567,Noble Predictive Insights,0.4,206,GRE,39,Harris
+25310,Praecones Analytica,-0.6,25323,UNK,49,Biden
+71231,Victory Insights,-1,18248,DEM,46,Biden
+84930,Big Data Poll,0.2,917,REP,49,Harris
+21183,Digital Research,-0.1,1493,REP,58,Sununu
+11901,Torchlight Strategies,-1.3,14193,OTH,64,Biden
+22859,Texas Hispanic Policy Foundation,1.7,5955,DEM,42,Harris
+22750,Civiqs,1.7,19775,GRE,51,West
+21987,University of Delaware,-0.3,17868,DEM,39,Trump
+85873,UMBC,-0.1,923,UNK,45,Biden
+11798,Echelon Insights/GBAO,0,18271,OTH,41,Trump
+82496,1983 Labs,0.4,11215,PSL,47,Kennedy
+25072,Trafalgar Group,-0.7,7998,UNK,49,Stein
+9035,Zogby,-0.3,19253,PSL,52,Harris
+5637,Target Insyght,-0.6,1382,UNK,57,Trump
+87459,Selzer,-0.7,15155,GRE,49,Trump
+7257,AtlasIntel,-1.5,437,CON,44,Biden
+88684,Capitol Weekly,-0.2,8290,LIB,59,Trump
+48353,PureSpectrum,-0.8,12079,DEM,43,Biden
+88741,GS Strategy Group,0.4,21481,REP,57,Trump
+54555,Prime Group,0,13123,CON,35,Trump
+63916,Spry Strategies,-0.6,24756,OTH,44,Harris
+52395,Probolsky Research,1.6,8497,REP,46,Stein
+56275,ActiVote,0.6,18797,CON,46,Biden
+80735,Quinnipiac,-0.5,15481,REP,49,West
+75139,Angus Reid,0.3,11158,UNK,51,Biden
+32146,Arc Insights,-1.5,19556,OTH,47,Biden
+21831,Muhlenberg,-1.2,7109,PSL,63,Biden
+51995,Bendixen & Amandi International,-0.9,6960,REP,46,Trump
+3413,U. Rhode Island,-1,24489,UNK,61,Trump
+9267,KAConsulting LLC,-1.1,17059,UNK,44,Stein
+31399,J.L. Partners,-0.1,17269,DEM,59,Trump
+38391,John Zogby Strategies,1.7,13250,DEM,48,Harris
+35895,Strategies 360,-0.7,21153,IND,46,Kennedy
+4198,Fabrizio/McLaughlin,0.6,12702,IND,51,Trump
+54139,ABC/Washington Post,-1.5,24335,LIB,36,Biden
+68946,McLaughlin,-0.9,21170,GRE,55,Trump
+67216,Trafalgar Group,-0.5,23361,OTH,52,Stein
+44281,Hendrix College,-0.7,477,UNK,49,Biden
+25095,Muhlenberg,0.2,6078,OTH,61,Kennedy
+78199,Cygnal/Aspect Strategic,1.7,6469,REP,48,Biden
+56854,Premise,0.7,25739,GRE,42,Trump
+52832,PPIC,-0.9,22033,DEM,54,Oliver
+87130,Pan Atlantic Research,-0.1,8626,GRE,53,Trump
+49786,SurveyUSA,0.4,2222,GRE,48,Haley
+19470,Metropolitan Research,0.4,655,IND,54,Kennedy
+73259,Zogby,0,13123,PSL,49,Biden
+12262,Let's Preserve the American Dream,-0.1,26048,DEM,57,West
+60511,Split Ticket/Data for Progress,-1.5,21639,PSL,49,Trump
+20743,3W Insights,-0.3,4678,PSL,60,Biden
+86961,Ipsos,-0.9,8758,UNK,54,Trump
+13905,VCreek/AMG,0.6,6234,PSL,57,Biden
+56143,Peak Insights,-1.1,9597,UNK,50,Biden
+39899,East Carolina University,-1.1,3179,REP,47,Trump
+81505,Suffolk,-0.4,15131,CON,64,Biden
+78783,Fabrizio/McLaughlin,-0.7,25556,REP,45,Harris
+29934,SoCal Research,0.4,19422,OTH,51,Biden
+14945,RABA Research,-1.1,24028,UNK,51,Trump
+11318,McLaughlin,0.4,14532,IND,51,Trump
+70210,CNN/SSRS,1.6,1210,UNK,48,Biden
+61025,WPAi,0.6,7819,PSL,43,Kennedy
+71791,U. Georgia SPIA,-1,14091,CON,58,Trump
+47127,MRG (Marketing Resource Group),0.3,6599,GRE,50,Ramaswamy
+25560,Survey Center on American Life,-0.1,25925,UNK,41,Kennedy
+77562,co/efficient,1.6,24963,CON,54,Trump
+86341,Kaplan Strategies,-0.9,15998,DEM,46,Kennedy
+75396,Causeway Solutions,-0.8,22806,DEM,47,Biden
+12625,Digital Research,1.7,24034,IND,33,Trump
+2050,Morning Consult,0.7,21800,OTH,58,Buttigieg
+32678,BK Strategies,0.3,15221,UNK,56,Oliver
+17999,Echelon Insights,-1.1,16993,REP,57,Biden
+72162,Innovative Research Group,-0.2,18895,IND,42,Biden
+66905,Fleming & Associates,NA,19922,REP,46,Kennedy
+33643,AtlasIntel,0.7,19156,DEM,49,Kennedy
+41092,Schoen Cooperman,-0.3,17243,GRE,47,Harris
+74288,Quinnipiac,-1.1,8633,CON,57,Biden
+65566,ActiVote,0.6,10967,LIB,50,Trump
+17003,YouGov/Center for Working Class Politics,-0.7,6393,REP,45,Biden
+450,Wick,-0.3,24867,CON,60,Biden
+77500,Blueprint Polling,-0.4,725,LIB,54,Stein
+82500,Fabrizio/Impact,-0.5,3534,GRE,55,Trump

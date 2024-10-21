@@ -11,42 +11,57 @@
 
 #### Workspace setup ####
 library(tidyverse)
-set.seed(853)
+df <- read_csv("../data/01-raw_data/president_polls.csv")
 
+max_id <- max(df$poll_id)
+
+pollster <- unique(df$pollster)
+
+pollscore <- unique(df$pollscore)
+
+party <- unique(df$party)
+
+max_size <- max(df$sample_size, na.rm = TRUE)
+
+answer <- unique(df$answer)
+percentages <- prop.table(table(df$answer)) * 100 #percentages for each answer
+precentages <- as.numeric(percentages[match(answer, names(percentages))])  # Align with `answer`
 
 #### Simulate data ####
-# State names
-states <- c(
-  "New South Wales",
-  "Victoria",
-  "Queensland",
-  "South Australia",
-  "Western Australia",
-  "Tasmania",
-  "Northern Territory",
-  "Australian Capital Territory"
-)
+sim_size <- 2000
 
-# Political parties
-parties <- c("Labor", "Liberal", "Greens", "National", "Other")
+# Poll IDs
+sim_id <- sample(1:max_id, sim_size, replace = TRUE)
+
+# Pollster
+sim_pollster <- sample(pollster, sim_size, replace = TRUE)
+
+# PollScore
+sim_pollscore <- sample(pollscore, sim_size, replace = TRUE)
+
+# Party
+sim_party <- sample(party, sim_size, replace = TRUE)
+
+# Sample Size
+sim_sample_size <- sample(1:max_size, sim_size, replace = TRUE)
+
+# Percentage
+sim_pct <- pct <- rpois(2000, 50)
+
+# Answer
+sim_answer <- sample(answer, sim_size, replace = TRUE, prob = precentages)
 
 # Create a dataset by randomly assigning states and parties to divisions
-analysis_data <- tibble(
-  division = paste("Division", 1:151),  # Add "Division" to make it a character
-  state = sample(
-    states,
-    size = 151,
-    replace = TRUE,
-    prob = c(0.25, 0.25, 0.15, 0.1, 0.1, 0.1, 0.025, 0.025) # Rough state population distribution
-  ),
-  party = sample(
-    parties,
-    size = 151,
-    replace = TRUE,
-    prob = c(0.40, 0.40, 0.05, 0.1, 0.05) # Rough party distribution
-  )
-)
 
+sim_data <- tibble(
+  Poll_ID = sim_id,
+  Pollster = sim_pollster,
+  PollScore = sim_pollscore,
+  Sample_Size = sim_sample_size,
+  Party = sim_party,
+  PCT = sim_pct,
+  Answer = sim_answer
+  )
 
 #### Save data ####
-write_csv(analysis_data, "data/00-simulated_data/simulated_data.csv")
+write_csv(sim_data, "../data/00-simulated_data/simulated_data.csv")

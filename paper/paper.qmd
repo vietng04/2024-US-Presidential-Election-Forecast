@@ -196,6 +196,9 @@ Weaknesses and next steps should also be included.
 
 # Appendix {-}
 
+Discussion of the survey’s methodology (North York)
+
+Sample: a topline sample size of at least 100
 
 # Additional data details
 
