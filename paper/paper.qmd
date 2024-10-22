@@ -84,7 +84,7 @@ where $\beta_0$ is the intercept, $\beta_1$, $\beta_2$, $\beta_3$, $\beta_4$ are
 #| echo: false
 #| warning: false
 #| message: false
-model <- lm(pct ~ pollscore + sample_size + numeric_grade, data = raw_data)
+model <- lm(pct ~ pollscore + sample_size + numeric_grade, data = clean_data)
 summary(model)
 ```
 
