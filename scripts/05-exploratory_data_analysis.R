@@ -1,37 +1,37 @@
 #### Preamble ####
-# Purpose: Models... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Model the data to understand the data better before applying any predictive models or deeper analysis
+# Author: Yihang Xu
+# Date: 2 November 2024
+# Contact: joker.xu@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: No
+# Any other information needed? No
 
 
 #### Workspace setup ####
 library(tidyverse)
-library(rstanarm)
+library(ggplot2)
+library(dplyr)
+library(reshape2)
 
+set.seed(10086)
 #### Read data ####
-analysis_data <- read_csv("data/analysis_data/analysis_data.csv")
+NYT_data <- read_csv("/Users/xuyihang/Desktop/2024-US-Presidential-Election-Forecast-main/data/02-analysis_data/NYT_data.csv")
 
-### Model data ####
-first_model <-
-  stan_glm(
-    formula = flying_time ~ length + width,
-    data = analysis_data,
-    family = gaussian(),
-    prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
-    prior_intercept = normal(location = 0, scale = 2.5, autoscale = TRUE),
-    prior_aux = exponential(rate = 1, autoscale = TRUE),
-    seed = 853
-  )
+#### Model Data ####
+#Simple Linear Model to predict pollscore based on sample_size
+model <- lm(pollscore ~ sample_size, data = NYT_data)
+
+# Summary of the model
+summary(model)
+
+# Visualize model fit
+plot(NYT_data$sample_size, NYT_data$pollscore, main = "Sample Size vs Poll Score", xlab = "Sample Size", ylab = "Poll Score", pch = 19, col = "darkblue")
+abline(model, col = "red", lwd = 2)
 
 
 #### Save model ####
-saveRDS(
-  first_model,
-  file = "models/first_model.rds"
-)
+saveRDS(model, file = "pollscore_model.rds")
+
 
 
