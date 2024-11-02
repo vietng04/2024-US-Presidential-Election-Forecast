@@ -27,6 +27,7 @@ library(dplyr)
 library(knitr)
 
 clean_data <- read_csv("../data/01-raw_data/clean_data.csv")
+raw_data <- read_csv("../data/01-raw_data/president_polls.csv")
 nyt_data <- read_csv("../data/02-analysis_data/NYT_data.csv")
 ```
 
@@ -88,15 +89,13 @@ ggplot(clean_data, aes(x = answer, y = pct, fill = party)) +
 ```
 
 
-
 # Model
 
 In the 2024 U.S. Presidential Election Forecast Model, the percentage of voter support for a candidate, represented by the variable pct, is modeled as the response variable. The predictors in this model include the candidate's political affiliation (party), the size of the sample surveyed (sample_size), the rating of the pollster based on their historical accuracy (numeric_grade), and the geographic location of the poll, represented by the variable state. By incorporating these predictors, the model aims to account for both the qualitative and quantitative factors that influence polling outcomes. The party variable captures the effect of political affiliation on voter support, while sample_size adjusts for the variability in poll precision. Numeric_grade reflects the reliability of the pollster, and state introduces regional variations in voting preferences. This model structure enables a detailed analysis of the factors driving election polling percentages across different states and political contexts.
 
-
 ## Model set-up
 $$
-\text{pct} = \beta_0 + \beta_1 \cdot \text{pollscore} + \beta_2 \cdot \text{sample size} + \beta_3 \cdot \text{numeric grade} + \epsilon
+\text{pct} = \beta_0 + \beta_1 \cdot \text{pollscore} + \beta_2 \cdot \text{sample size} + \beta_3 \cdot \text{numeric grade} + \beta_4 \cdot \text{transparency score} + \epsilon
 $$
 where $\beta_0$ is the intercept, $\beta_1$, $\beta_2$, $\beta_3$, $\beta_4$ are the coefficients associated with the predictors, and $\epsilon$ represents the error term. This model accounts for both qualitative variables, like the party and state, as well as quantitative variables, such as sample size and pollster rating.
 
@@ -105,55 +104,72 @@ where $\beta_0$ is the intercept, $\beta_1$, $\beta_2$, $\beta_3$, $\beta_4$ are
 #| echo: false
 #| warning: false
 #| message: false
-model <- lm(pct ~ pollscore + sample_size + numeric_grade, data = clean_data)
-summary(model)
+trump_data <- raw_data %>% filter(candidate_name == "Donald Trump")
+trump_model <- lm(pct ~ pollscore + sample_size + numeric_grade + transparency_score, data = trump_data)
+summary(trump_model)
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+harris_data <- raw_data %>% filter(candidate_name == "Kamala Harris")
+harris_model <- lm(pct ~ pollscore + sample_size + numeric_grade + transparency_score, data = harris_data)
+summary(harris_model)
 ```
 
 
 # Results
+## Trump
+The model estimates the influence of several predictors on the dependent variable. The intercept is estimated at 48.56, indicating the baseline level of the dependent variable when all predictors are held at zero.
+
+Poll Score: The coefficient for the poll score is -2.232, which is statistically significant (p < 0.001). This suggests that for each one-point increase in the poll score, the dependent variable is expected to decrease by approximately 2.232 units, holding all other factors constant. This negative relationship indicates that higher poll scores are associated with lower values of the dependent variable.
+
+Sample Size: The coefficient for sample size is -0.0002085, also significant (p < 0.001). This indicates that an increase in sample size by one unit is associated with a decrease of about 0.0002085 units in the dependent variable. Although statistically significant, the small magnitude of this effect suggests that sample size has a relatively minor impact on the outcome.
+
+Numeric Grade: The numeric grade coefficient is -1.814, which is significant at the p < 0.001 level. This means that for every one-point increase in the numeric grade, the dependent variable decreases by about 1.814 units, again holding other factors constant. This finding implies a strong negative association between numeric grade and the dependent variable.
+
+Transparency Score: The transparency score has a coefficient of -0.0676, which is not statistically significant (p = 0.135). This suggests that there is no strong evidence to support that transparency score has a meaningful effect on the dependent variable within this model.
+
+
+## Harris
+The model investigates the impact of several predictors on the dependent variable, with the following key findings:
+
+Intercept: The intercept is estimated at 42.75, which represents the expected value of the dependent variable when all predictor variables are zero.
+
+Poll Score: The coefficient for the poll score is 1.629, with a p-value of 4.44e-05, indicating statistical significance at the p < 0.001 level. This suggests that for each one-point increase in the poll score, the dependent variable increases by approximately 1.629 units, holding all other variables constant. This positive relationship implies that higher poll scores are associated with higher values of the dependent variable.
+
+Sample Size: The coefficient for sample size is 0.0001457, which is also statistically significant (p = 0.00114). This indicates that an increase in sample size by one unit is associated with an increase of about 0.0001457 units in the dependent variable. Although significant, this effect size is relatively small.
+
+Numeric Grade: The numeric grade coefficient is 3.448, with a p-value of 2.35e-11, which is highly significant. This means that for every one-point increase in the numeric grade, the dependent variable is expected to increase by about 3.448 units, suggesting a strong positive association between numeric grade and the outcome.
+
+Transparency Score: The coefficient for the transparency score is -0.4207, and it is statistically significant (p = 6.70e-11). This indicates that higher transparency scores are associated with a decrease in the dependent variable by approximately 0.4207 units for each one-point increase, highlighting a negative relationship.
 
 
 # Discussion
+The analysis of the two models, one for Trump and the other for Harris, reveals distinct patterns in their predictor relationships and overall model performance, providing insights into their potential electoral outcomes.
 
+Model Comparisons
+Significance of Predictors:
 
-\newpage
+Trump’s Model: Key predictors such as poll score, sample size, and numeric grade all exhibit significant negative relationships with the dependent variable. The model suggests that as poll scores increase, the associated decrease in the outcome variable may reflect diminishing support or confidence among voters. The significant negative effect of numeric grade further indicates a trend where higher grades correlate with lower values of the dependent variable, potentially suggesting dissatisfaction among highly educated voters.
+Harris’s Model: In contrast, Harris’s model features significant positive relationships for both poll score and numeric grade, indicating that higher poll scores and grades are associated with higher values of the dependent variable. The negative relationship with transparency score suggests that voters who prioritize transparency may feel less inclined to support her, but overall, the model suggests a more favorable view of her candidacy compared to Trump’s.
+Model Fit:
 
+Trump’s model has a multiple R-squared of 0.03238, suggesting that only 3.24% of the variability in the dependent variable is explained. In comparison, Harris’s model has a higher multiple R-squared of 0.06257, indicating that about 6.26% of the variance is explained by her predictors. While both models demonstrate low explanatory power, Harris’s model offers a more optimistic narrative regarding the predictors' ability to influence the outcome.
+Magnitude of Effects:
 
-\appendix
+The coefficients in Harris’s model indicate more substantial effects of the predictors, particularly with numeric grade having a significant positive impact (3.448) compared to Trump’s negative impact (-1.814). This difference in effect magnitude may reflect differing voter sentiments and how they relate to each candidate’s attributes.
+Statistical Significance:
+
+Both models reveal highly significant p-values for several predictors, indicating that the relationships identified are statistically robust. However, the overall model significance is more pronounced in Harris’s model, particularly in light of the lower R-squared values for both models.
+Likely Outcome
+Considering the predictors and their implications for voter sentiment, Harris appears to have the upper hand in this analysis. The positive associations with poll scores and numeric grades in her model suggest a stronger alignment with voter preferences. Additionally, the higher R-squared value and overall model fit imply that her candidacy resonates more favorably with the electorate.
+
+Moreover, the contrast in the effect of the transparency score could indicate differing voter priorities. Harris’s potential appeal to voters valuing transparency may be a double-edged sword, yet it underscores a critical difference in how the two candidates are perceived regarding their public image.
 
 # Appendix {-}
-
-# Discussion of the survey’s methodology of Siena/NYT
-
-## Population, Frame, and Sample
-
--Population:
-
--Frame:
-
--Sample:
-a topline sample size of at least 100
-
-
-## Sample Recruitment Method
-
-## Sampling Approach's trade-offs
-
--Strengths:
-
--Weaknesses:
-
-
-## How is non-response handled
-
-## What is good and bad about the questionnaire
-
-### Advantages
-
-### Disadvantages
-
-
-\newpage
 
 
 # References
