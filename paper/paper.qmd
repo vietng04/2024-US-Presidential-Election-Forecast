@@ -10,6 +10,8 @@ date: today
 date-format: long
 abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
 format: pdf
+toc: true
+toc-title: "Table of Contents"
 number-sections: true
 bibliography: references.bib
 ---
@@ -24,8 +26,8 @@ library(readr)
 library(dplyr)
 library(knitr)
 
-clean_data <- read.csv("/Users/nguyenviet/Documents/term-paper-2/data/01-raw_data/clean_data.csv")
-
+clean_data <- read_csv("../data/01-raw_data/clean_data.csv")
+nyt_data <- read_csv("../data/02-analysis_data/NYT_data.csv")
 ```
 
 
@@ -37,10 +39,24 @@ Key factors, such as pollster transparency scores, polling population characteri
 
 # Data {#sec-data}
 
+```{r}
+#| echo: false
+#| eval: true
+#| label: tbl-cleaned_data
+#| tbl-cap: "Sample Cleaned Data"
+#| warning: false
+
+clean_data |>
+  head(5) |>
+  kable(col.names = c("Pollster","Display Name","Pollster Rating ID","Grade","Poll Score", "Transparency Score","State","Start Date","End_Date", "Sample Size", "Election Date", "Party", "Answer","Candidate Name","Percentage"),
+    booktabs = TRUE
+  )
+
+```
 
 ```{r}
-#| label: fig-bills
-#| fig-cap: Bills of penguins
+#| label: fig-distribution_Answers
+#| fig-cap: Distribution of Answers
 #| echo: false
 #| warning: false
 #| message: false
@@ -52,7 +68,7 @@ ggplot(clean_data, aes(x = answer)) +
 ```
 
 ```{r}
-#| label: fig-planes
+#| label: fig-histrpct
 #| fig-cap: Relationship between wing length and width
 #| echo: false
 #| warning: false
@@ -92,14 +108,43 @@ summary(model)
 # Results
 
 
-
 # Discussion
+
 
 # Appendix {-}
 
-Discussion of the survey’s methodology (North York)
+# Discussion of the survey’s methodology of Siena/NYT
 
-Sample: a topline sample size of at least 100
+## Population, Frame, and Sample
+
+-Population:
+
+-Frame:
+
+-Sample:
+a topline sample size of at least 100
+
+
+## Sample Recruitment Method
+
+## Sampling Approach's trade-offs
+
+-Strengths:
+
+-Weaknesses:
+
+
+## How is non-response handled
+
+## What is good and bad about the questionnaire
+
+### Advantages
+
+### Disadvantages
+
+
+\newpage
+
 
 # References
 
