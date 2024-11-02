@@ -5,10 +5,10 @@ author:
   - Viet Nguyen
   - Yihang Xu
   - Doran Wang
-thanks: "Code and data are available at: [https://github.com/RohanAlexander/starter_folder](https://github.com/RohanAlexander/starter_folder)."
+thanks: "Code and data are available at: [https://github.com/vietng04/2024-US-Presidential-Election-Forecast](https://github.com/vietng04/2024-US-Presidential-Election-Forecast)."
 date: today
-date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+date-format: long 
+abstract: "This paper uses aggregate polling data and 'STH' modeling methods to predict the 2024 U.S. presidential election outcome. The Model use the factors related to the polls on Donald Trump’s support rate. The study also includes a deep-dive analysis of methodology on selected pollster, the New York Times (NYT), and then an idealized methodology and survey for predicting elections on a limited budget."
 format: pdf
 toc: true
 toc-title: "Table of Contents"
@@ -38,6 +38,10 @@ The 2024 U.S. Presidential Election Forecast Model aims to provide a comprehensi
 Key factors, such as pollster transparency scores, polling population characteristics, and election stages, are incorporated to ensure accuracy and relevance. By leveraging this data, the model can account for regional dynamics, partisan leanings, and shifts in voter sentiment, providing detailed insights into the evolving electoral landscape. This forecast model represents a data-driven approach to understanding the political climate as candidates navigate the road to the presidency.
 
 # Data {#sec-data}
+The data used in this paper came from the FiveThirtyEight [@fivethirtyeight2024]. Data were cleaned and analyzed using the open source statistical programming language R [@citeR]. Libraries `tidyverse` [@citeTidyverse], `janitor` [@Citejan], `knitr` [@citeknitr], and `dplyr` [@citedplyr] were used for simulating, cleaning and testing. Graphics were made using `ggplot2` [@citeGG].
+
+
+## Sample Data
 
 ```{r}
 #| echo: false
@@ -47,11 +51,12 @@ Key factors, such as pollster transparency scores, polling population characteri
 #| warning: false
 
 clean_data |>
+  select(1:5) |>      # Select the first 3 columns
   head(5) |>
-  kable(col.names = c("Pollster","Display Name","Pollster Rating ID","Grade","Poll Score", "Transparency Score","State","Start Date","End_Date", "Sample Size", "Election Date", "Party", "Answer","Candidate Name","Percentage"),
+  kable(
+    col.names = names(clean_data)[1:5],  # Automatically get the first 3 column names to match data
     booktabs = TRUE
   )
-
 ```
 
 ```{r}
@@ -63,20 +68,20 @@ clean_data |>
 
 ggplot(clean_data, aes(x = answer)) +
   geom_bar(fill = "red", color = "black") +
-  labs(title = "Distribution of Answers", x = "Answer", y = "Count") +
+  labs(x = "Answer", y = "Count") +
   theme_minimal()
 ```
 
 ```{r}
-#| label: fig-histrpct
-#| fig-cap: Relationship between wing length and width
+#| label: fig-histogram_pct
+#| fig-cap: Percentage of Support for Each Candidate
 #| echo: false
 #| warning: false
 #| message: false
 
 ggplot(clean_data, aes(x = answer, y = pct, fill = party)) +
   geom_bar(stat = "identity", color = "black") +
-  labs(title = "Percentage of Support for Each Candidate", x = "Candidate", y = "Percentage") +
+  labs( x = "Candidate", y = "Percentage") +
   theme_minimal() +
   scale_y_continuous(labels = scales::percent_format(scale = 1)) + # Converts y-axis to percentage format
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) # Rotates x-axis labels
@@ -110,6 +115,11 @@ summary(model)
 
 # Discussion
 
+
+\newpage
+
+
+\appendix
 
 # Appendix {-}
 
