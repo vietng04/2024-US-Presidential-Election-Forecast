@@ -169,9 +169,211 @@ Considering the predictors and their implications for voter sentiment, Harris ap
 
 Moreover, the contrast in the effect of the transparency score could indicate differing voter priorities. Harris’s potential appeal to voters valuing transparency may be a double-edged sword, yet it underscores a critical difference in how the two candidates are perceived regarding their public image.
 
-# Appendix {-}
+# Appendix {1}
 
 
+# Appendix {2}
+Idealized Methodology and Survey for Forecasting the US Presidential Election
+
+1. Budget Allocation Overview
+
+With a total budget of $100K, the funds would be allocated as follows:
+
+Survey Design and Platform Costs: $5,000
+
+Respondent Recruitment (Incentives and Advertising): $60,000
+
+Sampling Management and Data Validation: $15,000
+
+Analysis and Poll Aggregation Infrastructure: $10,000
+
+Contingency and Miscellaneous Costs: $10,000
+
+2. Sampling Approach
+
+Target Population: The target population would be registered voters across the United States, ensuring representation from different demographics including age, gender, ethnicity, and political affiliation.
+
+Sampling Method:
+
+Stratified Random Sampling: To ensure proportional representation of various subgroups (e.g., regions, demographics), we will divide the population into strata and randomly select respondents from each stratum.
+
+Sample Size: The goal is to survey 10,000 respondents to maintain a balance between precision and budget constraints.
+
+Recruitment Strategy:
+
+Online Panels: Use reputable online survey panels to reach diverse respondents.
+
+Targeted Advertising: Run social media and digital ads to recruit additional respondents, particularly in underrepresented areas.
+
+Incentives: Offer monetary incentives (e.g., $5 per respondent) to increase participation.
+
+3. Data Validation
+
+To maintain data integrity, the following checks will be implemented:
+
+Response Quality Control: Implement screening questions and attention checks to ensure respondents are engaged.
+
+IP Address Monitoring: Ensure unique responses by blocking multiple submissions from the same IP address.
+
+Completion Time Analysis: Flag responses that fall outside reasonable time frames (e.g., completed too quickly).
+
+Ethical Considerations: All data will be collected anonymously, and respondents will be informed of their rights, including the right to withdraw from the survey at any time. Personal data will not be shared or used beyond the scope of this survey.
+
+4. Poll Aggregation and Methodology
+
+Weighting: Apply post-stratification weighting based on census data to ensure the sample aligns with the US voter demographics.
+
+Error Margin and Confidence Intervals: Report results with a calculated margin of error (typically around ±3%) and a 95% confidence interval.
+
+Aggregation of Poll Results: Collect and combine data from multiple waves of polling to smooth out any anomalies and better predict trends.
+
+Adjustments for Non-Response Bias: Implement statistical adjustments to account for known biases in survey responses.
+
+5. Implementation Platform
+
+The survey will be hosted on Google Forms to streamline data collection and integration. A direct link to the live survey is included below:
+
+Access the Survey Here: https://docs.google.com/forms/d/e/1FAIpQLSclP877Z1gT9nANFAUPrOz_K6IV6HOQXicb_cL0gwPRzhzpJw/viewform?usp=sf_link
+
+6. Survey Copy
+
+Below is a more comprehensive sample of the survey questions:
+
+Survey Title: US Presidential Election 2024: Voter Opinion and Key Issues Survey
+
+Introduction: Thank you for participating in our comprehensive survey on the upcoming US presidential election. Your responses are vital for understanding public sentiment and will remain confidential. Participation is voluntary, and you may skip any question or withdraw at any time.
+
+1. Are you a registered voter?
+
+Yes
+
+No
+
+2. Which state do you reside in?
+
+3. What is your age group?
+
+18-24
+
+25-34
+
+35-44
+
+45-54
+
+55-64
+
+65+
+
+4. Which racial or ethnic group(s) do you identify with? (Select all that apply)
+
+White/Caucasian
+
+Black/African American
+
+Hispanic/Latino
+
+Asian/Pacific Islander
+
+Native American
+
+Other (please specify)
+
+Prefer not to say
+
+5. What is your highest level of education?
+
+Less than high school
+
+High school diploma or GED
+
+Some college, no degree
+
+Associate degree (e.g., AA, AS)
+
+Bachelor’s degree (e.g., BA, BS)
+
+Master’s degree (e.g., MA, MS, MEd)
+
+Professional degree (e.g., JD, MD)
+
+Doctoral degree (e.g., PhD, EdD)
+
+Prefer not to say
+
+6. What is your gender?
+
+Male
+
+Female
+
+Non-binary/Third gender
+
+Prefer not to say
+
+7. Which candidate do you currently intend to vote for in the upcoming presidential election?
+
+Kamala Harris
+
+Donald Trump
+
+Other
+
+Undecided
+
+8. What is your political affiliation?
+
+Democrat
+
+Republican
+
+Independent
+
+Other
+
+Prefer not to say
+
+9. How confident are you in your choice for the presidential election?
+
+Very confident
+
+Somewhat confident
+
+Not very confident
+
+Not confident at all
+
+10. What is the most important issue influencing your vote? (Choose the top 3)
+
+Healthcare
+
+Economy
+
+Immigration
+
+Climate Change
+
+Education
+
+National Security
+
+Social Justice
+
+Other (please specify)
+
+11. How often do you follow news and updates about the election?
+
+Daily
+
+Weekly
+
+Occasionally
+
+Rarely
+
+Never
+
+End of Survey: Thank you for your time and valuable input. Your responses will contribute significantly to our understanding of public opinion regarding the upcoming presidential election.
 # References
 
 
