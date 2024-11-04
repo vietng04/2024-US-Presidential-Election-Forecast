@@ -1,37 +1,51 @@
 #### Preamble ####
-# Purpose: Models... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 11 February 2023 [...UPDATE THIS...]
-# Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
+# Purpose: Models
+# Author: Yihang Xu
+# Date: 3 November 2024
+# Contact: joker.xu@mail.utoronto.ca
 # License: MIT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# Pre-requisites: No
+# Any other information needed? No
 
 
 #### Workspace setup ####
 library(tidyverse)
-library(rstanarm)
+library(readr)
+library(dplyr)
+library(knitr)
+library(arrow)
 
 #### Read data ####
-analysis_data <- read_csv("data/analysis_data/analysis_data.csv")
+nyt_data <- read_parquet("/Users/xuyihang/Desktop/1314520hh/2024-US-Presidential-Election-Forecast/data/02-analysis_data/NYT_data.parquet")
+cleaned_data <- read_parquet("/Users/xuyihang/Desktop/1314520hh/2024-US-Presidential-Election-Forecast/data/02-analysis_data/cleaned_data.parquet")
+model_data <- read_parquet("/Users/xuyihang/Desktop/1314520hh/2024-US-Presidential-Election-Forecast/data/02-analysis_data/model_data.parquet")
 
 ### Model data ####
-first_model <-
-  stan_glm(
-    formula = flying_time ~ length + width,
-    data = analysis_data,
-    family = gaussian(),
-    prior = normal(location = 0, scale = 2.5, autoscale = TRUE),
-    prior_intercept = normal(location = 0, scale = 2.5, autoscale = TRUE),
-    prior_aux = exponential(rate = 1, autoscale = TRUE),
-    seed = 853
-  )
+trump_data <- cleaned_data %>% filter(answer == "Trump")
+trump_model <- lm(pct ~ pollscore + sample_size + numeric_grade + transparency_score, data = trump_data)
+summary(trump_model)
 
+harris_data <- model_data %>% filter(answer == "Harris")
+harris_model <- lm(pct ~ pollscore + sample_size + numeric_grade + transparency_score, data = harris_data)
+summary(harris_model)
 
 #### Save model ####
+# Create the 'models' directory if it does not exist
+if (!dir.exists("models")) {
+  dir.create("models")
+}
+
+# Save the model
 saveRDS(
-  first_model,
-  file = "models/first_model.rds"
+  trump_model,
+  file = "models/trump_model.rds"
 )
+
+# Save the Harris model as well
+saveRDS(
+  harris_model,
+  file = "models/harris_model.rds"
+)
+
 
 
