@@ -325,7 +325,6 @@ The sampling frame is constructed from voter registration lists, which are compr
  - Sample:
 A stratified random sample is drawn from the voter registration lists, ensuring representation across key demographics such as age, gender, race, education, and geographic location.A topline sample size of at least 100 [@fivethirtyeightFAQ].
 
-
 ## Sample Recruitment Method
 Participants are recruited through a combination of landline and mobile phone calls(like the Methodology in @tbl-nyt_data). This dual approach addresses the decline in landline usage and aims to reach a broader demographic spectrum. The use of voter registration lists enhances the likelihood of contacting registered voters, thereby improving the sample's representativeness.
 
