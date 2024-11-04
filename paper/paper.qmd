@@ -76,40 +76,44 @@ Through these variables, real-world opinions, demographic factors, and subjectiv
 The response variable, pct, represents the percentage of positive support or approval for each candidate within a given poll or data sample. It quantifies the portion of respondents expressing favorable views or intentions to vote for the candidate. This variable is essential in assessing the candidates’ overall popularity and provides a measurable outcome that can be influenced by several predictors, such as poll score, sample size, numeric grade, and transparency score. A higher pct value indicates stronger support, while lower values suggest less favorable voter sentiment. Understanding the predictors’ impact on pct can offer valuable insights into factors driving public opinion and help to project likely election outcomes.
 
 ```{r}
-#| label: Distribution of Percentage
+#| label: fig-percentage
+#| fig-cap: Distribution of Percentage
 #| echo: false
 #| warning: false
 #| message: false
 ggplot(cleaned_data, aes(x = pct)) +
   geom_histogram(binwidth = 5, fill = "skyblue", color = "black") +
-  labs(title = "Distribution of Percentage", x = "Percentage (%)", y = "Frequency") +
+  labs(x = "Percentage (%)", y = "Frequency") +
   theme_minimal()
 ```
 
 ## Predictors variable
 The transparency score is a predictor variable that reflects the level of openness, honesty, and accessibility perceived in a candidate’s campaign or governance approach. This score typically evaluates factors like the availability of public records, clarity in policy positions, accountability to voters, and the perceived integrity of the candidate. Higher transparency scores generally suggest a campaign or candidate who is more forthcoming with information and responsive to public scrutiny, which can enhance public trust. However, transparency does not always translate to higher support; it may appeal to certain voter demographics while alienating others who prioritize different traits, such as assertiveness or policy efficiency. In the models for both Trump and Harris, transparency score showed different effects, indicating it might play a nuanced role in influencing overall voter support and trust in each candidate’s leadership style.
+
 ```{r}
 #| label: fig-distribution_transparency_score
+#| fig-cap: Distribution of transparency score
 #| echo: false
 #| warning: false
 #| message: false
 ggplot(cleaned_data, aes(x = transparency_score)) +
   geom_histogram(binwidth = 2, fill = "skyblue", color = "black") +
-  labs(title = "Distribution of transparency score", x = "transparency score", y = "Frequency") +
+  labs(x = "transparency score", y = "Frequency") +
   theme_minimal()
 ```
 
 Sample size and poll score are key predictor variables that help gauge the reliability and context of each poll’s findings. Sample size represents the number of respondents participating in the poll, with larger sample sizes generally providing more reliable estimates of the population's opinion due to a lower margin of error. When sample size is small, the results may be more volatile and less reflective of the general public. Meanwhile, poll score is an indicator of each candidate's popularity or approval rating within the specific poll, often presented as a numeric score that reflects the overall support level among respondents. A higher poll score indicates stronger support, while a lower score suggests less favorable sentiment. Together, sample size and poll score give insight into the strength and representativeness of the candidate's support in each dataset; they reveal how solid and widespread the approval may be, influencing interpretations of the candidate’s standing and potential for success in a larger electoral context.
 
 ```{r}
-#| label: Poll Score by Sample Size and Transparency Score
+#| label: fig-poll_score
+#| fig-cap: Poll Score by Sample Size and Transparency Score
 #| echo: false
 #| warning: false
 #| message: false
 ggplot(cleaned_data, aes(x = sample_size, y = pollscore)) +
   geom_point(aes(color = transparency_score)) +
   facet_wrap(~ numeric_grade) +
-  labs(title = "Poll Score by Sample Size and Transparency Score", x = "Sample Size", y = "Poll Score", color = "Transparency Score") +
+  labs(x = "Sample Size", y = "Poll Score", color = "Transparency Score") +
   theme_minimal()
 ```
 
