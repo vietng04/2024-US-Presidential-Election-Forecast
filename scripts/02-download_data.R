@@ -23,5 +23,6 @@ clean_data <- raw_data |> select(pollster, display_name,
                                  party, answer, candidate_name, pct) %>%
   filter(pollster=="Siena/NYT") %>% filter(!is.na(state))
 
+
 #### Save data ####
 write_csv(clean_data, "data/01-raw_data/clean_data.csv")

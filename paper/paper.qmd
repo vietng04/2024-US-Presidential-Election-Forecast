@@ -43,7 +43,7 @@ Key factors, such as pollster transparency scores, polling population characteri
 # Data {#sec-data}
 The data used in this paper came from the FiveThirtyEight [@fivethirtyeight2024]. Data were cleaned and analyzed using the open source statistical programming language R [@citeR]. Libraries `tidyverse` [@citeTidyverse], `janitor` [@Citejan], `knitr` [@citeknitr], and `dplyr` [@citedplyr] were used for simulating, cleaning and testing. Graphics were made using `ggplot2` [@citeGG].
 
-## Sample Data
+## Sample Clean Data
 
 ```{r}
 #| echo: false
@@ -53,14 +53,15 @@ The data used in this paper came from the FiveThirtyEight [@fivethirtyeight2024]
 #| warning: false
 
 cleaned_data |>
-  select(everything()) |>      # Select the first 3 columns
+  select(answer,pct,pollster,methodology,sample_size) |>      # Select the first 3 columns
   head(5) |>
   kable(
-    col.names = names(cleaned_data)[1:ncol(cleaned_data)],  # Automatically get the first 3 column names to match data
+    col.names = c("Answer","Percentage","Pollster","Methodology","Sample Size"),  # Automatically get the first 3 column names to match data
     booktabs = TRUE
   )
 ```
 
+The @tbl-cleaned_data shows the 5 of all colunms.
 
 # Model
 
@@ -213,32 +214,69 @@ Moreover, the contrast in the effect of the transparency score could indicate di
 
 # Discussion of the survey’s methodology of Siena/NYT
 
+```{r}
+#| echo: false
+#| eval: true
+#| label: tbl-nyt_data
+#| tbl-cap: "Sample Siena/NYT Data"
+#| warning: false
+
+nyt_data |>
+  select(everything()) |>
+  head(5) |>
+  kable(
+    col.names = c("Pollster","Methodology","Population","Sample Size","Grade Rating","Pollscore"),
+    booktabs = TRUE
+  )
+```
+
+## Background and Intro
+The New York Times/Siena College Poll is a collaborative effort between The New York Times and the Siena College Research Institute, renowned for its methodological rigor and accuracy. The @tbl-nyt_data above shows sample data of Seina/NYT from clean data, which contains some useful information. According to FiveThirtyEight's pollster ratings, this partnership holds a 3.0-star rating as shown @tbl-nyt_data, indicating high reliability. Based on the section Methodological standards from FAQS of FiveThirtyEight[@fivethirtyeightFAQ], "Pollsters must also be able to answer basic questions about their methodology, including but not limited to the polling mode used (e.g., telephone calls, text messages, online panels), the source of their sample, their weighting criteria and the source of the poll's funding. In most cases, a detailed written methodology statement is sufficient to satisfy this criterion, but we may contact pollsters directly to clarify methodological details and follow up occasionally to ensure the pollster is still meeting our standards." Their data will ensure that pollsters maintain methodological standards. More specific details about NYT/SEINA's methodology are discussed below.
+
 ## Population, Frame, and Sample
+ - Population:
+The target population comprises likely voters in the United States, focusing on those eligible and expected to participate in the upcoming election.
 
--Population:
+ - Frame:
+The sampling frame is constructed from voter registration lists, which are comprehensive databases of registered voters across various states.
 
--Frame:
-
--Sample:
-a topline sample size of at least 100
+ - Sample:
+A stratified random sample is drawn from the voter registration lists, ensuring representation across key demographics such as age, gender, race, education, and geographic location.A topline sample size of at least 100 [@fivethirtyeightFAQ].
 
 
 ## Sample Recruitment Method
+Participants are recruited through a combination of landline and mobile phone calls(like the Methodology in @tbl-nyt_data). This dual approach addresses the decline in landline usage and aims to reach a broader demographic spectrum. The use of voter registration lists enhances the likelihood of contacting registered voters, thereby improving the sample's representativeness.
+
 
 ## Sampling Approach's trade-offs
 
--Strengths:
+### Advantages
+Enhances representativeness by ensuring all key subgroups are included.
+Improves precision in estimates for specific subpopulations.
 
--Weaknesses:
+### Disadvantages
+More complex and time-consuming compared to simple random sampling.
+Requires accurate and up-to-date information on the stratification variables.
+Handling Non-Response:
 
 
 ## How is non-response handled
+Non-response is addressed through weighting adjustments. Post-stratification weights are applied to align the sample with known population parameters, such as age, gender, race, and education. This process mitigates biases arising from differential response rates among various demographic groups.
+
 
 ## What is good and bad about the questionnaire
 
 ### Advantages
+ - Questions are crafted to be clear and unbiased, minimizing misinterpretation.
+The questionnaire covers a broad range of topics, providing comprehensive insights into voter opinions.
 
 ### Disadvantages
+ - The length of the questionnaire may lead to respondent fatigue, potentially affecting the quality of responses
+ - The mode of administration (telephone interviews) might introduce social desirability bias, where respondents provide answers they perceive as socially acceptable rather than their true beliefs.
+
+## Summary
+Overall, the New York Times/Siena College Poll employs robust methodologies to ensure accurate and reliable insights into voter preferences and behaviors.
+
 
 # The idealized Methodology and Survey of forecasting the US presidential election
 Idealized Methodology and Survey for Forecasting the US Presidential Election
@@ -301,7 +339,7 @@ Adjustments for Non-Response Bias: Implement statistical adjustments to account 
 
 The survey will be hosted on Google Forms to streamline data collection and integration. A direct link to the live survey is included below:
 
-Access the Survey Here: https://docs.google.com/forms/d/e/1FAIpQLSclP877Z1gT9nANFAUPrOz_K6IV6HOQXicb_cL0gwPRzhzpJw/viewform?usp=sf_link
+Access the Survey Here: [US Presidential Election 2024: Voter Opinion and Key Issues Survey](https://docs.google.com/forms/d/e/1FAIpQLSclP877Z1gT9nANFAUPrOz_K6IV6HOQXicb_cL0gwPRzhzpJw/viewform?usp=sf_link)
 
 6. Survey Copy
 
@@ -371,80 +409,83 @@ Introduction: Thank you for participating in our comprehensive survey on the upc
 
   Q6. What is your gender?
 
-    Male
+  \hspace{1cm}  Male
 
-    Female
+  \hspace{1cm}  Female
 
-    Non-binary/Third gender
+  \hspace{1cm}  Non-binary/Third gender
 
-    Prefer not to say
+  \hspace{1cm}  Prefer not to say
 
  Q7. Which candidate do you currently intend to vote for in the upcoming presidential election?
 
-    Kamala Harris
+  \hspace{1cm} Kamala Harris
 
-    Donald Trump
+  \hspace{1cm}  Donald Trump
 
-    Other
+  \hspace{1cm} Other
 
-    Undecided
+  \hspace{1cm}  Undecided
 
   Q8. What is your political affiliation?
 
-    Democrat
+  \hspace{1cm} Democrat
 
-    Republican
+  \hspace{1cm} Republican
 
-    Independent
+  \hspace{1cm}  Independent
 
-    Other
+  \hspace{1cm}  Other
 
-    Prefer not to say
+  \hspace{1cm}  Prefer not to say
 
   Q9. How confident are you in your choice for the presidential election?
 
-    Very confident
+  \hspace{1cm}  Very confident
 
-    Somewhat confident
+  \hspace{1cm}  Somewhat confident
     
-    Not very confident
+  \hspace{1cm}  Not very confident
 
 Not confident at all
 
   Q10. What is the most important issue influencing your vote? (Choose the top 3)
 
-    Healthcare
+  \hspace{1cm}  Healthcare
 
-    Economy
+  \hspace{1cm}  Economy
 
-    Immigration
+  \hspace{1cm}    Immigration
 
-    Climate Change
+  \hspace{1cm}  Climate Change
 
-    Education
+  \hspace{1cm}  Education
   
-    National Security
+  \hspace{1cm}  National Security
 
-    Social Justice
+  \hspace{1cm}  Social Justice
 
-    Other (please specify)
+  \hspace{1cm}  Other (please specify)
 
   Q11. How often do you follow news and updates about the election?
 
-    Daily
+  \hspace{1cm}  Daily
     
-    Weekly
+  \hspace{1cm}  Weekly
     
-    Occasionally
+  \hspace{1cm}  Occasionally
     
-    Rarely
+  \hspace{1cm}  Rarely
     
-    Never
+  \hspace{1cm}  Never
 
-End of Survey: Thank you for your time and valuable input. Your responses will contribute significantly to our understanding of public opinion regarding the upcoming presidential election.
+ End of Survey: Thank you for your time and valuable input. Your responses will contribute significantly to our understanding of public opinion regarding the upcoming presidential election.
+
 
 
 \newpage
+
+
 
 # References
 

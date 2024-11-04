@@ -16,14 +16,15 @@ raw_data <- read_csv("data/01-raw_data/president_polls.csv")
 cleaned_data <-
   raw_data |>
   janitor::clean_names() |>
-  select(answer, pct, pollster, methodology, population, population_full, sample_size, numeric_grade, pollscore, party,transparency_score) |>
+  select(answer, pct, pollster, methodology, population, sample_size, 
+         numeric_grade, pollscore, party,transparency_score,end_date) |>
   tidyr::drop_na()
   
 #### Clean data with "NYT" pollster only ####
 NYT_data <-
-  raw_data |>
+  cleaned_data |>
   janitor::clean_names() |>
-  select(pollster,methodology,population,population_full,sample_size,numeric_grade,pollscore) |>
+  select(pollster,methodology,population,sample_size,numeric_grade,pollscore) |>
   filter(pollster == "Siena/NYT") |>
   tidyr::drop_na()
 
