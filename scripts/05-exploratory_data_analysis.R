@@ -16,7 +16,7 @@ library(reshape2)
 
 set.seed(10086)
 #### Read data ####
-NYT_data <- read_csv("/Users/xuyihang/Desktop/2024-US-Presidential-Election-Forecast-main/data/02-analysis_data/NYT_data.csv")
+NYT_data <- read_csv("data/02-analysis_data/NYT_data.csv")
 
 #### Model Data ####
 #Simple Linear Model to predict pollscore based on sample_size
