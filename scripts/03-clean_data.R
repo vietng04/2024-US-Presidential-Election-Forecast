@@ -1,10 +1,13 @@
 #### Preamble ####
 # Purpose: Cleans the president polls data
-# Author: 
-# Date:
-# Contact: 
+# Author: Doran Wang
+# Date: 21 October 2024
+# Contact: doran.wang@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: Access to the president_polls.csv first
+# Any other information needed? Make sure you are in the 
+  #`2024_US_Presidential_Election_Forecast` rproj
+
 
 #### Workspace setup ####
 library(tidyverse)
