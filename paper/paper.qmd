@@ -60,6 +60,75 @@ cleaned_data |>
     booktabs = TRUE
   )
 ```
+## Measurement
+In the data section, a thorough discussion of measurement is essential to clarify how real-world phenomena are represented as entries within the dataset. For this dataset, the primary variables, including pct (percentage support), poll score, sample size, numeric grade, and transparency score, all serve as quantifiable indicators of complex social and political sentiments or behaviors.
+
+Each entry in the dataset captures a snapshot of voter sentiment for a candidate within a specific poll. The pct variable measures the proportion of poll respondents who support a candidate, translating public approval into a concrete percentage that reflects their popularity. This measurement begins with a real-world event (a poll survey), where respondents answer questions indicating their voting intentions. These responses are aggregated to create a support percentage, pct, which becomes an entry in the dataset.
+
+Similarly, poll score reflects an additional standardized metric of support and is often calculated by polling agencies using a combination of raw support data and weighting based on demographic or political factors. The sample size variable records the number of respondents in each poll, giving context to the robustness of each poll’s data. Larger sample sizes indicate a broader cross-section of public opinion, lending greater credibility to the findings, while smaller samples may reflect more niche or variable groups.
+
+For numeric grade, experts or rating agencies assign a score based on the candidate's perceived qualifications and performance, creating a quantifiable indicator that reflects subjective evaluations. These evaluations are derived from real-world assessments of a candidate’s leadership, expertise, and public image. Transparency score measures the perceived openness of a candidate’s communication, where third-party assessments, or even voter ratings, can be collected and standardized into a numeric value representing public trust or perceived honesty.
+
+Through these variables, real-world opinions, demographic factors, and subjective assessments are transformed into measurable data points that allow for analysis and comparison. Each entry represents a combination of individual-level opinions and expert evaluations, providing a structured view of candidate support across diverse groups and contexts. This approach ensures that complex social and political phenomena are systematically captured and made accessible for further investigation.
+
+## Response variable
+
+The response variable, pct, represents the percentage of positive support or approval for each candidate within a given poll or data sample. It quantifies the portion of respondents expressing favorable views or intentions to vote for the candidate. This variable is essential in assessing the candidates’ overall popularity and provides a measurable outcome that can be influenced by several predictors, such as poll score, sample size, numeric grade, and transparency score. A higher pct value indicates stronger support, while lower values suggest less favorable voter sentiment. Understanding the predictors’ impact on pct can offer valuable insights into factors driving public opinion and help to project likely election outcomes.
+
+```{r}
+#| label: Distribution of Percentage
+#| echo: false
+#| warning: false
+#| message: false
+ggplot(cleaned_data, aes(x = pct)) +
+  geom_histogram(binwidth = 5, fill = "skyblue", color = "black") +
+  labs(title = "Distribution of Percentage", x = "Percentage (%)", y = "Frequency") +
+  theme_minimal()
+```
+
+## Predictors variable
+The transparency score is a predictor variable that reflects the level of openness, honesty, and accessibility perceived in a candidate’s campaign or governance approach. This score typically evaluates factors like the availability of public records, clarity in policy positions, accountability to voters, and the perceived integrity of the candidate. Higher transparency scores generally suggest a campaign or candidate who is more forthcoming with information and responsive to public scrutiny, which can enhance public trust. However, transparency does not always translate to higher support; it may appeal to certain voter demographics while alienating others who prioritize different traits, such as assertiveness or policy efficiency. In the models for both Trump and Harris, transparency score showed different effects, indicating it might play a nuanced role in influencing overall voter support and trust in each candidate’s leadership style.
+```{r}
+#| label: fig-distribution_transparency_score
+#| echo: false
+#| warning: false
+#| message: false
+ggplot(cleaned_data, aes(x = transparency_score)) +
+  geom_histogram(binwidth = 2, fill = "skyblue", color = "black") +
+  labs(title = "Distribution of transparency score", x = "transparency score", y = "Frequency") +
+  theme_minimal()
+```
+
+Sample size and poll score are key predictor variables that help gauge the reliability and context of each poll’s findings. Sample size represents the number of respondents participating in the poll, with larger sample sizes generally providing more reliable estimates of the population's opinion due to a lower margin of error. When sample size is small, the results may be more volatile and less reflective of the general public. Meanwhile, poll score is an indicator of each candidate's popularity or approval rating within the specific poll, often presented as a numeric score that reflects the overall support level among respondents. A higher poll score indicates stronger support, while a lower score suggests less favorable sentiment. Together, sample size and poll score give insight into the strength and representativeness of the candidate's support in each dataset; they reveal how solid and widespread the approval may be, influencing interpretations of the candidate’s standing and potential for success in a larger electoral context.
+
+```{r}
+#| label: Poll Score by Sample Size and Transparency Score
+#| echo: false
+#| warning: false
+#| message: false
+ggplot(cleaned_data, aes(x = sample_size, y = pollscore)) +
+  geom_point(aes(color = transparency_score)) +
+  facet_wrap(~ numeric_grade) +
+  labs(title = "Poll Score by Sample Size and Transparency Score", x = "Sample Size", y = "Poll Score", color = "Transparency Score") +
+  theme_minimal()
+```
+
+
+
+
+The numeric grade is a predictor variable that quantifies a candidate's perceived quality or effectiveness, often assigned by analysts or rating agencies based on various performance criteria. This score can encompass factors such as policy effectiveness, leadership skills, public speaking, and issue-specific expertise. A higher numeric grade suggests that the candidate is viewed favorably across these performance metrics, signaling a strong competency level. This metric can heavily influence voter support, as it provides a consolidated assessment of the candidate’s qualifications and perceived ability to fulfill public expectations. In the models for Trump and Harris, the numeric grade had differing impacts on the outcome variable, with a positive relationship in Harris's model and a negative one in Trump's. These contrasts suggest that voters' interpretations of "quality" or "effectiveness" may vary significantly between the candidates, affecting each one's appeal in distinct ways.
+
+```{r}
+#| label: Poll Score by Numeric Grade
+#| echo: false
+#| warning: false
+#| message: false
+ggplot(cleaned_data, aes(x = factor(numeric_grade), y = pollscore)) +
+  geom_boxplot(fill = "lightgreen") +
+  labs(title = "Poll Score by Numeric Grade", x = "Numeric Grade", y = "Poll Score") +
+  theme_minimal()
+
+```
 
 The @tbl-cleaned_data shows the 5 of all colunms.
 
@@ -104,7 +173,7 @@ summary(harris_model)
 #| message: false
 
 ggplot(cleaned_data %>% filter(answer %in% c("Trump", "Harris")), aes(x = answer)) +
-  geom_bar(fill = "black", color = "black") +
+  geom_bar(fill = "pink", color = "pink") +
   labs(x = "Answer", y = "Count") +
   theme_minimal()
 ```
@@ -117,11 +186,24 @@ ggplot(cleaned_data %>% filter(answer %in% c("Trump", "Harris")), aes(x = answer
 #| message: false
 
 ggplot(cleaned_data %>% filter(answer %in% c("Trump", "Harris")), aes(x = answer, y = pct, fill = party)) +
-  geom_bar(stat = "identity", color = "black") +
+  geom_bar(stat = "identity", color = "lightblue") +
   labs( x = "Candidate", y = "Percentage") +
   theme_minimal() +
   scale_y_continuous(labels = scales::percent_format(scale = 1)) + # Converts y-axis to percentage format
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) # Rotates x-axis labels
+```
+
+```{r}
+#| label: transparency score for each candidate
+#| fig-cap: Percentage of Support for Each Candidate
+#| echo: false
+#| warning: false
+#| message: false
+ggplot(cleaned_data, aes(x = answer, y = transparency_score, fill = answer)) +
+  geom_boxplot() +
+  labs(title = "Transparency Score by Candidate", x = "Candidate", y = "Transparency Score") +
+  theme_minimal() +
+  theme(legend.position = "none")
 ```
 
 ```{r}
@@ -242,7 +324,6 @@ The sampling frame is constructed from voter registration lists, which are compr
 
  - Sample:
 A stratified random sample is drawn from the voter registration lists, ensuring representation across key demographics such as age, gender, race, education, and geographic location.A topline sample size of at least 100 [@fivethirtyeightFAQ].
-
 
 ## Sample Recruitment Method
 Participants are recruited through a combination of landline and mobile phone calls(like the Methodology in @tbl-nyt_data). This dual approach addresses the decline in landline usage and aims to reach a broader demographic spectrum. The use of voter registration lists enhances the likelihood of contacting registered voters, thereby improving the sample's representativeness.
