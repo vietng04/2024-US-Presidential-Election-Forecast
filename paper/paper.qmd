@@ -27,8 +27,9 @@ library(dplyr)
 library(knitr)
 
 clean_data <- read_csv("../data/01-raw_data/clean_data.csv")
-raw_data <- read_csv("../data/01-raw_data/president_polls.csv")
 nyt_data <- read_csv("../data/02-analysis_data/NYT_data.csv")
+cleaned_data <- read_csv("../data/02-analysis_data/cleaned_data.csv")
+model_data <- read_csv("../data/02-analysis_data/cleaned_data.csv")
 ```
 
 
@@ -38,9 +39,9 @@ The 2024 U.S. Presidential Election Forecast Model aims to provide a comprehensi
 
 Key factors, such as pollster transparency scores, polling population characteristics, and election stages, are incorporated to ensure accuracy and relevance. By leveraging this data, the model can account for regional dynamics, partisan leanings, and shifts in voter sentiment, providing detailed insights into the evolving electoral landscape. This forecast model represents a data-driven approach to understanding the political climate as candidates navigate the road to the presidency.
 
+
 # Data {#sec-data}
 The data used in this paper came from the FiveThirtyEight [@fivethirtyeight2024]. Data were cleaned and analyzed using the open source statistical programming language R [@citeR]. Libraries `tidyverse` [@citeTidyverse], `janitor` [@Citejan], `knitr` [@citeknitr], and `dplyr` [@citedplyr] were used for simulating, cleaning and testing. Graphics were made using `ggplot2` [@citeGG].
-
 
 ## Sample Data
 
@@ -51,41 +52,13 @@ The data used in this paper came from the FiveThirtyEight [@fivethirtyeight2024]
 #| tbl-cap: "Sample Cleaned Data"
 #| warning: false
 
-clean_data |>
-  select(1:5) |>      # Select the first 3 columns
+cleaned_data |>
+  select(everything()) |>      # Select the first 3 columns
   head(5) |>
   kable(
-    col.names = names(clean_data)[1:5],  # Automatically get the first 3 column names to match data
+    col.names = names(cleaned_data)[1:ncol(cleaned_data)],  # Automatically get the first 3 column names to match data
     booktabs = TRUE
   )
-```
-
-```{r}
-#| label: fig-distribution_Answers
-#| fig-cap: Distribution of Answers
-#| echo: false
-#| warning: false
-#| message: false
-
-ggplot(clean_data, aes(x = answer)) +
-  geom_bar(fill = "red", color = "black") +
-  labs(x = "Answer", y = "Count") +
-  theme_minimal()
-```
-
-```{r}
-#| label: fig-histogram_pct
-#| fig-cap: Percentage of Support for Each Candidate
-#| echo: false
-#| warning: false
-#| message: false
-
-ggplot(clean_data, aes(x = answer, y = pct, fill = party)) +
-  geom_bar(stat = "identity", color = "black") +
-  labs( x = "Candidate", y = "Percentage") +
-  theme_minimal() +
-  scale_y_continuous(labels = scales::percent_format(scale = 1)) + # Converts y-axis to percentage format
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) # Rotates x-axis labels
 ```
 
 
@@ -104,7 +77,7 @@ where $\beta_0$ is the intercept, $\beta_1$, $\beta_2$, $\beta_3$, $\beta_4$ are
 #| echo: false
 #| warning: false
 #| message: false
-trump_data <- raw_data %>% filter(candidate_name == "Donald Trump")
+trump_data <- cleaned_data %>% filter(answer == "Trump")
 trump_model <- lm(pct ~ pollscore + sample_size + numeric_grade + transparency_score, data = trump_data)
 summary(trump_model)
 ```
@@ -114,13 +87,72 @@ summary(trump_model)
 #| echo: false
 #| warning: false
 #| message: false
-harris_data <- raw_data %>% filter(candidate_name == "Kamala Harris")
+harris_data <- model_data %>% filter(answer == "Harris")
 harris_model <- lm(pct ~ pollscore + sample_size + numeric_grade + transparency_score, data = harris_data)
 summary(harris_model)
 ```
 
 
 # Results
+
+```{r}
+#| label: fig-distribution_Answers
+#| fig-cap: Distribution of Answers
+#| echo: false
+#| warning: false
+#| message: false
+
+ggplot(cleaned_data %>% filter(answer %in% c("Trump", "Harris")), aes(x = answer)) +
+  geom_bar(fill = "black", color = "black") +
+  labs(x = "Answer", y = "Count") +
+  theme_minimal()
+```
+
+```{r}
+#| label: fig-histogram_pct
+#| fig-cap: Percentage of Support for Each Candidate
+#| echo: false
+#| warning: false
+#| message: false
+
+ggplot(cleaned_data %>% filter(answer %in% c("Trump", "Harris")), aes(x = answer, y = pct, fill = party)) +
+  geom_bar(stat = "identity", color = "black") +
+  labs( x = "Candidate", y = "Percentage") +
+  theme_minimal() +
+  scale_y_continuous(labels = scales::percent_format(scale = 1)) + # Converts y-axis to percentage format
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) # Rotates x-axis labels
+```
+
+```{r}
+#| label: fig-pct_overtime
+#| fig-cap: Mean Percentage of Support for Trump and Harris over time
+#| echo: false
+#| warning: false
+#| message: false
+#| 
+trump_data <- cleaned_data %>%
+  filter(answer == "Trump") %>%
+  mutate(end_date = mdy(end_date)) %>%  # Convert end_date to Date format
+  group_by(end_date) %>%
+  summarize(mean_pct = mean(pct, na.rm = TRUE))
+
+ggplot(trump_data, aes(x = end_date, y = mean_pct)) +
+  geom_smooth(method = "loess", color = "red", fill = "#FF7F7F", linetype = "solid", size = 1.3, se = TRUE, ) +
+  annotate("text", 
+           x = max(trump_data$end_date), 
+           y = trump_data$mean_pct[which.max(trump_data$end_date)], 
+           label = paste0("Trump ", round(trump_data$mean_pct[which.max(trump_data$end_date)], 1), "%"),
+           color = "red", 
+           fontface = "bold",
+           size = 2) +
+  labs(title = NULL, x = "Date", y = "Percentage") +
+  theme_minimal() +
+    theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())
+
+
+```
+
 ## Trump
 The model estimates the influence of several predictors on the dependent variable. The intercept is estimated at 48.56, indicating the baseline level of the dependent variable when all predictors are held at zero.
 
@@ -169,10 +201,46 @@ Considering the predictors and their implications for voter sentiment, Harris ap
 
 Moreover, the contrast in the effect of the transparency score could indicate differing voter priorities. Harris’s potential appeal to voters valuing transparency may be a double-edged sword, yet it underscores a critical difference in how the two candidates are perceived regarding their public image.
 
-# Appendix {1}
 
 
-# Appendix {2}
+\newpage
+
+
+
+\appendix
+
+# Appendix {-}
+
+# Discussion of the survey’s methodology of Siena/NYT
+
+## Population, Frame, and Sample
+
+-Population:
+
+-Frame:
+
+-Sample:
+a topline sample size of at least 100
+
+
+## Sample Recruitment Method
+
+## Sampling Approach's trade-offs
+
+-Strengths:
+
+-Weaknesses:
+
+
+## How is non-response handled
+
+## What is good and bad about the questionnaire
+
+### Advantages
+
+### Disadvantages
+
+# The idealized Methodology and Survey of forecasting the US presidential election
 Idealized Methodology and Survey for Forecasting the US Presidential Election
 
 1. Budget Allocation Overview
@@ -243,137 +311,141 @@ Survey Title: US Presidential Election 2024: Voter Opinion and Key Issues Survey
 
 Introduction: Thank you for participating in our comprehensive survey on the upcoming US presidential election. Your responses are vital for understanding public sentiment and will remain confidential. Participation is voluntary, and you may skip any question or withdraw at any time.
 
-1. Are you a registered voter?
+  Q1. Are you a registered voter?
 
-Yes
+ \hspace{1cm} Yes
 
-No
+ \hspace{1cm} No
+ 
+  Q2. Which state do you reside in?
 
-2. Which state do you reside in?
+  Q3. What is your age group?
 
-3. What is your age group?
+  \hspace{1cm} 18-24
 
-18-24
+  \hspace{1cm} 25-34
 
-25-34
+  \hspace{1cm} 35-44
+    
+  \hspace{1cm} 45-54
+    
+  \hspace{1cm} 55-64
+    
+  \hspace{1cm} 65+
 
-35-44
+  Q4. Which racial or ethnic group(s) do you identify with? (Select all that apply)
 
-45-54
+  \hspace{1cm}  White/Caucasian
+    
+  \hspace{1cm}  Black/African American
+    
+  \hspace{1cm}  Hispanic/Latino
+    
+  \hspace{1cm}  Asian/Pacific Islander
+    
+  \hspace{1cm}  Native American
+    
+  \hspace{1cm}  Other (please specify)
+    
+  \hspace{1cm}  Prefer not to say
 
-55-64
+  Q5. What is your highest level of education?
 
-65+
+  \hspace{1cm}  Less than high school
+    
+  \hspace{1cm}  High school diploma or GED
+    
+  \hspace{1cm}  Some college, no degree
+    
+  \hspace{1cm}  Associate degree (e.g., AA, AS)
+    
+  \hspace{1cm}  Bachelor’s degree (e.g., BA, BS)
+    
+  \hspace{1cm}  Master’s degree (e.g., MA, MS, MEd)
+    
+  \hspace{1cm}  Professional degree (e.g., JD, MD)
+    
+  \hspace{1cm}  Doctoral degree (e.g., PhD, EdD)
+    
+  \hspace{1cm}  Prefer not to say
 
-4. Which racial or ethnic group(s) do you identify with? (Select all that apply)
+  Q6. What is your gender?
 
-White/Caucasian
+    Male
 
-Black/African American
+    Female
 
-Hispanic/Latino
+    Non-binary/Third gender
 
-Asian/Pacific Islander
+    Prefer not to say
 
-Native American
+ Q7. Which candidate do you currently intend to vote for in the upcoming presidential election?
 
-Other (please specify)
+    Kamala Harris
 
-Prefer not to say
+    Donald Trump
 
-5. What is your highest level of education?
+    Other
 
-Less than high school
+    Undecided
 
-High school diploma or GED
+  Q8. What is your political affiliation?
 
-Some college, no degree
+    Democrat
 
-Associate degree (e.g., AA, AS)
+    Republican
 
-Bachelor’s degree (e.g., BA, BS)
+    Independent
 
-Master’s degree (e.g., MA, MS, MEd)
+    Other
 
-Professional degree (e.g., JD, MD)
+    Prefer not to say
 
-Doctoral degree (e.g., PhD, EdD)
+  Q9. How confident are you in your choice for the presidential election?
 
-Prefer not to say
+    Very confident
 
-6. What is your gender?
-
-Male
-
-Female
-
-Non-binary/Third gender
-
-Prefer not to say
-
-7. Which candidate do you currently intend to vote for in the upcoming presidential election?
-
-Kamala Harris
-
-Donald Trump
-
-Other
-
-Undecided
-
-8. What is your political affiliation?
-
-Democrat
-
-Republican
-
-Independent
-
-Other
-
-Prefer not to say
-
-9. How confident are you in your choice for the presidential election?
-
-Very confident
-
-Somewhat confident
-
-Not very confident
+    Somewhat confident
+    
+    Not very confident
 
 Not confident at all
 
-10. What is the most important issue influencing your vote? (Choose the top 3)
+  Q10. What is the most important issue influencing your vote? (Choose the top 3)
 
-Healthcare
+    Healthcare
 
-Economy
+    Economy
 
-Immigration
+    Immigration
 
-Climate Change
+    Climate Change
 
-Education
+    Education
+  
+    National Security
 
-National Security
+    Social Justice
 
-Social Justice
+    Other (please specify)
 
-Other (please specify)
+  Q11. How often do you follow news and updates about the election?
 
-11. How often do you follow news and updates about the election?
-
-Daily
-
-Weekly
-
-Occasionally
-
-Rarely
-
-Never
+    Daily
+    
+    Weekly
+    
+    Occasionally
+    
+    Rarely
+    
+    Never
 
 End of Survey: Thank you for your time and valuable input. Your responses will contribute significantly to our understanding of public opinion regarding the upcoming presidential election.
+
+
+\newpage
+
 # References
 
 
