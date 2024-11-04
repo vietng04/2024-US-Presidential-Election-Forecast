@@ -25,11 +25,11 @@ library(tidyverse)
 library(readr)
 library(dplyr)
 library(knitr)
+library(arrow)
 
-clean_data <- read_csv("../data/01-raw_data/clean_data.csv")
-nyt_data <- read_csv("../data/02-analysis_data/NYT_data.csv")
-cleaned_data <- read_csv("../data/02-analysis_data/cleaned_data.csv")
-model_data <- read_csv("../data/02-analysis_data/cleaned_data.csv")
+nyt_data <- read_parquet("../data/02-analysis_data/NYT_data.parquet")
+cleaned_data <- read_parquet("../data/02-analysis_data/cleaned_data.parquet")
+model_data <- read_parquet("../data/02-analysis_data/cleaned_data.parquet")
 ```
 
 
