@@ -13,6 +13,7 @@
 library(tidyverse)
 library(janitor)
 library(tidyr)
+library(arrow)
 raw_data <- read_csv("data/01-raw_data/president_polls.csv")
 
 #### Clean data ####
@@ -33,10 +34,10 @@ NYT_data <-
 
 #### Model data ####
 model_data <-
-  clean_data |>
+  cleaned_data |>
   select(answer,pct,sample_size,numeric_grade,transparency_score,pollscore)
 
 #### Save data ####
-write_csv(NYT_data, "data/02-analysis_data/NYT_data.csv")
-write_csv(cleaned_data, "data/02-analysis_data/cleaned_data.csv")
-write_csv(model_data, "data/02-analysis_data/model_data.csv")
+write_parquet(NYT_data, "data/02-analysis_data/NYT_data.parquet")  # Save as Parquet
+write_parquet(cleaned_data, "data/02-analysis_data/cleaned_data.parquet")  # Save as Parquet
+write_parquet(model_data, "data/02-analysis_data/model_data.parquet")
